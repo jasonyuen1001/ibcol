@@ -271,7 +271,7 @@ export default class extends React.Component {
                                 return <div className="sm">
                                     <span className={classNames("flag-icon", `flag-icon-${content.key}`)}></span>
                                     {/*href={`/en-${content.key}/home`}*/}
-                                    {content.key =="hk" || content.key =="pk" || content.key =="bd" ? (
+                                    {content.key =="hk" ||content.key =="in" || content.key =="pk" || content.key =="bd" ? (
                                     <a style={{padding:"0 0 0 10px"}} href={content.href} target="_blank" className="sm-title flag">{content.value}</a>
                                     ):(<a style={{padding:"0 0 0 10px"}} target="_blank" className="sm-title flag">{content.value}</a>
                                     )}

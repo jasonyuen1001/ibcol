@@ -4,62 +4,45 @@
     "ogImage": "static/images/ogimage.jpg",
     "mainHeading": "",
     "subHeading": "Rules of International Blockchain Olympiad",
-    "section01": {
-        "title": "CONTESTANTS",
-        "content":[
-            "Eligible contestants may be of any age and any education level.",
-            "Eligible contestants may be a current or recent student of a recognised educational institution.",
-            "IBCOL OC20 determines what is a recognised educational institution.",
-            "IBCOL OC20 determines who is a current or recent student based on physical or electronic verifiable proofs."
+    "subhead":[
+        {"title":"Contestants","href":"contestants"},
+        {"title":"Teams","href":"teams"},
+        {"title":"Projects","href":"projects"},
+        {"title":"Symposium","href":"symposium"},
+        {"title":"Presentation","href":"presentation"}
+    ],
+    "section":[
+            {"id":"contestants","className":"s-section target-section","title":"CONTESTANTS","item":["Eligible contestants may be of any age and any education level.",
+                "Eligible contestants may be a current or recent student of a recognised educational institution.",
+                "IBCOL OC20 determines what is a recognised educational institution.",
+                "IBCOL OC20 determines who is a current or recent student based on physical or electronic verifiable proofs."]},
+            {"id":"teams","className":"s-section target-section","title":"TEAMS","item":[ "Teams may consist of a minimum of one (1) and a maximum of six (6) contestants.",
+                "Teams may submit one (1) or more projects.",
+                "Teams must appoint a liaison who will be communicating with the OC20 of IBCOL and their X-BCOL.",
+                "Teams must select one representative institution or country if contestants hail from different educational institutions or countries.",
+                "Teams must select either Hong Kong or another region if some contestants hail from outside of Hong Kong.",
+                "Teams must send or appoint at least one representative to attend IBCOL 2020 Finals to be eligible for final competition.",
+                "Teams unable to physically attend IBCOL 2020, but would like to showcase their project at the symposium may submit a pre-recorded video that would be looped, i.e. continuously played.",
+                "Teams must arrange for a chaperone if any contestants are under the age of 18 during their time in Hong Kong."]},
+            {"id":"projects","className":"s-section target-section","title":"PROJECTS","item":[ "Projects may use any blockchain network or platform.",
+                "Projects are primarily represented by a whitepaper or presentation with no limit on length nor restriction on formatting.",
+                "Projects may have optional technical proof-of-concept or prototype.",
+                "Projects may submit additional copies of whitepapers, presentations, proofs-of-concepts, or prototypes in their native language but if complications arise, the English version shall prevail.",
+                "Projects may receive sponsorship or support but must be declared.",
+                "The intellectual property arising from the projects belong exclusively to their respective teams, and may not be reproduced without written permission from the owners of the IP."]},
+            {"id":"symposium","className":"s-section target-section","title":"SYMPOSIUM","item":["Projects are provided a table with WIFI access and electrical supply in Type G power sockets for up to two (2) laptops, and two (2) poster boards, each has space for up to six (6) A3 sheets, or equivalent.",
+                "Projects may use any blockchain network or platform.",
+                "Projects shall use this space to present their project for judges and other symposium attendees; there is no time limit, but recommended length of presentation should not exceed 15 minutes.",
+                "Poster board content may be multilingual, but English must be one of the languages present.",
+                "Teams may choose to present in any language if the judge also understands the language; English is the default language.",
+                "Teams are responsible for the printing of the poster board content.",
+                "Teams are advised to complete setting up at least half an hour before the official start time of the symposium."]},
+            {"id":"presentation","className":"s-section target-section last","title":"PRESENTATION","item":[ "Teams are provided no more than twelve (12) minutes to make a pitch presentation for each qualifying project, without a Q&A period.",
+                    "Teams that finish their presentation between ten (10) and twelve (12) minutes are assigned bonus points for every ten (10) seconds under twelve (12) minutes.",
+                    "Teams are provided visual reminders for the 7th Minute, the 9th Minute, the 10th Minute, and the 11th Minute.",
+                    "Presentation slide content and speech may be multilingual, but English must be one of the languages.",
+                    "Presentation files will be presented in 16:9 on either Microsoft PowerPoint or Google Sheets; a PDF backup is recommended.",
+                    "Presentation file names must be named, according to the pre-assigned project ID, country name, and project name.",
+                    "Presentation files must be submitted by 23:59 HKT the day before the presentation, otherwise it is assumed that the team has elected to present without presentation slides."]}
         ]
-    },
-    "section02": {
-        "title": "TEAMS",
-        "content":[
-            "Teams may consist of a minimum of one (1) and a maximum of six (6) contestants.",
-            "Teams may submit one (1) or more projects.",
-            "Teams must appoint a liaison who will be communicating with the OC20 of IBCOL and their X-BCOL.",
-            "Teams must select one representative institution or country if contestants hail from different educational institutions or countries.",
-            "Teams must select either Hong Kong or another region if some contestants hail from outside of Hong Kong.",
-            "Teams must send or appoint at least one representative to attend IBCOL 2020 Finals to be eligible for final competition.",
-            "Teams unable to physically attend IBCOL 2020, but would like to showcase their project at the symposium may submit a pre-recorded video that would be looped, i.e. continuously played.",
-            "Teams must arrange for a chaperone if any contestants are under the age of 18 during their time in Hong Kong."
-        ]
-    },
-    "section03": {
-        "title": "PROJECTS",
-        "content":[
-            "Projects may use any blockchain network or platform.",
-            "Projects are primarily represented by a whitepaper or presentation with no limit on length nor restriction on formatting.",
-            "Projects may have optional technical proof-of-concept or prototype.",
-            "Projects may submit additional copies of whitepapers, presentations, proofs-of-concepts, or prototypes in their native language but if complications arise, the English version shall prevail.",
-            "Projects may receive sponsorship or support but must be declared.",
-            "The intellectual property arising from the projects belong exclusively to their respective teams, and may not be reproduced without written permission from the owners of the IP."
-        ]
-    },
-    "section04": {
-        "title": "SYMPOSIUM",
-        "content":[
-            "Projects are provided a table with WIFI access and electrical supply in Type G power sockets for up to two (2) laptops, and two (2) poster boards, each has space for up to six (6) A3 sheets, or equivalent.",
-            "Projects may use any blockchain network or platform.",
-            "Projects shall use this space to present their project for judges and other symposium attendees; there is no time limit, but recommended length of presentation should not exceed 15 minutes.",
-            "Poster board content may be multilingual, but English must be one of the languages present.",
-            "Teams may choose to present in any language if the judge also understands the language; English is the default language.",
-            "Teams are responsible for the printing of the poster board content.",
-            "Teams are advised to complete setting up at least half an hour before the official start time of the symposium."
-        ]
-    },
-    "section05": {
-        "title": "PRESENTATION",
-        "content":[
-            "Teams are provided no more than twelve (12) minutes to make a pitch presentation for each qualifying project, without a Q&A period.",
-            "Teams that finish their presentation between ten (10) and twelve (12) minutes are assigned bonus points for every ten (10) seconds under twelve (12) minutes.",
-            "Teams are provided visual reminders for the 7th Minute, the 9th Minute, the 10th Minute, and the 11th Minute.",
-            "Presentation slide content and speech may be multilingual, but English must be one of the languages.",
-            "Presentation files will be presented in 16:9 on either Microsoft PowerPoint or Google Sheets; a PDF backup is recommended.",
-            "Presentation file names must be named, according to the pre-assigned project ID, country name, and project name.",
-            "Presentation files must be submitted by 23:59 HKT the day before the presentation, otherwise it is assumed that the team has elected to present without presentation slides."
-        ]
-    }
-
 }

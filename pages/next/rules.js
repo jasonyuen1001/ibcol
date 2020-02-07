@@ -75,87 +75,28 @@ export default class extends React.Component {
                     </div>
                     <div className="row section-header">
                         <div className="col-block">
-                            <a href="#contestants"><h4 className="subhead">Contestants</h4></a>
-                            <a href="#teams"><h4 className="subhead">Teams</h4></a>
-                            <a href="#projects"><h4 className="subhead">Projects</h4></a>
-                            <a href="#symposium"><h4 className="subhead">Symposium</h4></a>
-                            <a href="#presentation"><h4 className="subhead">Presentation</h4></a>
+                        {this.translate('subhead').map((content, index) => {
+                        return <a key={index} href={`#${content.href}`}><h4 className="subhead">{content.title}</h4></a>
+                            })}
                         </div>
                     </div>
                 </section>
-                <section className="s-section target-section" id="contestants">
+                {this.translate('section').map((content, index) => {
+                    return <section className={content.className} id={content.id} key={index}>
                     <div className="row section-header">
-                            <h4 className="item-title">{this.translate('section01.title')}</h4>
+                            <h4 className="item-title">{content.title}</h4>
                     </div>
                     <div className="row">
                         <ul>
-                         {this.translate('section01.content').map((content, index) => {
+                         {content.item.map((content, index) => {
                             return <li key={index}>
-                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}}>{content}</p>
+                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}} dangerouslySetInnerHTML={{ __html: content}} />
                             </li>
                         })}
                         </ul>
                         </div>
                 </section>
-                <section className="s-section target-section" id="teams">
-                <div className="row section-header">
-                            <h4 className="item-title">{this.translate('section02.title')}</h4>
-                    </div>
-                    <div className="row">
-                        <ul>
-                         {this.translate('section02.content').map((content, index) => {
-                            return <li key={index}>
-                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}}>{content}</p>
-                            </li>
-                        })}
-                        </ul>
-                        </div>
-                </section>
-                <section className="s-section target-section" id="projects">
-                <div className="row section-header">
-                            <h4 className="item-title">{this.translate('section03.title')}</h4>
-                    </div>
-                    <div className="row">
-                        <ul>
-                         {this.translate('section03.content').map((content, index) => {
-                            return <li key={index}>
-                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}}>{content}</p>
-                            </li>
-                        })}
-                        </ul>
-                        </div>
-                </section>
-                <section className="s-section target-section" id="symposium">
-                <div className="row section-header">
-                            <h4 className="item-title">{this.translate('section04.title')}</h4>
-                    </div>
-                    <div className="row">
-                        <ul>
-                         {this.translate('section04.content').map((content, index) => {
-                            return <li key={index}>
-                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}}>{content}</p>
-                            </li>
-                        })}
-                        </ul>
-                        </div>
-                </section>
-                <section className="s-section target-section last" id="presentation">
-                <div className="row section-header">
-                            <h4 className="item-title">{this.translate('section05.title')}</h4>
-                    </div>
-                    <div className="row">
-                        <ul>
-                         {this.translate('section05.content').map((content, index) => {
-                            return <li key={index}>
-                                <p style={{marginTop:0, marginBottom:0,color:"#000000"}}>{content}</p>
-                            </li>
-                        })}
-                        </ul>
-                        </div>
-                </section>
-
-            
-
+                })}
             </ThisPageContainerComponent >
         )
     }

@@ -38,13 +38,14 @@
 "<b>Whitepaper</b> (PDF) may be submitted as many times as you like before the deadline: Proof-of-Work Day."
       ],
   "dueDiligence":{
-      "descHTML":"To determine eligibility, the Competitions Committee will verify relevant information via IBCOL Passports. If you do not already have one, please <a href='https://passport.ibcol.org/application' target='_blank'><b>apply for an IBCOL Passport here</b></a>. Information that will be verified are as follows:",
+      "descHTML":"To determine eligibility, the Competitions Committee will verify relevant information:",
       "content":[         
          {"key":"Actual or Expected Graduation Year","value":"as written on an official school-issued document."},
          {"key":"Student Name","value":"as written on an official school-issued document."},
          {"key":"School Name","value":"as written on an official school-issued document."},
          {"key":"Expiry Date","value":"of the IBCOL Passport."}
-      ]
+      ],
+      "disclaimer":"The Competitions Committee reserves the right to accept or reject competitors on a case-by-case basis."
     },
   "teamInfo": "Team Particulars",
   "teamName": "Team Name",
