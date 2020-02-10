@@ -333,7 +333,7 @@ export default class extends React.Component {
                                 <div className="item-process__text">
                                     <p>IBCOL Organising Committee<br />International Blockchain Olympiad
                                     <br/>333A, 3/F, Core Building 2,<br />1W Science Park Avenue,<br />Hong Kong
-                                    <br/>Email: <a href="mailto:hk@ibcol.org?subject=IBCOL">hk@ibcol.org</a></p>
+                                    <br/>Email: <a href="mailto:pmo@ibcol.org?subject=IBCOL">pmo@ibcol.org</a></p>
                                 </div>
                             </div>
                             
