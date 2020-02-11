@@ -13,7 +13,7 @@ branches:
   - "/^hotfix.*$/"
 before_script:  npm install && node slack-notifications/travis-before_script.js
 script: npm test
-before_deploy: npm install now --no-save && node slack-notifications/travis-before_deploy.js
+before_deploy: npm install now@16.7.3 --no-save && node slack-notifications/travis-before_deploy.js
 deploy:
 - provider: script
   script: now -f --local-config=now-stage.json --scope ibcol --token $NOW_TOKEN -e TRAVIS_BUILD_WEB_URL -e TRAVIS_BUILD_NUMBER -e TRAVIS_BUILD_ID -e TRAVIS_REPO_SLUG -e TRAVIS_COMMIT_RANGE -e TRAVIS_COMMIT -e TRAVIS > NOW_URL.log
