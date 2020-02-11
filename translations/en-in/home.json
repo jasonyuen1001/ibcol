@@ -1,91 +1,77 @@
 {
-  "pageTitle":"International Blockchain Olympiad",
-  "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
-  "ogImage":"static/images/ogimage.jpg",
-  "mainHeading":"Help bring the world onto the Blockchain",
-  "subHeading":"Meet and compete with the world's best blockchain builders",
-  "register":"Registration",
-  "howToJoin":"How to join",
-  "competitionRules":"Competition Process",
-  "scroll":"Scroll",
-  "introSection":{
-    "leftBlock":{
-      "title":"Not a typical hackathon",
-      "infoList":"<li>Insufficient time to design complete solutions</li><li>Either too tech-focused or unrealistic</li><li>No incentive to continue development</li>"
+  "pageTitle": "International Blockchain Olympiad",
+  "seoDescription": "International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
+  "ogImage": "static/images/ogimage.jpg",
+  "mainHeading": "Move beyond the ordinary",
+  "subHeading": "Powering a new generation of humans and stretching across the borders",
+  "leftBtn": "PROGRAMME SCHEDULE",
+  "rightBtn": "RULE & ELIGIBILITY",
+  "section01": {
+      "title": "The Indian Blockchain Olympiad",
+      "contentHTML":"<p style='font-size: 2.2rem;color: #000000;'>Cultivate meaningful relationships with people across the country</p>The <b><u>IN</b></u>dian <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IN-BCOL</b></u>) invites the current and recently graduated students to solve real-world problems using blockchain or distributed ledger technology.<br><br>It is a part of the <b><u>I</b></u>nternational <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IBCOL</b></u>), which is the world’s largest gathering of budding and reigning experts in applied blockchain and cryptography.<br><br> The top teams of IN-BCOL will represent India in HongKong and get a chance to engage with leaders from 36+ countries, win astounding prizes worth more than $10,000 and earn life-changing opportunities.",
+      "icon1":"<!-- Business Case Competition --> <i class='material-icons blue'>work</i> <i class='material-icons black'>work</i> <i class='material-icons red'>work</i> <br> <i class='material-icons yellow'>business_center</i> <i class='material-icons green'>business_center</i>",
+      "heading1":"Business Case Competition",
+      "desc1":"Solve problems spanning across different landscapes.<br><br>Contestants need to define their own problem scopes and devise a plan to solve it.",
+      "icon2":"<!-- Academic Conference --> <i class='material-icons blue'>event_seat</i> <i class='material-icons black'>event_seat</i> <i class='material-icons red'>event_seat</i> <br> <i class='material-icons yellow'>airplay</i> <i class='material-icons green'>airplay</i>",
+      "heading2":"Academic Conference",
+      "desc2":"Express a whole new approach and show your perspective to the world.<br><br>Contestants are expected to submit a whitepaper proposing their approach to a problem statement.",
+      "icon3":"<!-- Technical Hackathon (optional) --> <i class='material-icons blue'>laptop</i> <i class='material-icons black'>developer_mode</i> <i class='material-icons red'>laptop_chromebook</i> <br> <i class='material-icons yellow'>laptop_windows</i> <i class='material-icons green'>laptop_mac</i>",
+      "heading3":"Technical Hackathon (optional)",
+      "desc3":"Change your mindset, build something impactful and change the mindset of others.<br><br>Contestants can build something meaningful for the world or work on the problem statements provided by leading companies."
     },
-    "rightBlock":{
-      "title":"Build for the real world",
-      "infoList":"<li>Sufficient time to design complete solutions</li><li>Multidisciplinary approach to applications</li><li>Matching with investors & incubators</li>"
+  "section02": {
+      "title": "Why now",
+      "icon1":"<!-- Countless Use Cases --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+      "heading1":"Beyond the Hype",
+      "desc1":"Global market for blockchain is expected to reach <b>$7.7 billion</b> by 2022",
+      "icon2":"<!-- Huge Demand for Talent --> <i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+      "heading2":"Huge Demand for Talent",
+      "desc2":"The demand for blockchain talent has increased by <b>400%</b>  over the past year",
+      "icon3":" <!-- Renewed Interest in Blockchain --> <i class='material-icons blue'>show_chart</i> <i class='material-icons black'>account_balance</i> <i class='material-icons red'>local_hospital</i> <br> <i class='material-icons yellow'>local_shipping</i> <i class='material-icons green'>color_lens</i>",
+      "heading3":"Unstoppable Adoption",
+      "desc3":"More than <b>50% of state governments</b> in India are involved in blockchain related initiatives"
+    },
+    "section03": {
+      "title": "Timeline",
+      "mainImage":"/static/images/IN-BCOL_Process.png",
+      "btnText" :"LEARN ABOUT TRAINING PROGRAMME",
+      "btnLink" :""
+    },
+    "section04": {
+      "title": "Eligibility",
+      "icon1":"<!-- Multidisciplinary Teams --> <i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+      "heading1":"Multidisciplinary Teams",
+      "desc1":"Current and recent students of any discipline may compete",
+      "icon2":" <!-- Small or Large Teams --> <i class='material-icons blue'>show_chart</i> <i class='material-icons black'>account_balance</i> <i class='material-icons red'>local_hospital</i> <br> <i class='material-icons yellow'>local_shipping</i> <i class='material-icons green'>color_lens</i> ",
+      "heading2":"Small or Large Teams",
+      "desc2":"1 to 6 current or recent students can register as one team",
+      "icon3":"<!-- Multiple Projects --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+      "heading3":"Multiple Projects",
+      "desc3":" Any team can submit more than one project",
+      "btnText":"REGISTER FOR THE COMPETITION",
+      "btnLink":""
+    },
+    "section05":{
+      "title":"Organisers",
+      "icon1":"/static/images/IN-BCOL-2020-Organiser-Zubi-io.png",
+      "icon2":"/static/images/IN-BCOL-2020-Organiser-blockchain-at-india.png",
+      "icon3":"/static/images/IN-BCOL-2020-Organiser-IBCOL.png",
+      "link1":"https://forum.zubi.io/",
+      "link2":"https://blockchainatindia.com/",
+      "link3":"https://ibcol.org"
+    },
+    "section06":{
+      "title":"How to get started",
+      "icon1":"<!-- Get Trained --> <i class='material-icons blue'>local_offer</i> <i class='material-icons yellow'>local_offer</i> <i class='material-icons black'>local_offer</i><br> <i class='material-icons green'>local_offer</i> <i class='material-icons red'>local_offer</i> <i class='material-icons purple'>local_offer</i> ",
+      "heading1":"GET TRAINED",
+      "desc1HTML":"Emerge as a Blockchain leader with our online and offline training designed using an industry-first approach and get certified. <a class='inline-text-a-href' target='_blank' href='https://forms.gle/FjwaUCSk12YxNm6y5'>Register now</a> and join the priority queue.<br><br>Want to organize a master class in your neighbourhood or university? Contact us at <a class='inline-text-a-href' href='mailto:in@ibcol.org' target='_blank'>in@ibcol.org</a>",
+      "icon2":" <!-- Get Mentored --> <i class='material-icons blue'>local_offer</i> <i class='material-icons yellow'>loyalty</i> <i class='material-icons black'>local_offer</i><br> <i class='material-icons green'>local_offer</i> <i class='material-icons red'>local_offer</i> <i class='material-icons purple'>loyalty</i>  ",
+      "heading2":"LEARN FROM EXPERIENCE",
+      "desc2HTML":"Listen to emerging technology leaders and learn from their experiences. Stay tuned for more updates.",
+      "icon3":"<!-- Multiple Projects --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+      "heading3":"ENGAGE WITH COMMUNITY",
+      "desc3HTML":"Tune in with changemakers(contestants, trainers, and mentors) across the country at <a class='inline-text-a-href' target='_blank' href='https://forum.zubi.io'>https://forum.zubi.io</a><br><br>Want to stay updated? Follow us on <a class='inline-text-a-href' target='_blank' href=''>Linkedin</a>, <a class='inline-text-a-href' target='_blank' href='http://fb.com/ibcol.org'>Facebook</a>, <a class='inline-text-a-href' target='_blank' href=''>Twitter</a>, and <a class='inline-text-a-href' target='_blank' href=''>Instagram</a>.",
+      "btnText":"REGISTER FOR THE COMPETITION",
+      "btnLink":""
     }
-  },
-  "timelineSection":{
-    "heading":"Competition Process",
-    "block1":{
-      "title":"Registration",
-      "details":"Register <a href='https://ibcol.org/registration' target='_blank'>here</a> before June 9; <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-who-can-join-35f1cb25b51' target='_blank'>see: Eligibility</a>"
-    },
-    "block2":{
-      "title":"Whitepaper",
-      "details":"Rolling deadline until June 9; <a href='https://medium.com/international-blockchain-olympiad/tagged/writing-tips' target='_blank'>see: WP Tips</a>"
-    },
-    "block3":{
-      "title":"Interview",
-      "details":"All <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>interviews</a> to be finished before June 9"
-    },
-    "block4":{
-      "title":"Demo",
-      "details":"Finalists shall prepare <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>Proof-of-Concept</a>"
-    },
-    "block5":{
-      "title":"Pitch",
-      "details":"Finalists shall prepare <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>stage presentation</a>"
-    },
-    "block6":{
-      "title":"Continuation",
-      "details":"Competitors receive <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-why-join-cc4a63301490' target='_blank'>internships or investments</a>"
-    }
-  },
-  "section01":{
-      "languageTitle":"Languages",
-      "writtenLanguageLabel":"Acceptable Languages for written material:",
-      "writtenLanguages":"Arabic (standard), Chinese (Simplified), Chinese (Traditional), English, French, German, Hungarian, Italian, Japanese, Korean, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian",
-      "spokenLanguageLabel":"Acceptable Languages for spoken material:",
-      "spokenLanguages":"Arabic (Egypt), Arabic (Gulf), Cantonese, English, French, German, Hungarian, Italian, Japanese, Korean, Mandarin, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian"
-  },
-  "section02":{
-    "heading":"Awards",
-    "awards":{
-      "gold":{
-        "quantity":5,
-        "title":"Gold Medals",
-        "description":"1st place winner of a category with 4096 USD prize"
-      },
-      "silver":{
-        "quantity":5,
-        "title":"Silver Medals",
-        "description":"2nd place winner of a category with 2048 USD prize"
-      },
-      "bronze":{
-        "quantity":5,
-        "title":"Bronze Medals",
-        "description":"3rd place winner of a category with 1024 USD prize"
-      },
-      "nominee":{
-        "quantity":15,
-        "title":"Nominator Awards",
-        "description":"Recognition of team coach for nominating a winning team"
-      },
-      "finalist":{
-        "quantity":10,
-        "title":"Finalist Awards",
-        "description":"Recognition of teams for being top 5 in a category"
-      },
-      "merit":{
-        "quantity":50,
-        "title":"Merit Awards",
-        "description":"Recognition of teams for designing a complete solution"
-      },
-      "note":"The best prize for students is not financial, but rather experience, guidance, and a chance to make a real impact in the real world."
-    }
-  }
 }

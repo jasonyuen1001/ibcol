@@ -416,7 +416,7 @@ export default class extends React.PureComponent {
           <div className="row section-header">
             <div className="col-full">
               <h3 className="subhead">{this.translate('subhead')}</h3>
-              <h5 className="content">Looking for training registration? <a href="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform" target="_blank">Click here!</a></h5>
+              <h5 className="content">Looking for <b>blockchain training</b> registration? Go to <a href="https://training.ibcol.org"target="_blank">training.ibcol.org</a></h5>
             </div>
           </div>
         </section>
@@ -578,7 +578,9 @@ export default class extends React.PureComponent {
                                 <div className="col-full">
                                   <h4 className="item-title">DEADLINE</h4>
                                   <div style={{padding:"0 0 0 5px"}}>
-                                  <p className="content">{this.translate('deadline.desc')}</p>
+                                  <p className="content" dangerouslySetInnerHTML={{__html: this.translate('deadline.desc') }}/>
+
+                                  {this.translate('deadline.content')[0].key =="" ? (<div/>):(
                                       <ul>
                                       {this.translate('deadline.content').map((content, index) => {
                                           return <li key={index}>
@@ -586,6 +588,8 @@ export default class extends React.PureComponent {
                                           </li>
                                       })}
                                       </ul>
+                                      )}
+
                                       </div>
                                       </div>
                                     </div>

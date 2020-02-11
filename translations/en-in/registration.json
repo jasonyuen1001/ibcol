@@ -2,33 +2,74 @@
   "pageTitle":"Registration",
   "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
   "ogImage":"static/images/ogimage.jpg",
-  "subhead":"Team Registration",
+  "subhead": "2020 BLOCKCHAIN OLYMPIAD REGISTRATION",
   "1stDayToSubmit":"First Day for Accepting Whitepapers",
   "lastDayToSubmit":"Last Day for Accepting Whitepapers",
-  "teamInfo":"Team Information",
-  "teamName":"Team Name",
-  "studentInfo":"Student Information",
-  "studentRecords":{
-    "firstName":"First Name",
-    "lastName":"Last Name",
-    "phoneNumber":"Phone Number",
-    "email":"Email",
-    "educationRecords":{
-      "degree":"Degree or Equivalent",
-      "programme":"Programme or Major",
-      "institutionName":"Institution Name",
-      "yearOfGraduation":"Year of Graduation",
-      "city":"City",
-      "state":"Province/State",
-      "countryCode":"Country/Region",
-      "studentNumber":"Student Number",
-      "studentCard":"Student ID Card",
-      "studentCardFrontFile":"Student Card (Front)",
-      "studentCardFrontFileType":"Only accepts PNG/JPEG/PDF",
-      "studentCardBackFile":"Student Card (Back of Card)",
-      "studentCardBackFileType":"Only accepts PNG/JPEG/PDF",
-      "transcriptFile":"Academic Transcript (to confirm academic programme)",
-      "transcriptFileType":"Only accepts PNG/JPEG/PDF/ZIP"
+  "rollingDateToSubmit":"Accepting applications until July 5th, 2019 (on a rolling basis)",
+  "teamNotice":"Teams with conditional acceptances will be notified starting June 9th",
+  "pmoReminder":"If you’re looking for project ideas or require a deadline extension for whatever reason, please email ",
+  "wpReminder":"If you have any problem on project submission, please submit it to ",
+  "wpEmailAddress":"wp@ibcol.org",
+  "pmoEmailAddress":"pmo@ibcol.org",
+  "seeSampleHere":"See whitepaper sample here",
+  "deadline":{
+    "desc":"Registration and Project Submission Deadline: <b>15 February 2020 – 14 May 2020</b>",
+    "content":[
+      {"key":"","value":""}
+    ]
+  },
+  "regFields":{
+    "desc":"Each field is important for its own reasons, although that reason may not be immediately obvious. Success after IBCOL is not correlated with performance at IBCOL, therefore optional fields should be filled eventually for your project’s benefit."
+  },
+  "teamParticular":[
+    "<b>Team Name</b> is optional — in lieu of a Team Name, a Team Name shall be suggested or assigned by IBCOL."
+    ],
+  "personalParticular":[
+    "<b>First Name</b> and <b>Last Name</b> must match exactly as is on your IBCOL Passport.",
+    "<b>Contact Email Address</b> shall be used by IBCOL to keep you informed of your status and the overall event.",
+    "<b>Contact Phone Number</b> is a redundancy to do the same, so it is highly recommended.",
+    "<b>School or Academic Institution</b> is one of the schools or educational institutions that you’ve attended or is attending. This information must match exactly as is on your IBCOL Passport.",
+    "<b>Representative Country or Territory</b> is chosen based on the location of your school or educational institution campus. This information will be checked by the Competitions Committee as part of due diligence."
+    ],
+  "projectParticular":[
+    "<b>Project Name</b> can be a creative moniker or a descriptive title of the project.",
+    "<b>Project Abstract</b> is a self-contained, short, concise summary describing the entire project. Recommended topics:<ul><li><b>Vision & Opportunity</b> describes the challenges that the project is addressing and its goals are.</li><li><b>Market & Partners</b> describes the reach and impact of your project and what parties are needed.</li><li><b>Competition & Risks & Merits</b> describes the states of the arts, what might go wrong, why it is worth it.</li><li><b>Technology & Architecture</b> describes how the project is implemented as a complete and full solution.</li><li><b>Revenue/Value & Distribution/Next Steps</b> describes how the project generates value and how to launch.</li></ul>",
+"<b>Whitepaper</b> (PDF) may be submitted as many times as you like before the deadline: Proof-of-Work Day."
+      ],
+  "dueDiligence":{
+      "descHTML":"To determine eligibility, the Competitions Committee will verify relevant information:",
+      "content":[         
+         {"key":"Actual or Expected Graduation Year","value":"as written on an official school-issued document."},
+         {"key":"Student Name","value":"as written on an official school-issued document."},
+         {"key":"School Name","value":"as written on an official school-issued document."},
+         {"key":"Expiry Date","value":"of the IBCOL Passport."}
+      ],
+      "disclaimer":"The Competitions Committee reserves the right to accept or reject competitors on a case-by-case basis."
+    },
+  "teamInfo": "Team Particulars",
+  "teamName": "Team Name",
+  "studentInfo": "Personal Particulars",
+  "studentRecords": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phoneNumber": "Contact Telephone Number (optional)",
+    "email": "Contact Email Address (also used for login)",
+    "educationRecords": {
+      "degree": "Degree (or Equivalent)",
+      "programme": "Programme or Major",
+      "yearOfGraduation": "Year of Graduation",
+      "institutionName": "School",
+      "city": "City",
+      "state": "State/Territory",
+      "countryCode": "Country/Territory",
+      "studentNumber": "Student Number",
+      "studentCard": "Student ID Card",
+      "studentCardFrontFile": "Student Card (Front)",
+      "studentCardFrontFileType": "Accepts PNG/JPEG/PDF Only",
+      "studentCardBackFile": "Student Card (Back)",
+      "studentCardBackFileType": "Accepts PNG/JPEG/PDF Only",
+      "transcriptFile": "Academic Transcript",
+      "transcriptFileType": "Accepts PNG/JPEG/PDF/ZIP Only"
     }
   },
   "advisorRecords":{
@@ -50,34 +91,79 @@
   "projectRecords":{
     "name":"Project Name",
     "projectCategoryKey":"Project Category",
-    "description":"Project Description",
+    "description":"Project Abstract",
+    "descriptionPlaceholderText":"The elevator pitch. This is the most important part of the application. Make your one line count.",
     "presentationFile":"Presentation",
     "presentationFileType":"Only accepts PDF/ZIP",
-    "whitepaperFile":"Whitepaper",
-    "whitepaperFileType":"Only accepts PDF/ZIP"
+    "presentationSubmitted": "Previous Presentation Revisions",
+    "whitepaperFile":"Presentation, due Thursday 14 May 2020",
+    "whitepaperFileType":"Only accepts PDF/ZIP",
+    "whitepaperSubmitted": "Previous Whitepaper Revisions",
+    "projectProposalFile":"Project Proposal (Whitepaper or Presentation Slides)"
   },
-  "studentEducationInfo":"Academic Credentials",
-  "addAnotherStudent":"Add Another Student",
-  "removeStudent":"Remove Student",
-  "addAnotherStudentEducationRecord":"Add Another Academic Credential",
-  "removeStudentEducationRecord":"Remove Academic Credential",
-  "advisorInfo":"Advisor Information",
-  "addAnAdvisor":"Add An Advisor",
-  "addAnotherAdvisor":"Add Another Advisor",
-  "removeAdvisor":"Remove Advisor",
-  "advisorAssociationInfo":"Association Record",
-  "addAnotherAdvisorAssociationRecord":"Add Another Association Record",
-  "removeAdvisorAssociationRecord":"Remove Association Record",
-  "projectInfo":"Project Information",
-  "extraInfo":"All intellectual property of students is and shall remain the sole and exclusive property of such students. Recipients of the intellectual property do not acquire (by license or otherwise, whether express or implied) any intellectual property rights or other rights under any disclosure hereunder. If you have a team but not yet a project decided, please enter “none” and choose any category. You may change this information later.",
-  "removeProject":"Remove Project",
-  "addAnotherProject":"Add Another Project",
-  "submit":"Submit",
-  "registerAnother":"Create Another Application",
-  "confirmation":{
-    "title":"Thank you for your registration.",
-    "message":"We have received your registration. Finalists will be announced before June 9.",
-    "refTitle":"Application Reference:",
-    "TteamNameTitle":"Team Name:"
-  }
+
+  "studentEducationInfo": "Academic Credential",
+  
+  
+  
+  
+  
+  "addAnotherStudent": "+ Add Another Student",
+  "removeStudent": "- Remove Student",
+  "addAnotherStudentEducationRecord": "+ Add Another Academic Credential",
+  "removeStudentEducationRecord": "- Remove Academic Credential",
+  "advisorInfo": "Advisor Information",
+  "addAnAdvisor": "+ Add An Advisor",
+  "addAnotherAdvisor": "+ Add Another Advisor",
+  "removeAdvisor": "- Remove Advisor",
+  "advisorAssociationInfo": "Association Record",
+  
+  
+  
+  "addAnotherAdvisorAssociationRecord": "+ Add Another Association Record",
+  "removeAdvisorAssociationRecord": "- Remove Association Record",
+  "projectInfo": "Project Particulars",
+  "extraInfo":"If you have a team but not yet a project decided, please enter n/a and choose any category. You may change this information later.",
+  "removeProject": "- Remove Project",
+  "addAnotherProject": "+ Add Another Project",
+  "update": "Update",
+  "submit": "Submit",
+  "registerAnother": "Create Another Application",
+  "updateAnother": "Make Another Update",
+  "confirmation": {
+    "title": "Thank you for your regisration.",
+    "updateTitle": "Thank you for your updates.",
+    "message": "We have received your application. We will be in touch shortly.",
+    "updateMessage": "We have received your updates.",
+    "refTitle": "Application Reference:",
+    "teamNameTitle": "Team Name:"
+  },
+
+  "teamLogin": "Registration Management - Login",
+  "teamLogout": "Registration Management - Logout",
+  "loginEmail": "Email",
+  "loginAction": "Login",
+  "loginAwaitingTitle": "Awaiting Verification",
+  "loginAwaitingEmail": "We sent an email to <b>{email}</b>",
+  "loginAwaitingMessage": "Verify that the provided seed code matches the following text:",
+  "loginManualVerification": "Manual Verification",
+  "loginManualVerificationCode": "Verification Code",
+  "verifyAction": "Verify Login",
+  "loginVerifyingTitle": "Verifying Login",
+  "loginVerifyingMessage": "Verifying the following seed code against <b>{verificationCode}</b>:",
+  "loginVerifyingErrorMessage": "Login verification failed. Please try to verify again on the same browser login was initiated.",
+  
+  "managingApplicationTitle": "Managing Registration",
+  "noApplicationToManage": "There is no registration to manage.",
+
+  "specialAirfares":"Special Airfares from Cathay Pacific & Cathay Dragon",
+  "specialAirfaresContent":"Cathay Pacific, the home carrier of Hong Kong, together with Cathay Dragon, offer registered participants and travel companions of the 2019 International Blockchain Olympiad an exclusive opportunity to enjoy great savings on flights to Hong Kong.",
+  "specialAirfaresBook":"Book online ",
+  "specialAirfaresCodeContent":"via the MICE online offer page or contact your nearest ",
+  "specialAirfaresCathayPacific":"Cathay Pacific ",
+  "specialAirfaresAnd":"and ",
+  "specialAirfaresCathayDragon":"Cathay Dragon ",
+  "specialAirfaresCodeContent2":" reservations office and quote the MICE Event Code ",
+  "specialAirfaresCode":"'MICE227'",
+  "specialAirfaresContent2":"<a href='http://eventsoffer.cathaypacific.com' target='_blank'>Book online</a> via the MICE online offer page or contact your nearest <a href='http://www.cathaypacific.com/cx/en_HK/about-us/contact-us/worldwide-offices.html' target='_blank'>Cathay Pacific</a> and <a href='http://www.cathaypacific.com/cx/en_HK/about-us/contact-us/worldwide-offices.html' target='_blank'>Cathay Dragon</a> reservations office and quote the MICE Event Code <font color='red'>“MICE227”<font>. "
 }

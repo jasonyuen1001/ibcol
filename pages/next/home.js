@@ -115,10 +115,10 @@ export default class extends React.Component {
                                 {this.translate('subHeading')}
                             </h3>
                             <div className="home-content__button">
-                                <a href="https://ibcol.org/en-hk/program" className="btn btn--primary btn--large">
+                                <a href="../program" className="btn btn--primary btn--large">
                                     {this.translate('leftBtn')}
                                 </a>
-                                <a href="https://ibcol.org/en-hk/rules" className="btn btn--large">
+                                <a href="../rules" className="btn btn--large">
                                     {this.translate('rightBtn')}
                                 </a>
                             </div>
@@ -158,7 +158,7 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section01.icon1') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section01.heading1')}</h5>
-                                            <div><p>{this.translate('section01.desc1')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section01.desc1') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section01.icon2') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section01.heading2')}</h5>
-                                            <div><p>{this.translate('section01.desc2')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section01.desc2') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@ export default class extends React.Component {
                                          <div dangerouslySetInnerHTML={{ __html: this.translate('section01.icon3') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section01.heading3')}</h5>
-                                            <div><p>{this.translate('section01.desc3')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section01.desc3') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -194,7 +194,7 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section02.icon1') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section02.heading1')}</h5>
-                                            <div><p>{this.translate('section02.desc1')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section02.desc1') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -203,7 +203,8 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section02.icon2') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section02.heading2')}</h5>
-                                            <div><p>{this.translate('section02.desc2')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section02.desc2') }}/>
+
                                         </div>
                                 </div>
                             </div>
@@ -212,7 +213,8 @@ export default class extends React.Component {
                                          <div dangerouslySetInnerHTML={{ __html: this.translate('section02.icon3') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section02.heading3')}</h5>
-                                            <div><p>{this.translate('section02.desc3')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section02.desc3') }}/>
+
                                         </div>
                                 </div>
                             </div>
@@ -244,7 +246,7 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section04.icon1') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section04.heading1')}</h5>
-                                            <div><p>{this.translate('section04.desc1')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section04.desc1') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -253,7 +255,7 @@ export default class extends React.Component {
                                         <div dangerouslySetInnerHTML={{ __html: this.translate('section04.icon2') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section04.heading2')}</h5>
-                                            <div><p>{this.translate('section04.desc2')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section04.desc2') }}/>
                                         </div>
                                 </div>
                             </div>
@@ -262,7 +264,7 @@ export default class extends React.Component {
                                          <div dangerouslySetInnerHTML={{ __html: this.translate('section04.icon3') }} />
                                         <div className="countriesName">
                                             <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('section04.heading3')}</h5>
-                                            <div><p>{this.translate('section04.desc3')}</p></div>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('section04.desc3') }}/>
                                         </div>
                                 </div>
                             </div>

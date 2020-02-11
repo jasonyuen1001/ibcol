@@ -200,10 +200,10 @@ export default class extends React.Component {
                     <div className="row section-header">
                         <div className="col-block">
                             <a href="#training"><h4 className="subhead">Training</h4></a>
-                            {/* <a href="#mentorship"><h4 className="subhead">Mentorship</h4></a> */}
+                            <a href="#mentorship"><h4 className="subhead">Mentorship</h4></a>
                             <a href="#submission"><h4 className="subhead">Submission</h4></a>
-                            <a href="#competition"><h4 className="subhead">Competition</h4></a>
-                            <a href="#calendar"><h4 className="subhead">Calendar</h4></a>
+                            {/* <a href="#competition"><h4 className="subhead">Competition</h4></a> */}
+                            {/* <a href="#calendar"><h4 className="subhead">Calendar</h4></a> */}
                         </div>
                     </div>
                 </section>
@@ -213,8 +213,8 @@ export default class extends React.Component {
                         <h1>{this.translate('section01.title')}</h1>
                     </div>
                     <div className="row">
-                     <p>{this.translate('section01.desc')}</p>
-                     <div className="block-1-3 block-tab-full" style={{marginBottom: "0"}}>
+                     <div dangerouslySetInnerHTML={{ __html: this.translate('section01.content') }}/>
+                     {/* <div className="block-1-3 block-tab-full" style={{marginBottom: "0"}}>
                             {
                             this.translate('section01.content').map((content, index) => {
                                 return <div className="col-block" key={index}>
@@ -229,7 +229,7 @@ export default class extends React.Component {
                                 </div>
                             })
                             }
-                     </div>
+                     </div> */}
                     </div>
                 </section>
                 {/* Mentorship Section */}
@@ -238,9 +238,10 @@ export default class extends React.Component {
                         <h1>{this.translate('section02.title')}</h1>
                     </div>
                     <div className="row">
-                        <p>{this.translate('section02.desc')}</p>
-                        {
-                            this.translate('section02.content').map((content, index) => {
+                        <p dangerouslySetInnerHTML={{ __html: this.translate('section02.desc') }}/>
+                        {this.translate('section02.content')[0].key == "" ? (<div/>):(
+                            <div>
+                            {this.translate('section02.content').map((content, index) => {
                                 return <div key={index}>
                                     <b>{content.key}</b>:  {content.value}
                                 </div>
@@ -249,8 +250,10 @@ export default class extends React.Component {
                         <br/>
                     <a className="btn btn--primary" href={this.translate('section02.btnLink')} target="_blank">{this.translate('section02.btnText')} </a>
                     </div>
+                        )}
+                    </div>
                 </section>
-                <section className="s-section target-section" id="submission">
+                <section className="s-section target-section last" id="submission">
                     <div className="row section-header">
                         <h1>{this.translate('section03.title')}</h1>
                     </div>
@@ -264,7 +267,7 @@ export default class extends React.Component {
                                         <p style={{marginTop:0,marginBottom:0,color:"#000000"}}>{content.value}</p>
                                         </div>
                                         <p style={{marginBottom:0}}>{content.desc}</p>
-                                        {/* <a className="btn btn--primary full-width" style={{padding:"0 0",maxHeight:"30px",lineHeight:"2.3rem"}} href={content.btnlink}>{content.btnText} </a> */}
+                                        <a className={content.className} href={content.btnLink}>{content.btnText} </a>
                                         <br/>
                                         <br/>
                                 </div>
@@ -273,7 +276,7 @@ export default class extends React.Component {
                      </div>
                     </div>
                 </section>
-                <section className="s-section target-section" id="competition">
+                {/* <section className="s-section target-section last" id="competition">
                     <div className="row section-header">
                         <h1>{this.translate('section04.title')}</h1>
                     </div>
@@ -299,14 +302,14 @@ export default class extends React.Component {
                             </div>
                           </div>
                         </div>
-                        {/* <div style={{"width": "55%","display":"block","margin-right": "auto","margin-left": "auto"}}>
+                        <div style={{"width": "55%","display":"block","margin-right": "auto","margin-left": "auto"}}>
                         <a className="btn btn--primary" href="">{this.translate('section04.leftBtn')} </a>
                         <a className="btn btn--primary" href="">{this.translate('section04.rightBtn')} </a>
-                        </div> */}
+                        </div>
                     </div>
-                </section>
+                </section> */}
             
-                <section className="s-section target-section last" id="calendar">
+                {/* <section className="s-section target-section last" id="calendar">
                     <div className="row section-header">
                         <div className="col-block">
                             <h4 className="item-title">{this.translate('section05.title')}</h4>
@@ -320,7 +323,7 @@ export default class extends React.Component {
                             <br/><h6 style={{"margin-inline-start": "1.2rem"}}>Coming Soon</h6>
                         </div>)}
                     </div>
-                </section>
+                </section> */}
                 
                 {/* End of Training Section */}
             </ThisPageContainerComponent >

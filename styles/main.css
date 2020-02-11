@@ -5117,3 +5117,15 @@ p.content{
   color: #000000;
   font-weight: 350;
 }
+.box-btn-left{
+  padding: 0 0 !important;
+  max-height: 30px !important;
+  line-height:2.3rem !important;
+}
+.box-btn-right{
+  padding: 0 0 !important;
+  max-height: 30px !important;
+  line-height:2.3rem !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
+}

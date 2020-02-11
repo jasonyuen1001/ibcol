@@ -271,7 +271,7 @@ export default class extends React.Component {
                                 return <div className="sm">
                                     <span className={classNames("flag-icon", `flag-icon-${content.key}`)}></span>
                                     {/*href={`/en-${content.key}/home`}*/}
-                                    {content.key =="hk" || content.key =="pk" || content.key =="bd" ? (
+                                    {content.key =="hk" ||content.key =="in" || content.key =="pk" || content.key =="bd" ? (
                                     <a style={{padding:"0 0 0 10px"}} href={content.href} target="_blank" className="sm-title flag">{content.value}</a>
                                     ):(<a style={{padding:"0 0 0 10px"}} target="_blank" className="sm-title flag">{content.value}</a>
                                     )}
@@ -333,7 +333,7 @@ export default class extends React.Component {
                                 <div className="item-process__text">
                                     <p>IBCOL Organising Committee<br />International Blockchain Olympiad
                                     <br/>333A, 3/F, Core Building 2,<br />1W Science Park Avenue,<br />Hong Kong
-                                    <br/>Email: <a href="mailto:hk@ibcol.org?subject=IBCOL">hk@ibcol.org</a></p>
+                                    <br/>Email: <a href="mailto:pmo@ibcol.org?subject=IBCOL">pmo@ibcol.org</a></p>
                                 </div>
                             </div>
                             

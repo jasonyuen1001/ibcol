@@ -5,154 +5,42 @@
     "mainHeading": "",
     "subHeading": "Indian BLOCKCHAIN OLYMPIAD Program",
     "section01": {
-        "title": "Training & Mentorship",
-        "content":[
-            "Students learn about how blockchains work as an enterprise solution.",
-            "Students forge teams and friendships from like-minded peers.",
-            "Students work with mentors from academia & industry."
-        ]
+        "title": "TRAINING",
+        "content": "<h5 style='margin-top:0;'>Register for Training</h5>Emerge as a Blockchain leader with our online and offline training designed using an industry-first approach and get certified. Register now and join the priority queue.<h5>Request a Master Class</h5>Want to organize a master class in your neighbourhood or university? Contact us at in@ibcol.org<h5>Register for Training</h5>Want to stay updated? Follow us on Linkedin, Facebook, Twitter, and Instagram."
+       
     },
     "section02": {
-        "title": "Local & International Competition",
-        "content":[
-            "Students meet and compete with peers on best complete solution.",
-            "Students are judged by relevant experts and authorities."
-        ]
+        "title": "MENTORSHIP",
+        "desc":"Engage with the community and tune in with changemakers (contestants, trainers, and mentors) across the country at <a class='inline-text-a-href' target='_blank' href='https://forum.zubi.io'>https://forum.zubi.io</a>",
+        "content":[{"key":"","value":""}],
+        "btnText":"",
+        "btnLink":""
     },
     "section03": {
-        "title": "Internship, Employment, Investment",
+        "title": "SUBMISSIONS",
         "content":[
-            "Students get a platform to showcase their talent and their projects.",
-            "Students may be offered work or money to further develop their project."
+          {"key":"Project Registration","value":"Saturday 15 February 2020, 00:00 IST","desc":"","btnLink":"../registration","className":"btn btn--primary full-width box-btn-left","btnText":"REGISTER A PROJECT"},
+          {"key":"Deadline","value":"Thursday 14 May 2020, 23:59 IST","desc":"","btnLink":"#training","className":"btn btn--primary full-width box-btn-right","btnText":"LEARN MORE ABOUT BLOCKCHAIN"}
         ]
     },
     "section04": {
-        "title": "Calendar",
-        "iframe": "0",
-        "timeline" :[
-            {"year":"2020",
-              "events":[
-                {"month":"July", 
-                  "detail":[ 
-                    {"date":"3rd","time":"","title":"International Blockchain Olympiad (International Finals)","subtitle":"Opening Ceremony","venue":"City University of Hong Kong"},
-                    {"date":"4th","time":"","title":"International Blockchain Olympiad (International Finals)","subtitle":"Symposium & Exhibition","venue":"City University of Hong Kong"},
-                    {"date":"5th","time":"","title":"International Blockchain Olympiad (International Finals)","subtitle":"Pitch & Closing Ceremony","venue":"City University of Hong Kong"}
-                    ]
-                }
-              ]
-            }
-          ]
+      "title": "COMPETITION",
+      "contentHTML":"The HK-BCOL Finals is held <b>13 June 2020</b> at the City University of Hong Kong.",
+      "icon1":"<i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'> laptop_chromebook</i>",
+      "heading1":"SYMPOSIUM EXPO",
+      "desc1":"Competitors have a poster board and a table for showcasing their project to judges, investors, and other VIP",
+      "icon2":"<i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+      "heading2":"PITCH PRESENTATION",
+      "desc2":"Competitors have up to twelve minutes to tell judges, investors, and other VIP about their projects on stage",
+      "leftBtn":"READ RULES IN DETAIL",
+      "rightBtn":"REGISTER A PROJECT"
     },
     "section05": {
-        "title": "Connect",
-        "iframe":"<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fibcol.org%2F&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=271650546611989' width='500' height='600' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>"
-    },
-    "section06": {
-        "title": "Sign Up",
-        "courseTitle":"DappCamp Certification Curriculum (DC3)",
-        "courseDesc":"The DappCamp Certification Curriculum (DC3) serves to educate students and professionals all aspects of blockchain and related technologies from the perspectives of technical, legal, and enterprise thinking. The curriculum is designed by professors, researchers, and tech entrepreneurs with input from R3 Consortium, from which we have certified trainers who also teach the relevant courses.",
-        "course01Title": "Certified Blockchain Professional - Basic (CBP-B)",
-        "course01": [
-            {
-                "course01Heading":"BC 101: Blockchain & Cryptography",
-                "descTitle":"Description",
-                "course01Desc":"This course is an introduction to the fundamental building blocks of blockchain from high-level first principles and concepts: hash function cryptography, digital signatures, public key cryptography, distributed computing, distributed ledgers, consensus protocols, smart contracts, privacy-preserving cryptography.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"none",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            },
-            {
-                "course01Heading":"BC 102: Blockchain Business & Legal",
-                "descTitle":"Description",
-                "course01Desc":"This course covers the legal and compliance issues, risks, and mitigations for designing, launching, and operating an application using blockchain and cryptography. Explore from high-level some of the major use cases for applying blockchain and cryptography, especially in government, health, finance, and supply chain. Brief look into the failures of early blockchain networks, services, and businesses.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"none",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-        ],
-        "course02Title": "Certified Blockchain Professional - Advance (CBP-A)",
-        "course02": [
-            {
-                "course01Heading":"BC 201: Privacy & Identity",
-                "descTitle":"Description",
-                "course01Desc":"This course extensively explores the concept, need, importance, and future of digital identity, a fundamental aspect of digital transactions which ensures integrity in connecting the physical and the digital world. Deep dive into how a legal entity may prove its own identity and check those of other parties, via unique, verifiable, and authentic digital identity. Discuss and compare the various approaches to create digital identity. Scrutinize the challenges of creating, deploying, and servicing digital identity. Investigate the impact of personal data privacy regulations such as the EU's General Data Protection Regulation (GDPR) for blockchain. Take a glimpse of some advanced cryptography — zero-knowledge proofs, ring signatures, secure multiparty computation, homomorphic encryption, and proxy re-encryption — and explain how they are used in conjunction with blockchain to address privacy issues arising from digital identity.",
-                "prereqTitle":"Prereqs",
-                "course01Prereq":"BC 101, BC 102",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            },
-            {
-                "course01Heading":"BC 202: Asset Tokenization & Digital Fiat",
-                "descTitle":"Description",
-                "course01Desc":"This course builds on concepts from BC 201 to explore the most popular consequence of blockchain-powered networks that is the co-creation elements: digital transaction and value-driven ecosystem and marketplace, built around cryptographically-based tokens as assets. Deep investigation into the technological challenges of tokenization, the digital representation of physical goods. Build understanding of exchange vehicles, valuation models, and fungibility work across value networks. Examine different types of tokens, and studying the development, adoption, and sustainability of digital fiat.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 201",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-            ,
-            {
-                "course01Heading":"BC 203: Governance & Compliance",
-                "descTitle":"Description",
-                "course01Desc":"This course builds on concepts from BC 102 to provide in-depth understanding and management of risk and compliance challenges when applying blockchain to business scenarios. Exploring notary, governance, and other multi-stakeholder networks in the domains of standards development, policy guidance, community advocacy, knowledge, and education. The problems with decentralized autonomous organizations. Look into practical issues of permissioned and permissionless blockchains, with on-chain and off-chain governance of protocols and the applications that run on them. Deep dive into the scaling, interoperability, and crisis management of these systems over time.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 102",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-            ,
-            {
-                "course01Heading":"BC 204: Solutions Architecture",
-                "descTitle":"Description",
-                "course01Desc":"This course builds on all previous courses to provide the necessities for applying blockchain and cryptography to build a decentralized application. Students will learn how to identify appropriate use cases in terms of enterprise and industry impact, distilling existing business processes by devising plans with design-thinking, matching business idea with technological tenets. Explore business modelling and design, strengths and weaknesses of blockchain-based business structures, and advantages of different economic models and token economics.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 201",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-            ,
-            {
-                "course01Heading":"BC 205: Advanced Training: Fintech",
-                "descTitle":"Description",
-                "course01Desc":"This course explores the use of blockchain technology in the finance sector. Three blockchain experts from the financial industry will respectively discuss how blockchain is being used in the banking, insurance and trade finance industries. Each of the lecturers will examine using real use cases on how blockchain solutions are employed to tackle industry problems and address pain points arising from business processes. The pro and cons of using blockchain vs other technologies, the challenges and risks of using blockchain and best practices for long-term success will also be addressed. Necessary financial background will be provided by the lecturers so students participating in this course need not have any prior knowledge in finance.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 203",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-        ],
-        "course03Title": "Certified Blockchain Developer (CBD)",
-        "course03": [
-            {
-                "course01Heading":"BC 301: Blockchain Engineering - R3 Corda",
-                "descTitle":"Description",
-                "course01Desc":"This is a one-day technical crash course where students will develop a comprehensive understanding of Corda, an open-source enterprise permissioned platform created by R3 in 2016. Corda is designed and built from the ground up to record, manage and synchronise legal agreements among business entities, designed for use by regulated financial institutions and is arguably the most popular permissioned blockchain platform used by financial institutions to build blockchain applications. By the end of training, participants will gain a good understanding how Corda works and acquires hands on experience of developing some basic CorDapps (applications on Corda). This course is suitable for developers with at least intermediary programing in Java or similar.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 101",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            },
-            {
-                "course01Heading":"BC 302: Blockchain Engineering - HL Fabric",
-                "descTitle":"Description",
-                "course01Desc":"This is a one-day technical crash course where students will develop a comprehensive understanding of Hyperledger Fabric, an open-source enterprise permissioned blockchain platform created in 2016 with an initial contribution by Digital Asset and IBM and is now one of the projects hosted by the Linux Foundation. Fabric is currently one of the most popular permissioned blockchain platforms used by enterprises to build applications in areas such as insurance and health, trade finance, logistics, supply chain and registries. By the end of training, participants will gain a good understanding how Fabric works and will acquire hands on experience of coding some basic blockchain applications on the Fabric platform. This course is suitable for developers with at least intermediary programing in Java or similar.",
-                "prereqTitle":"Prereq",
-                "course01Prereq":"BC 101",
-                "btnEnrol":"Enrol",
-                "btnStyle":"enable",
-                "url":"https://docs.google.com/forms/d/e/1FAIpQLSdToU5To_8H1QE6MdKKfQpFlEXPOcMwlm5svuNtyzpC17yN8g/viewform"
-            }
-        ]
-    }
+        "title": "EVENT CALENDAR",
+        "iframe":"<iframe src='https://calendar.google.com/calendar/b/6/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FHong_Kong&amp;src=aGtiY3Mub3JnX3Q2aGdzb2VtZGRiZHAzNmwxbDFqbzNsajRvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzVsa2tkcmloY3YxM2U5bGd0cGVvbzZtNHNnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzFuMXAydHVuMmVyMTIzNGcwcHA2ZmV2ZjU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4uaG9uZ19rb25nI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%235A9A08&amp;color=%23DD5511&amp;color=%233366CC&amp;color=%231F753C&amp;showTitle=0&amp;title' style='border-width:0' width='800' height='600' frameborder='0' scrolling='no'></iframe>",
+        "leftBtn":"REGISTER A PROJECT",
+        "rightBtn":"LEARN MORE ABOUT BLOCKCHAIN"
+      }
+    
 
 }
