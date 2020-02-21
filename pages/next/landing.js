@@ -801,7 +801,7 @@ export default class extends React.Component {
         {/* End of Contact Section */}
 
         {/* Start of Contact Section */}
-        <section className="s-section target-section" id="submitProj">
+        <section className="s-section target-section" id="submit">
           <div className="row section-header">
             <div className="col-block">
               <h1>Submit your Project</h1>

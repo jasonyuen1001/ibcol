@@ -160,9 +160,16 @@ class IndexMenuComponent extends React.Component {
           Join Us
         </NavLinkComponent>
       </li> */}
-      <li className="featured">
+      {/* <li className="featured">
         <a href='/en-hk/registration'>
           {this.translate('menu.registration')}
+        </a>
+      </li> */}
+
+      <li className="featured">
+        <a href='#submit'>
+          submit project
+          {/* {this.translate('menu.submit')} */}
         </a>
       </li>
 

@@ -153,9 +153,15 @@ class MenuComponent extends React.Component {
           Join Us
         </NavLinkComponent>
       </li> */}
-      <li className="featured">
+      {/* <li className="featured">
         <NavLinkComponent prefetch route="registration" params={{ locale }}>
           {this.translate('menu.registration')}
+        </NavLinkComponent>
+      </li> */}
+
+      <li className="featured">
+        <NavLinkComponent prefetch route="submit project" params={{ locale }}>
+          {this.translate('menu.submit')}
         </NavLinkComponent>
       </li>
 
