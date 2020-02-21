@@ -36,10 +36,10 @@
       "rightBtn":"REGISTER A PROJECT"
     },
     "section05": {
-        "title": "EVENT CALENDAR",
-        "iframe":"<iframe src='https://calendar.google.com/calendar/b/6/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FHong_Kong&amp;src=aGtiY3Mub3JnX3Q2aGdzb2VtZGRiZHAzNmwxbDFqbzNsajRvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzVsa2tkcmloY3YxM2U5bGd0cGVvbzZtNHNnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzFuMXAydHVuMmVyMTIzNGcwcHA2ZmV2ZjU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4uaG9uZ19rb25nI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%235A9A08&amp;color=%23DD5511&amp;color=%233366CC&amp;color=%231F753C&amp;showTitle=0&amp;title' style='border-width:0' width='800' height='600' frameborder='0' scrolling='no'></iframe>",
-        "leftBtn":"REGISTER A PROJECT",
-        "rightBtn":"LEARN MORE ABOUT BLOCKCHAIN"
+        "title": "Coming Soon",
+        "iframe":"",
+        "leftBtn":"",
+        "rightBtn":""
       }
     
 

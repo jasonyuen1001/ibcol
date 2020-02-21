@@ -253,7 +253,7 @@ export default class extends React.Component {
                         )}
                     </div>
                 </section>
-                <section className="s-section target-section last" id="submission">
+                <section className="s-section target-section " id="submission">
                     <div className="row section-header">
                         <h1>{this.translate('section03.title')}</h1>
                     </div>

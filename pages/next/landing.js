@@ -10,6 +10,7 @@ import jQuery from "jquery";
 import { Link } from "/routes";
 import classNames from "classnames";
 import { padding } from "polished";
+import { func } from "prop-types";
 
 const $ = jQuery;
 
@@ -18,10 +19,6 @@ const items = [];
 for (const [index, value] of elements.entries()) {
   items.push(<option key={index}>{value}</option>);
 }
-
-let Americas = [];
-let AsiaPacific = [];
-let EuropeMiddleEastAfrica = [];
 
 // const getLocaleObject = (requestedLocale) => {
 //     const requestedLocaleObject = _.find(translations, {
@@ -47,9 +44,13 @@ const ThisPageContainerComponent = styled(PageContainerComponent)``;
 function shoot() {
   var e = document.getElementById("country");
   var result = e.options[e.selectedIndex].value;
-//   alert(result);
-  window.open("https://ibcol.org/" +result+ "/registration/", "_blank");
+  //   alert(result);
+  window.open("https://ibcol.org/" + result + "/registration/", "_blank");
 }
+
+let americas = [];
+let asiaPacific = [];
+let europeMiddleEastAfrica = [];
 
 export default class extends React.Component {
   state = {
@@ -419,33 +420,38 @@ export default class extends React.Component {
   };
 
   render() {
+    {
+      this.state.amCommitteesInfo.map((content, index) => {
+        return americas.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      });
+    }
+
+    {
+      this.state.asiaCommitteesInfo.map((content, index) => {
+        return asiaPacific.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      });
+    }
+
+    {
+      this.state.euCommitteesInfo.map((content, index) => {
+        return europeMiddleEastAfrica.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      });
+    }
+
     // const locale = this.props.query.locale;
-    {this.state.euCommitteesInfo.map((content, index) => {
-        EuropeMiddleEastAfrica.push(
-          <option value={content.key} key={index}>
-            {content.value}
-          </option>
-        );
-      })}
-
-      {this.state.asiaCommitteesInfo.map((content, index) => {
-        AsiaPacific.push(
-          <option value={content.key} key={index}>
-            {content.value}
-          </option>
-        );
-      })}
-
-      {this.state.amCommitteesInfo.map((content, index) => {
-        Americas.push(
-          <option value={content.key} key={index}>
-            {content.value}
-          </option>
-        );
-      })}
     return (
-
-        
       <ThisPageContainerComponent>
         <Head>
           <title>International Blockchain Olympiad</title>
@@ -456,6 +462,7 @@ export default class extends React.Component {
           {/* <meta name="keywords" content={this.translate('keywords')} /> */}
           {/* <meta property="og:image" content={`${configs.url}${this.translate('ogImage')}`} /> */}
           <meta property="og:type" content="website" />
+
           {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
                         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> */}
@@ -782,7 +789,11 @@ export default class extends React.Component {
         {/* End of Countries Section */}
 
         {/* Start of Download Section */}
-        <section className="s-section target-section" id="download">
+        <section
+          className="s-section target-section"
+          id="download"
+          style={{ padding: "0px" }}
+        >
           <div className="row section-header">
             <div className="col-block">
               <h1>Download</h1>
@@ -841,10 +852,12 @@ export default class extends React.Component {
         </section>
         {/* End of Contact Section */}
 
-    
-
         {/* Start of Contact Section */}
-        <section className="s-section target-section" id="submit">
+        <section
+          className="s-section target-section"
+          id="submit"
+          style={{ padding: "0px", margin: "0px" }}
+        >
           <div className="row section-header">
             <div className="col-block">
               <h1>Submit your Project</h1>
@@ -862,13 +875,16 @@ export default class extends React.Component {
               <div className="col-block" style={{ width: "260px" }}>
                 <select id="country">
                   <option>Select your country/ territory</option>
-                  {Americas}
-                  {/* <option>Asia-Pacific</option> */}
-                  {AsiaPacific}
-                  {/* <option>Europe/Middle-East/Africa</option> */}
-                  {EuropeMiddleEastAfrica}
+                  {this.state.amCommitteesInfo.map((content, index) => (
+                    <option value={content.key} key={content.key}>{content.value}</option>
+                  ))}
+                  {this.state.asiaCommitteesInfo.map((content, index) => (
+                    <option value={content.key} key={content.key}>{content.value}</option>
+                  ))}
+                 {this.state.euCommitteesInfo.map((content, index) => (
+                    <option value={content.key} key={content.key}>{content.value}</option>
+                  ))}
                 </select>
-                <h1>Favorite letter: {this.state.value}</h1>
               </div>
               <div className="col-block">
                 <button
