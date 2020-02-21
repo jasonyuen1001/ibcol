@@ -203,7 +203,7 @@ export default class extends React.Component {
                             <a href="#mentorship"><h4 className="subhead">Mentorship</h4></a>
                             <a href="#submission"><h4 className="subhead">Submission</h4></a>
                             {/* <a href="#competition"><h4 className="subhead">Competition</h4></a> */}
-                            {/* <a href="#calendar"><h4 className="subhead">Calendar</h4></a> */}
+                            <a href="#calendar"><h4 className="subhead">Calendar</h4></a>
                         </div>
                     </div>
                 </section>
@@ -309,7 +309,7 @@ export default class extends React.Component {
                     </div>
                 </section> */}
             
-                {/* <section className="s-section target-section last" id="calendar">
+                <section className="s-section target-section last" id="calendar">
                     <div className="row section-header">
                         <div className="col-block">
                             <h4 className="item-title">{this.translate('section05.title')}</h4>
@@ -323,7 +323,7 @@ export default class extends React.Component {
                             <br/><h6 style={{"margin-inline-start": "1.2rem"}}>Coming Soon</h6>
                         </div>)}
                     </div>
-                </section> */}
+                </section> 
                 
                 {/* End of Training Section */}
             </ThisPageContainerComponent >
