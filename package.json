@@ -1,7 +1,9 @@
 {
   "name": "ibcol",
   "version": "2.0.0",
-  "engines" : { "node" : ">=12.6" },
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "description": "",
   "main": "index.js",
@@ -11,9 +13,6 @@
     "react",
     "ica"
   ],
-  "engines": {
-    "node": "12.x"
-  },
   "scripts": {
     "start": "npm run local --",
     "build": "next build",
