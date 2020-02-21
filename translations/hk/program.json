@@ -1,0 +1,52 @@
+{
+    "pageTitle": "Program",
+    "seoDescription": "",
+    "ogImage": "static/images/ogimage.jpg",
+    "mainHeading": "",
+    "subHeading": "Hong Kong BLOCKCHAIN OLYMPIAD Program",
+    "section01": {
+        "title": "TRAINING",
+        "content": "<p>Working with the Hong Kong Blockchain Society and the various universities and colleges of Hong Kong, training sessions are provided for free to current and recent students via <a class='inline-text-a-href' target='_blank' href='https://training.ibcol.org'>training.ibcol.org</a>; on-campus instruction is cancelled until further notice.</p>"
+    },
+    "section02": {
+        "title": "MENTORSHIP",
+        "desc":"HSBC staff will provide professional mentorship to the students of Hong Kong in the areas of, but not limited to, digital banking, FinTech and communication skills. Mentors will give presentations, interact with students in smaller groups at the event, and general networking with professionals from HSBC.",
+        "content":[
+          {"key":"Event","value":"Micro-Consulting Day"},
+          {"key":"Date","value":"26 March 2020, Thursday"},
+          {"key":"Time","value":"4:00 PM – 6:00 PM"},
+          {"key":"Place","value":"19/F, Senate Room, Lau Ming Wai Academic Building, City University of Hong Kong, Kowloon Tong"}
+        ],
+        "btnText":"SIGN UP FOR MENTORING PROGRAM",
+        "btnLink":"https://bit.ly/HKcampus"
+    },
+    "section03": {
+        "title": "SUBMISSIONS",
+        "content":[
+          {"key":"Proof-of-Stake Day","value":"13 April 2020, 23:59 HKT","desc":"Competitors prove that they have a stake in the competition by submitting a minimum viable whitepaper outline.","btnLink":"../registration","className":"btn btn--primary full-width box-btn-left","btnText":"REGISTER A PROJECT"},
+          {"key":"Proof-of-Work Day","value":"3 May 2020, 23:59 HKT","desc":"Competitors prove that they have completed the work required to be competitive, i.e the last day to edit their paper.","btnLink":"#training","className":"btn btn--primary full-width box-btn-right","btnText":"LEARN MORE ABOUT BLOCKCHAIN"}
+        ],
+        "leftBtn":"REGISTER A PROJECT",
+        "rightBtn":"LEARN MORE ABOUT BLOCKCHAIN"
+    },
+    "section04": {
+      "title": "COMPETITION",
+      "contentHTML":"The HK-BCOL Finals is held <b>13 June 2020</b> at the City University of Hong Kong.",
+      "icon1":"<i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'> laptop_chromebook</i>",
+      "heading1":"SYMPOSIUM EXPO",
+      "desc1":"Competitors have a poster board and a table for showcasing their project to judges, investors, and other VIP",
+      "icon2":"<i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+      "heading2":"PITCH PRESENTATION",
+      "desc2":"Competitors have up to twelve minutes to tell judges, investors, and other VIP about their projects on stage",
+      "leftBtn":"READ RULES IN DETAIL",
+      "rightBtn":"REGISTER A PROJECT"
+    },
+    "section05": {
+        "title": "EVENT CALENDAR",
+        "iframe":"<iframe src='https://calendar.google.com/calendar/b/6/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FHong_Kong&amp;src=aGtiY3Mub3JnX3Q2aGdzb2VtZGRiZHAzNmwxbDFqbzNsajRvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzVsa2tkcmloY3YxM2U5bGd0cGVvbzZtNHNnQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=aGtiY3Mub3JnXzFuMXAydHVuMmVyMTIzNGcwcHA2ZmV2ZjU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4uaG9uZ19rb25nI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%235A9A08&amp;color=%23DD5511&amp;color=%233366CC&amp;color=%231F753C&amp;showTitle=0&amp;title' style='border-width:0' width='800' height='600' frameborder='0' scrolling='no'></iframe>",
+        "leftBtn":"REGISTER A PROJECT",
+        "rightBtn":"LEARN MORE ABOUT BLOCKCHAIN"
+      }
+    
+
+}

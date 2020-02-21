@@ -1,0 +1,32 @@
+{
+    "pageTitle": "Rules",
+    "seoDescription": "",
+    "ogImage": "static/images/ogimage.jpg",
+    "mainHeading": "",
+    "subHeading": "Rules of Indian Blockchain Olympiad",
+    "subhead":[
+        {"title":"Contestants","href":"contestants"},
+        {"title":"Teams","href":"teams"},
+        {"title":"Projects","href":"projects"},
+        {"title":"Process","href":"process"}
+    ],
+    "section":[
+        {"id":"contestants","title":"CONTESTANTS","className":"s-section target-section","item":["Eligible contestants may be of any age and any education level.",
+            "Eligible contestants may be a current or recent student of a recognised educational institution.",
+            "IBCOL OC20 determines what is a recognised educational institution.",
+            "IBCOL OC20 determines who is a current or recent student based on physical or electronic verifiable proofs."]},
+        {"id":"teams","title":"TEAMS","className":"s-section target-section","item":["Teams may consist of a minimum of one (1) and a maximum of six (6) contestants.",
+            "Teams may submit one (1) or more projects.",
+            "Teams must appoint a liaison who will be communicating with the OC20 of IBCOL and their X-BCOL.",
+            "Teams must select one representative institution or country if contestants hail from different educational institutions or countries."]},
+        {"id":"projects","title":"PROJECTS","className":"s-section target-section","item":[ "Projects may use any blockchain network or platform.",
+            "Projects are primarily represented by a whitepaper or presentation with no limit on length nor restriction on formatting.",
+            "Projects may have optional technical proof-of-concept or prototype.",
+            "Projects may submit additional copies of whitepapers, presentations, proofs-of-concepts, or prototypes in their native language but if complications arise, the English version shall prevail.",
+            "Projects may receive sponsorship or support but must be declared.",
+            "The intellectual property arising from the projects belong exclusively to their respective teams, and may not be reproduced without written permission from the owners of the IP."]},
+        {"id":"process","title":"PROCESS","className":"s-section target-section last","item":["The first step for participating in the International Blockchain Olympiad is Team Registration. So, all interested people must form teams and get themselves registered. Registration will remain open from 15th February to 15th May. If you don’t have a team yet or want to stay updated about all relevant details, join the community at <a class='inline-text-a-href' target='_blank' href='https://forum.zubi.io'>https://forum.zubi.io</a>.",
+            "After successful registration, each team has to submit at least one idea for their project in IBCOL. In this round, teams need to submit detailed documents of their project like whitepaper, presentation, and/or prototype. After carefully evaluating all the projects, the top teams will be selected for the IBCOL 2020 National round.",
+            "In the National round, all teams need to present their project to a panel of judges and the top 12 teams will get a chance to represent India in the IBCOL 2020 finals in Hong Kong."]}
+    ]
+}

@@ -1,0 +1,723 @@
+{
+    "2018": {
+        "pageTitle": "IBCOL-2018",
+        "seoDescription": "",
+        "ogImage": "static/images/ogimage.jpg",
+        "subHeading": "International Blockchain Olympiad 2018",
+        "eligibilitySection": {
+            "title": "Eligibility",
+            "eligibilityGeneral": "Blockchain is one of the fastest evolving and expanding industries in history, with implications that will impact several generations. Get a team together and create something together!",
+            "eligibilityCategory": "Team: Between 1 to 4 students Students in good standing Students in post-secondary institution Students can be from different schools",
+            "eligibilityTeam": "Advisors: May advise more than one team Should advise on tech, legal, business Advisors are not eligible for prizes Teams may have unlimited advisors"
+        },
+        "processSection": {
+            "title": "Process",
+            "categories": {
+                "title": "Categories",
+                "projectCategories": [
+                    {
+                        "name": "Fintech",
+                        "description": "Projects in the financial sector, including insurance, remittance, and trade finance",
+                        "color": "blue",
+                        "icon": "show_chart"
+                    },
+                    {
+                        "name": "SOCIALTECH",
+                        "description": "Projects in the social development, social enterprise, or related spaces, including edtech",
+                        "color": "yellow",
+                        "icon": "forum"
+                    },
+                    {
+                        "name": "LEGALTECH & REGTECH",
+                        "description": "Projects concerning legal and regulatory compliance challenges and shortcomings",
+                        "color": "green",
+                        "icon": "import_contacts"
+                    }
+                ]
+            },
+            "whitepaper": {
+                "title": "Whitepaper"
+            },
+            "prize": {
+                "title": "Awards",
+                "awards": [
+                    {}
+                ]
+            }
+        },
+        "programmeSection": {
+            "title": "Programme",
+            "workshopTitle": "Workshop",
+            "workshop": [
+                {
+                    "eventTitle": "Workshop 1/3: Blockchain from Technical First Principles",
+                    "eventContent": "In this workshop, students will learn about what blockchain is and why blockchain is useful. We will discuss the various concepts and paradigms represented by blockchain, the importance of various core components and designs of a blockchain, and the difference between blockchains and distributed ledger technology (DLT). We will introduce students to the several projects and platforms."
+                },
+                {
+                    "eventTitle": "Workshop 2/3: Legality + Compliance for Blockchain",
+                    "eventContent": "In this workshop, students will learn about some legal and regulatory rulings and interpretations from around the world, along with their impact on the blockchain industry. We will investigate how decentralised applications can co-exist with the legal and compliance infrastructure of the old world to bridge into a future with blockchain. We will also talk about token economics and anatomy of a whitepaper."
+                },
+                {
+                    "eventTitle": "Workshop 3/3: Business Strategies in Blockchain",
+                    "eventContent": "In this workshop, students will learn to address and understand the agnostic nature of blockchain technology to assess the strengths, weaknesses, opportunities, and threats of blockchain in various sectors, such as finance, manufacturing, logistics & supply chain, legal, and so forth. Throughout the workshop, we hope to encourage students to foresee the implication of blockchain in their sectors of interest."
+                }
+            ],
+            "competitionTitle":"Competition",
+            "finalTitle":"Finals: DappCamp Demo Day",
+            "finalDate":"Wednesday, May 30th, 2018",
+            "finalTime":"14:30 - 18:30"
+        },
+        "partnerSection": {
+            "title": "Partners",
+            "keyPartnerTitle": "Key Partners",
+            "keyPartner": [
+                {
+                    "name": "City University College of business",
+                    "url": "https://www.cityu.edu.hk/",
+                    "logo": "/static/images/sponsor_2018/sponsor-cityu.png"
+                },
+                {
+                    "name": "stellar",
+                    "url": "https://www.stellar.org/",
+                    "logo": "/static/images/sponsor_2018/sponsor-stellar.png"
+                }
+            ],
+            "supportingOrganisationTitle": "Supporting Organisations",
+            "supportingOrganisation": [
+                {
+                    "name": "AIA",
+                    "url": "https://www.aia.com.hk/zh-hk/index.html",
+                    "logo": "/static/images/sponsor_2018/sponsor-aia.png"
+                },
+                {
+                    "name": "Bank of China",
+                    "url": "https://www.bochk.com/en/home.html",
+                    "logo": "/static/images/sponsor_2018/sponsor-boc.png"
+                },
+                {
+                    "name": "China Life Insurance",
+                    "url": "http://www.chinalife.com.hk/?language_id=1",
+                    "logo": "/static/images/sponsor_2018/sponsor-chinalife.png"
+                },
+                {
+                    "name": " Daiwa Capital Markets",
+                    "url": "http://www.hk.daiwacm.com/",
+                    "logo": "/static/images/sponsor_2018/sponsor-daiwa.jpg"
+                },
+                {
+                    "name": " Esquel Group",
+                    "url": "https://www.esquel.com/en/",
+                    "logo": "/static/images/sponsor_2018/sponsor-esquel.png"
+                },
+                {
+                    "name": " Cyberport",
+                    "url": "https://www.cyberport.hk/en",
+                    "logo": "/static/images/sponsor_2018/sponsor-cyberport.png"
+                },
+                {
+                    "name": "Hong Kong Monetary Authority",
+                    "url": "https://www.hkma.gov.hk/eng/index.shtml",
+                    "logo": "/static/images/sponsor_2018/sponsor-hkma.jpg"
+                },
+                {
+                    "name": "Hong Kong Science and Technology Park",
+                    "url": "https://www.hkstp.org/en",
+                    "logo": "/static/images/sponsor_2018/sponsor-hkstp.png"
+                },
+                {
+                    "name": "Hyperledger",
+                    "url": "https://www.hyperledger.org/",
+                    "logo": "/static/images/sponsor_2018/sponsor-hyperledger.png"
+                },
+                {
+                    "name": "Manulife Hong Kong",
+                    "url": "https://www.manulife.com.hk/wps/portal/pwshome",
+                    "logo": "/static/images/sponsor_2018/sponsor-manulife.png"
+                },
+                {
+                    "name": "R3",
+                    "url": "https://www.r3.com/",
+                    "logo": "/static/images/sponsor_2018/sponsor-r3.png"
+                },
+                {
+                    "name": "The Polytechnic University of Hong Kong",
+                    "url": "https://www.polyu.edu.hk/web/en/home/index.html",
+                    "logo": "/static/images/sponsor_2018/sponsor-polyu.png"
+                },
+                {
+                    "name": "University of Waterloo",
+                    "url": "https://uwaterloo.ca/",
+                    "logo": "/static/images/sponsor_2018/sponsor-uwaterloo.png"
+                },
+                {
+                    "name": "Zurich",
+                    "url": "https://www.zurich.com.hk/en",
+                    "logo": "/static/images/sponsor_2018/sponsor-zurich.png"
+                }
+            ]
+        },
+        "peopleSection": {
+            "title": "People",
+            "vipsTitle": "Our VIPs",
+            "vips": [
+                {
+                    "name": "Prof. Houmin Yan",
+                    "company": "City University of Hong Kong",
+                    "post": "Dean, College of Business",
+                    "icon": "/static/images/vip/icon_drHouminYan.jpeg"
+                },
+                {
+                    "name": "Dr. Stephanie Winnie Fan",
+                    "company": "City University of Hong Kong",
+                    "post": "Adjunct Professor, Economics & Finance",
+                    "icon": "/static/images/vip/icon_drStephanieWinnieFan.jpg"
+                },
+                {
+                    "name": "Dr. Kit Ming Isabel Yan",
+                    "company": "City University of Hong Kong",
+                    "post": "Assistant Dean, College of Business",
+                    "icon": "/static/images/vip/icon_drKitMingLsabelYan.jpg"
+                },
+                {
+                    "name": "Dr. Lawrence Ma",
+                    "company": "Hong Kong Blockchain Society",
+                    "post": "Founder and President",
+                    "icon": "/static/images/vip/icon_drLawrenceMa.jpg"
+                }
+            ],
+            "judgesTitle": "Our Judges",
+            "judges": [
+                {
+                    "name": "Dr. Michael Wong",
+                    "company": "University of Waterloo HK Foundation",
+                    "post": "Director",
+                    "icon": "/static/images/judge/judge-mwong-waterloo.jpeg"
+                },
+                {
+                    "name": "Dr. Michael Wong",
+                    "company": "Finance & Compliance City University of Hong Kong",
+                    "post": "Associate Professor",
+                    "icon": "/static/images/judge/judge-wong.jpeg"
+                },
+                {
+                    "name": "Mr. William Hui",
+                    "company": "Manulife Hong Kong",
+                    "post": "Senior IT Director",
+                    "icon": "/static/images/judge/judge-hui.png"
+                },
+                {
+                    "name": "Mr. Ross Tang",
+                    "company": "Hong Kong Monetary Authority",
+                    "post": "Distributed Ledger Technology Advisor",
+                    "icon": "/static/images/judge/judge-ross.png"
+                }
+            ]
+        },
+        "contestantSection": {
+            "title": "Teams & Awards"
+        },
+        "photoSection": {
+            "title": "Photo Gallery"
+        }
+    },
+    "2019": {
+        "pageTitle": "IBCOL-2019",
+        "seoDescription": "",
+        "ogImage": "static/images/ogimage.jpg",
+        "subHeading": "nternational Blockchain Olympiad 2019",
+        "eligibilitySection": {
+            "title": "Eligibility",
+            "eligibility": "Eligibility Criteria",
+            "eligibilityGeneral": "A student is defined as a person enrolled in good standing at a recognised academic institution, or if graduated from a recognised academic institution within the last 2 years.",
+            "eligibilityCategory": "Students can be of any age. There are no age limits.",
+            "eligibilityTeam": "Students may only be registered to one team; if a student is involved with a team other than their own, they would be considered an advisor to that other team, and a contestant to their primary team."
+        },
+        "processSection": {
+            "title": "Process",
+            "categories": {
+                "title": "Categories"
+            },
+            "whitepaper": {
+                "title": "Whitepaper"
+            },
+            "prize": {
+                "title": "Awards",
+                "awards": {
+                    "gold": {
+                        "quantity": 5,
+                        "title": "Gold Medals",
+                        "description": "1st place winner of a category with 4096 USD prize"
+                    },
+                    "silver": {
+                        "quantity": 5,
+                        "title": "Silver Medals",
+                        "description": "2nd place winner of a category with 2048 USD prize"
+                    },
+                    "bronze": {
+                        "quantity": 5,
+                        "title": "Bronze Medals",
+                        "description": "3rd place winner of a category with 1024 USD prize"
+                    },
+                    "nominee": {
+                        "quantity": 15,
+                        "title": "Nominator Awards",
+                        "description": "Recognition of team coach for nominating a winning team"
+                    },
+                    "finalist": {
+                        "quantity": 10,
+                        "title": "Finalist Awards",
+                        "description": "Recognition of teams for being top 5 in a category"
+                    },
+                    "merit": {
+                        "quantity": 50,
+                        "title": "Merit Awards",
+                        "description": "Recognition of teams for designing a complete solution"
+                    },
+                    "note": "The best prize for students is not financial, but rather experience, guidance, and a chance to make a real impact in the real world."
+                }
+            }
+        },
+        "programmeSection": {
+            "title": "Programme"
+        },
+        "partnerSection": {
+            "title": "Partners",
+            "titleSponsorTitle": "Title Sponsor *",
+            "titleSponsor": [
+                {
+                    "name": "EmurgoHK",
+                    "url": "https://emurgohk.io",
+                    "logo": "/static/images/logo-emurgohk.png",
+                    "description": "<b>EMURGO HK</b> is the venture builder for the Cardano blockchain protocol. And now we're in Hong Kong. Located in one of the world's most dynamic business hubs, and perfectly positioned between Northeast and Southeast Asia, EmurgoHK is spreading the revolutionary Cardano protocol across the Pacific Rim."
+                }
+            ],
+            "coHostTitle": "Co-Host",
+            "coHost": [
+                {
+                    "name": "City University of Hong Kong, College of Business",
+                    "url": "https://www.cb.cityu.edu.hk/",
+                    "logo": "/static/images/logo-city-university-of-hong-kong-(cityu)-college-of-business.png",
+                    "description": "The <b>College of Business</b> at City University of Hong Kong strives to nurture all-rounded graduates who are competent professionals, tech-savvy, critical thinkers and life-long learners.  We offer state-of-the-art learning, cutting-edge research and innovative teaching facilities to prepare students for the challenges opening up in the world. "
+                },
+                {
+                    "name": "Hong Kong Science Park (HKSTP)",
+                    "url": "https://www.hkstp.org",
+                    "logo": "/static/images/logo-hong-kong-science-park-(hkstp).png",
+                    "description": "<b>Hong Kong Science Park</b> is dedicated to building a vibrant innovation and technology ecosystem to connect stakeholders, nurture technology talents, facilitate collaboration, and catalyse innovations to deliver social and economic benefits to Hong Kong and the region. "
+                },
+                {
+                    "name": "Hong Kong Blockchain Society (HKBCS)",
+                    "url": "http://www.hkbcs.org",
+                    "logo": "/static/images/logo-hong-kong-blockchain-society-(hkbcs).png",
+                    "description": "<b>The Hong Kong Blockchain Society</b> promotes sustainable and mature of the blockchain ecosystem. HKBCS encourages and supports projects that are legal and compliant in Hong Kong and the surrounding region."
+                }
+            ],
+            "generalSponsorTitle": "General Sponsors",
+            "generalSponsor": [
+                {
+                    "name": "EMALI",
+                    "url": "https://emali.io",
+                    "logo": "/static/images/logo-emali.png",
+                    "description": "<b>EMALI</b> is an enterprise technology company that develops, licenses, supports, and sells fintech software, solutions, and related services to the Asia Pacific region, specializing in AI, blockchain, cryptography, security, and privacy technologies."
+                },
+                {
+                    "name": "R3",
+                    "url": "https://www.r3.com/",
+                    "logo": "/static/images/logo-r3.png",
+                    "description": "<b>R3</b> is an enterprise blockchain software firm working with a broad ecosystem of more than 300 members and partners across multiple industries from both the private and public sectors to develop on open-source blockchain platform <b>Corda</b>."
+                }
+            ],
+            "travelPartnersTitle": "Travel Partners",
+            "travelPartners": [
+                {
+                    "name": "Cathay Pacific",
+                    "url": "https://www.cathaypacific.com",
+                    "logo": "/static/images/cathay_pacific_logo_detail.png",
+                    "description": "<b>Cathay Pacific</b> is the flag carrier of Hong Kong, with its head office and main hub located at Hong Kong International Airport. The airline's operations and subsidiaries have scheduled passenger and cargo services to more than 190 destinations in more than 60 countries worldwide including codeshares and joint ventures."
+                }
+            ],
+            "supportingOrganisationsTitle": "Supporting Organisations",
+            "supportingOrganisations": [
+                {
+                    "name": "bitfwd",
+                    "url": "https://www.bitfwd.com/",
+                    "logo": "/static/images/logo-bitfwd.png",
+                    "description": "<b>bitfwd</b> is a grassroots community of cypherpunks, Blockchain developers, entrepreneurs, and crypto enthusiasts. We bring together resources, content and educational activities. Let's bootstrap the cryptoeconomy."
+                },
+                {
+                    "name": "Blockchain at NCCU",
+                    "url": "https://www.facebook.com/Blockchain.at.NCCU/",
+                    "logo": "/static/images/logo-blockchain-at-nccu.png",
+                    "description": "<b>Blockchain at NCCU</b> (National Chengchi University) was founded March 2018, with roots in the Chengchi University Blockchain Lab, providing blockchain education, legal business consulting, and technical solutions in banking and finance, information science, social science, law, business, and communications."
+                },
+                {
+                    "name": "Blockchain Slovakia",
+                    "url": "https://blockchainslovakia.sk",
+                    "logo": "/static/images/logo-blockchain-slovakia.png",
+                    "description": "<b>Blockchain Slovakia</b> is a non-profit organization focused on education and awareness in the area of cryptocurrencies and blockchain technologies. We create a platform for discussion between developers, companies, academia, regulators as well as the public interested in these technologies."
+                },
+                {
+                    "name": "EasyVolunteer.HK",
+                    "url": "https://easyvolunteer.hk",
+                    "logo": "/static/images/logo-easyvolunteer.hk.png",
+                    "description": "<b>Easyvolunteer.hk</b> (好義配) is managed by The Hong Kong Federation of Youth Groups (HKFYG). It is an online Volunteer Service Matching Portal. It helps organizations to recruit volunteers and analyze their service records. We aim to connect volunteers and service opportunity providers, to promote and popularize volunteerism in the society."
+                },
+                {
+                    "name": "Future Pre-employment Planning (Shenzhen)",
+                    "url": "#",
+                    "logo": "/static/images/logo-future-pre-employment-planning-(shenzhen).png",
+                    "description": "<b>FPP</b> empowers students to discover their true passion and career interest and equip them with professional competencies, so they can ultimately pursue a personally-rewarding career and make a positive impact on society, by offering online and offline individualized solutions that fill the gap between theoretical classroom learning and practical skillsets needed in the employment market."
+                },
+                {
+                    "name": "Hong Kong Federation of Youth Groups (HKFYG)",
+                    "url": "https://hkfyg.org.hk",
+                    "logo": "/static/images/logo-hong-kong-federation-of-youth-groups-(hkfyg).png",
+                    "description": "The <b>Hong Kong Federation of Youth Groups</b> (HKFYG) is the city’s largest youth service organisation. Since its establishment in 1960, the HKFYG has been providing opportunities and facilities for the social, educational, cultural, emotional and physical development of young people. Each year, HKFYG offers more than 10,000 activities organized by over 60 service units with 5 million participants annually."
+                },
+                {
+                    "name": "Jason Hsu Yu Jen",
+                    "url": "https://www.jhsu.tw",
+                    "logo": "/static/images/logo-jason-hsu-yu-jen.png",
+                    "description": "Jason Hsu, a member of the Taiwanese Parliament and founder of the Asia Blockchain Alliance, is known in many circles as the first “Crypto Congressman.” While he was once a serial entrepreneur, he has since become a legislator, passing bills like the Financial Technology Experimentation and Innovation Act to promote fintech in Asia."
+                },
+                {
+                    "name": "RNS Solutions",
+                    "url": "https://rnssol.com/",
+                    "logo": "/static/images/logo-rns-solutions.png",
+                    "description": "<b>RNS Solutions</b> is a leading provider of blockchain solutions and research services, and one of the most influential players in nurturing blockchain ecosystem in Pakistan by providing opportunities to students and graduates for incubation, internships, competitions, and scholarships."
+                },
+                {
+                    "name": "University of Waterloo, Hong Kong Foundation",
+                    "url": "https://uwaterloo.ca/hong-kong-foundation/",
+                    "logo": "/static/images/logo-university-of-waterloo,-hong-kong-foundation.png",
+                    "description": "The <b>University of Waterloo’s Hong Kong Foundation</b> was opened in 2011 to strengthen ties with the Asian community, leveraging Hong Kong’s geographic advantage and the unique East-meets-West cultural mix as part of the UW's strategic plan to establish a strong presence in the region. UWHKF is located in Central, Hong Kong's business district."
+                },
+                {
+                    "name": "UW Blockchain Club",
+                    "url": "https://www.facebook.com/uwblockchain/",
+                    "logo": "/static/images/logo-uw-blockchain-club.png",
+                    "description": "A student-run organization at the <b>University of Waterloo</b> focusing on everything related to blockchain and cryptocurrency. Established in May 2018, UW Blockchain aims to create a community of Blockchain enthusiasts in UW, by immersing them into an engaging set of workshops, hackathons, networking events etc."
+                },
+                {
+                    "name": "Hong Kong Youth Internet Governance Forum",
+                    "url": "http://hk.yigf.asia/",
+                    "logo": "/static/images/logo-hong-kong-youth-internet-governance-forum(hkyigf).png",
+                    "description": "<b>Hong Kong Youth Internet Governance Forum</b> (HKYIGF) is a platform for local youth to learn about Internet governance and voice out their opinions. Recognized by the IGF secretariat of United Nations, it also serves as the bridge to the wider Asia youth community and the global dialogue."
+                },
+                {
+                    "name": "Lazarski Blockchain Technology Center",
+                    "url": "http://blockchaintechnology.center/",
+                    "logo": "/static/images/logo-lazarski-blockchain-technology-center.png",
+                    "description": "<b>The Blockchain Technology Center</b> is the first research unit in Central and Eastern Europe specialising in blockchain technology founded. It was founded in 2016 at the Lazarski University, one of the best private universities in Poland. Apart from research, the Centre also conducts educational and popularizing activities. It gathers around 30 Polish scientists and experts in the fields of business, economics and finance, IT and cyber security, as well as law and regulation. They advise to companies and to the government, as well."
+                },
+                {
+                    "name": "LoginID",
+                    "url": "",
+                    "logo": "/static/images/logo_loginID.jpg",
+                    "description": "<b>LoginID</b> is a San Francisco/Toronto based company focused on solving the gaps associated with authenticating users and securing their personal information, using PSD2 approved FIDO2 authentication and LoginID's proprietary patent-pending encryption protocol Secure Data Diffusion."
+                },
+                {
+                    "name": "Elos",
+                    "url": "https://elosskateboards.com/",
+                    "logo": "/static/images/logo-elso.png",
+                    "description": "<b>Elos</b> is a skateboard built for beginners and urban commuters. It is like a mini longboard that you can bring anywhere. The wide and Stable Skateboard Deck makes it stable to learn and fun to ride. AKA: The campus board."
+                }
+            ]
+        },
+        "peopleSection": {
+            "title": "People",
+            "vipsTitle": "Our VIPs",
+            "vips": [
+                {
+                    "name": "Mr. Albert Wong",
+                    "company": "Hong Kong Science Park",
+                    "post": "CEO",
+                    "icon": "/static/images/vip/icon_mrAlbertWong.jpeg"
+                },
+                {
+                    "name": "Dr. Houmin Yan",
+                    "company": "City University of Hong Kong",
+                    "post": "Dean, College of Business ",
+                    "icon": "/static/images/vip/icon_drHouminYan.jpeg"
+                },
+                {
+                    "name": "Hon. Charles Mok",
+                    "company": "Hong Kong Legislative Council",
+                    "post": "IT Councillor",
+                    "icon": "/static/images/vip/icon_honCharlesMok.jpeg"
+                },
+                {
+                    "name": " Mr. Gabriel Chan",
+                    "company": "International Blockchain Olympiad",
+                    "post": "Program Director",
+                    "icon": "/static/images/vip/icon_mrGabrielChan.jpg"
+                }
+            ],
+            "hostJudgeTitle": "Our Host Judges",
+            "hostJudge": [
+                {
+                    "name": "Dr. Lawrence Ma",
+                    "post": "Founder and President",
+                    "icon": "/static/images/judge/icon_drLawrenceMa.jpg",
+                    "company": "Hong Kong Blockchain Society"
+                },
+                {
+                    "name": "Dr. Michael Wong",
+                    "post": "Associate Professor of Finance",
+                    "icon": "/static/images/judge/icon_drmichealwong.jpeg",
+                    "company": "CityU HK"
+                },
+                {
+                    "name": "Ms. Cathy Lo",
+                    "post": "Strategic Planning",
+                    "icon": "/static/images/judge/icon_drCathyLo.jpeg",
+                    "company": "Hong Kong Science Park"
+                },
+                {
+                    "name": "Ms. Joanne Ng",
+                    "post": "Head of Field Marketing APAC",
+                    "icon": "/static/images/judge/icon_drJoanneNg.jpg",
+                    "company": "R3"
+                }
+            ],
+            "guestjudgeTitle": "Our Judges",
+            "guestjudge": [
+                {
+                    "name": "Mr. Alan Chan",
+                    "post": "Senior Manager in Fintech, Analytics, Digital Transformation",
+                    "icon": "/static/images/judge/icon_mrAlanChan.jpg",
+                    "company": "PwC"
+                },
+                {
+                    "name": "Mr. Chi Man Ngan",
+                    "post": "Blockchain Lead",
+                    "icon": "/static/images/judge/icon_mrchimanngan.jpeg",
+                    "company": "AIA"
+                },
+                {
+                    "name": "Mr. Danny Wu",
+                    "post": "Executive Director",
+                    "icon": "/static/images/judge/icon_mrDannyWu.png",
+                    "company": "First Gateway Capital"
+                },
+                {
+                    "name": "Mr. Dick Fong",
+                    "post": "Partner, China/HK Emerging Technology Group",
+                    "icon": "/static/images/judge/icon_mrDickFong.jpg",
+                    "company": "PwC"
+                },
+                {
+                    "name": "Mr. Edmond Lau",
+                    "post": "Managing Director",
+                    "icon": "/static/images/judge/icon_mrEdmondLau.jpg",
+                    "company": "Lingfeng Capital"
+                },
+                {
+                    "name": "Mr. Jackie Hung",
+                    "post": "Assistant Vice President Innovative Business & Growth",
+                    "icon": "/static/images/judge/icon_mrJackieHung.jpeg",
+                    "company": "HSBC Commercial Banking"
+                },
+                {
+                    "name": "Mr. Julian Gropp",
+                    "post": "Director of Asset Management",
+                    "icon": "/static/images/judge/icon_mrJulianGropp.jpeg",
+                    "company": "HASHED"
+                },
+                {
+                    "name": "Mr. Keat Lai",
+                    "post": "Managing Director",
+                    "icon": "/static/images/judge/icon_mrKeatLai.jpg",
+                    "company": "SW7 Ventures"
+                },
+                {
+                    "name": "Mr. Kelvin Luk",
+                    "post": "Director",
+                    "icon": "/static/images/judge/icon_mrKelvinLuk.png",
+                    "company": "ImSure Life"
+                },
+                {
+                    "name": "Ms. Marina Danylyuk",
+                    "post": "International Liaison",
+                    "icon": "/static/images/judge/icon_msMarynaDanylyuk.jpg",
+                    "company": "Hong Kong Blockchain Society"
+                },
+                {
+                    "name": "Mr. Martin Lee",
+                    "post": "Partner",
+                    "icon": "/static/images/judge/icon_mrMartinLee.jpg",
+                    "company": "Iridium Capital"
+                },
+                {
+                    "name": "Mr. Michael Chow",
+                    "post": "Associate Partner, Transaction Strategy & Operations, China/HK",
+                    "icon": "/static/images/judge/icon_mrMichaelChow.jpeg",
+                    "company": "EY"
+                },
+                {
+                    "name": "Dr. Peifung Eric Lam",
+                    "post": "Co-Founder CTO",
+                    "icon": "/static/images/judge/icon_drEricLam.jpeg",
+                    "company": "Eurika AI"
+                },
+                {
+                    "name": "Mr. Ronald Yu",
+                    "post": "Founder",
+                    "icon": "/static/images/judge/icon_mrRonaldYu.jpg",
+                    "company": "IIPCC"
+                },
+                {
+                    "name": "Mr. William Hui",
+                    "post": "Head of IT Innovation",
+                    "icon": "/static/images/judge/icon_mrWilliamHui.png",
+                    "company": "Manulife"
+                }
+            ]
+        },
+        "contestantSection": {
+            "title": "Contestant",
+            "finalistsTitle": "Finalists",
+            "finalists": [
+                {
+                    "teamName": "Palantin",
+                    "icon": "/static/images/flags/1x1/br.svg"
+                },
+                {
+                    "teamName": "Blockbox Insights",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "Centennial College Blockchain",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "Historichain",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "OneandONLY",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "Renzimme",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "VaccinePlus",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "Team Duo",
+                    "icon": "/static/images/flags/1x1/ca.svg"
+                },
+                {
+                    "teamName": "Aero-Knowledge Proof",
+                    "icon": "/static/images/flags/1x1/cn.svg"
+                },
+                {
+                    "teamName": "MONOPOLY",
+                    "icon": "/static/images/flags/1x1/cn.svg"
+                },
+                {
+                    "teamName": "中山大学区块链俱乐部队",
+                    "icon": "/static/images/flags/1x1/cn.svg"
+                },
+                {
+                    "teamName": "BENO Chain",
+                    "icon": "/static/images/flags/1x1/cn.svg"
+                },
+                {
+                    "teamName": "NEURON",
+                    "icon": "/static/images/flags/1x1/ee.svg"
+                },
+                {
+                    "teamName": "A1one",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Barcoholic",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Blockchain Pro1",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Golden sheep",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "POWE",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Power Of Blocks",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Veritas",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "FintechPassion",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "TrustedAttendance",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "TheGateOfTrust",
+                    "icon": "/static/images/flags/1x1/hk.svg"
+                },
+                {
+                    "teamName": "Code to Uncode",
+                    "icon": "/static/images/flags/1x1/in.svg"
+                },
+                {
+                    "teamName": "Blockers",
+                    "icon": "/static/images/flags/1x1/pk.svg"
+                },
+                {
+                    "teamName": "Aid",
+                    "icon": "/static/images/flags/1x1/ph.svg"
+                },
+                {
+                    "teamName": "Lightwonder",
+                    "icon": "/static/images/flags/1x1/tw.svg"
+                },
+                {
+                    "teamName": "White Box",
+                    "icon": "/static/images/flags/1x1/tw.svg"
+                },
+                {
+                    "teamName": "我打德州當打工",
+                    "icon": "/static/images/flags/1x1/tw.svg"
+                },
+                {
+                    "teamName": "砍掉重鏈",
+                    "icon": "/static/images/flags/1x1/tw.svg"
+                },
+                {
+                    "teamName": "iDe (Identity Decentralized)",
+                    "icon": "/static/images/flags/1x1/us.svg"
+                },
+                {
+                    "teamName": "Nisreen & Yunsoo",
+                    "icon": "/static/images/flags/1x1/us.svg"
+                },
+                {
+                    "teamName": "ProofMedic",
+                    "icon": "/static/images/flags/1x1/us.svg"
+                },
+                {
+                    "teamName": "Turing Chain Limited",
+                    "icon": "/static/images/flags/1x1/us.svg"
+                }
+            ]
+        },
+        "photoSection": {
+            "title": "Photo Gallery"
+        }
+    }
+}

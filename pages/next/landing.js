@@ -13,6 +13,16 @@ import { padding } from "polished";
 
 const $ = jQuery;
 
+const elements = ["one", "two", "three"];
+const items = [];
+for (const [index, value] of elements.entries()) {
+  items.push(<option key={index}>{value}</option>);
+}
+
+let Americas = [];
+let AsiaPacific = [];
+let EuropeMiddleEastAfrica = [];
+
 // const getLocaleObject = (requestedLocale) => {
 //     const requestedLocaleObject = _.find(translations, {
 //         _locale: {
@@ -34,6 +44,13 @@ const $ = jQuery;
 
 const ThisPageContainerComponent = styled(PageContainerComponent)``;
 
+function shoot() {
+  var e = document.getElementById("country");
+  var result = e.options[e.selectedIndex].value;
+//   alert(result);
+  window.open("https://ibcol.org/" +result+ "/registration/", "_blank");
+}
+
 export default class extends React.Component {
   state = {
     amCommitteesInfo: [
@@ -47,9 +64,9 @@ export default class extends React.Component {
       { key: "au", value: "AU-BCOL (Australia)", href: "/en-au/home" },
       { key: "bd", value: "BD-BCOL (Bangladesh)", href: "https://bcolbd.org/" },
       { key: "cn", value: "CN-BCOL (China)", href: "/en-cn/home" },
-      { key: "hk", value: "HK-BCOL (Hong Kong)", href: "/en-hk/home" },
+      { key: "hk", value: "HK-BCOL (Hong Kong)", href: "/hk/home" },
       { key: "id", value: "ID-BCOL (Indonesia)", href: "/en-id/home" },
-      { key: "in", value: "IN-BCOL (India)", href: "/en-in/home" },
+      { key: "in", value: "IN-BCOL (India)", href: "/in/home" },
       { key: "jp", value: "JP-BCOL (Japan)", href: "/en-jp/home" },
       { key: "kh", value: "KH-BCOL (Cambodia)", href: "/en-kh/home" },
       { key: "kr", value: "KR-BCOL (South Korea)", href: "/en-kr/home" },
@@ -403,8 +420,32 @@ export default class extends React.Component {
 
   render() {
     // const locale = this.props.query.locale;
+    {this.state.euCommitteesInfo.map((content, index) => {
+        EuropeMiddleEastAfrica.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      })}
 
+      {this.state.asiaCommitteesInfo.map((content, index) => {
+        AsiaPacific.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      })}
+
+      {this.state.amCommitteesInfo.map((content, index) => {
+        Americas.push(
+          <option value={content.key} key={index}>
+            {content.value}
+          </option>
+        );
+      })}
     return (
+
+        
       <ThisPageContainerComponent>
         <Head>
           <title>International Blockchain Olympiad</title>
@@ -800,6 +841,8 @@ export default class extends React.Component {
         </section>
         {/* End of Contact Section */}
 
+    
+
         {/* Start of Contact Section */}
         <section className="s-section target-section" id="submit">
           <div className="row section-header">
@@ -812,20 +855,28 @@ export default class extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="block-1-2 block-tab-full" style={{ marginBottom:"0px" }}>
-              <div className="col-block" style={{ width: "260px"}}>
-                <select id="submitList">
-                  <option value="def">Select your country/ territory</option>
-                  <option value="hk">HK</option>
-                  <option value="in">IN</option>
-                  <option value="audi">Audi</option>
+            <div
+              className="block-1-2 block-tab-full"
+              style={{ marginBottom: "0px" }}
+            >
+              <div className="col-block" style={{ width: "260px" }}>
+                <select id="country">
+                  <option>Select your country/ territory</option>
+                  {Americas}
+                  {/* <option>Asia-Pacific</option> */}
+                  {AsiaPacific}
+                  {/* <option>Europe/Middle-East/Africa</option> */}
+                  {EuropeMiddleEastAfrica}
                 </select>
+                <h1>Favorite letter: {this.state.value}</h1>
               </div>
               <div className="col-block">
                 <button
+                  onClick={shoot}
                   style={{
                     backgroundColor: "#4986e7",
                     color: "white",
+                    fontSize: "16px",
                     border: ""
                   }}
                 >
