@@ -650,43 +650,8 @@ export default class extends React.PureComponent {
                                       </div>
                                     </div>
 
-                                    <div className="row">
-                                      <div className="col-full">
-                                        {/* <h4 className="item-title">DEADLINE</h4> */}
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <p
-                                            className="content"
-                                            dangerouslySetInnerHTML={{
-                                              __html: this.translate(
-                                                "deadline.desc2"
-                                              )
-                                            }}
-                                          />
-{/*  */}
-                                          {this.translate("deadline.content2")[0]
-                                            .key == "" ? (
-                                            <div />
-                                          ) : (
-                                            <ul>
-                                              {this.translate(
-                                                "deadline.content2"
-                                              ).map((content, index) => {
-                                                return (
-                                                  <li key={index}>
-                                                    <p className="content">
-                                                      <b>{content.key}</b>{" "}
-                                                      {content.value}
-                                                    </p>
-                                                  </li>
-                                                );
-                                              })}
-                                            </ul>
-                                          )}
-
-                                   
-                                        </div>
-                                      </div>
-                                    </div>
+                                
+                              
                                   </section>
 
                                   <section

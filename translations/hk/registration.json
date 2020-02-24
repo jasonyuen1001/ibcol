@@ -15,13 +15,8 @@
   "deadline":{
     "desc":"There are two deadlines to be aware of:",
     "content":[
-      {"key":"Proof-of-Stake Day","value":"is for registering intent to compete, and the whitepaper does not yet need to be completed."},
-      {"key":"Proof-of-Work Day","value":"is the final cut-off for revisions to whitepapers, and judging begins the very next day."}
-    ],
-    "desc2":"Depending on which country or territory the representative school is in, there are different deadlines. For Hong Kong:",
-    "content2":[
-      {"key":"Proof-of-Stake Day","value":"is Monday 13 April 2020"},
-      {"key":"Proof-of-Work Day","value":"is Sunday 3 May 2020"}
+      {"key":"Proof-of-Stake Day (Monday 13 April 2020)","value":"is for registering intent to compete, and the whitepaper does not yet need to be completed."},
+      {"key":"Proof-of-Work Day (Sunday 3 May 2020)","value":"is the final cut-off for revisions to whitepapers, and judging begins the very next day."}
     ]
   },
   "regFields":{
