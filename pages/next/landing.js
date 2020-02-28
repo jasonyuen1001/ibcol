@@ -538,6 +538,9 @@ export default class extends React.Component {
             <h1>About IBCOL</h1>
           </div>
           <div className="row">
+
+
+            
             <p>
               The <b>I</b>nternational <b>B</b>lock<b>C</b>hain <b>OL</b>ympiad
               (<b>IBCOL</b>) invites current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> to solve
