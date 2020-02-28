@@ -12,9 +12,9 @@
     ],
     "section":[
         {"id":"contestants","title":"CONTESTANTS","className":"s-section target-section","item":["Eligible contestants may be of any age and any education level.",
-            "Eligible contestants may be a current or recent student of a recognised educational institution.",
+            "Eligible contestants may be a current or recent student <font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> of a recognised educational institution.",
             "IBCOL OC20 determines what is a recognised educational institution.",
-            "IBCOL OC20 determines who is a current or recent student based on physical or electronic verifiable proofs."]},
+            "IBCOL OC20 determines who is a current or recent student <font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> based on physical or electronic verifiable proofs."]},
         {"id":"teams","title":"TEAMS","className":"s-section target-section","item":["Teams may consist of a minimum of one (1) and a maximum of six (6) contestants.",
             "Teams may submit one (1) or more projects.",
             "Teams must appoint a liaison who will be communicating with the OC20 of IBCOL and their X-BCOL.",
