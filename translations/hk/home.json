@@ -8,7 +8,7 @@
     "rightBtn": "RULE & ELIGIBILITY",
     "section01": {
         "title": "About the Blockchain Olympiad",
-        "contentHTML":"The <b><u>H</b></u>ong <b><u>K</b></u>ong <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>HK-BCOL</b></u>) invites current and recent students to solve real-world problems with decentralized applications, built with blockchain or distributed ledger technology. Top scoring projects proceed to the <b><u>I</b></u>nternational <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IBCOL</b></u>) in July 2020.",
+        "contentHTML":"The <b><u>H</b></u>ong <b><u>K</b></u>ong <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>HK-BCOL</b></u>) invites current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> to solve real-world problems with decentralized applications, built with blockchain or distributed ledger technology. Top scoring projects proceed to the <b><u>I</b></u>nternational <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IBCOL</b></u>) in July 2020.",
         "icon1":"<!-- Business Case Competition --> <i class='material-icons blue'>work</i> <i class='material-icons black'>work</i> <i class='material-icons red'>work</i> <br> <i class='material-icons yellow'>business_center</i> <i class='material-icons green'>business_center</i>",
         "heading1":"Business Case Competition",
         "desc1":"Contestants define their own problem scopes and develop plans to solve it",

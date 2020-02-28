@@ -286,9 +286,9 @@ export default class extends React.PureComponent {
   getTokenFromCookie = () => {
     return cookies.get("email") !== null && cookies.get("token") !== null
       ? {
-          email: cookies.get("email"),
-          token: cookies.get("token")
-        }
+        email: cookies.get("email"),
+        token: cookies.get("token")
+      }
       : undefined;
   };
 
@@ -588,50 +588,195 @@ export default class extends React.PureComponent {
                         }}
                       </Query>
                     ) : (
-                      <div>
-                        <section className="s-section target-section">
-                          <div className="row">
-                            <div className="col-full">
-                              <p style={{ color: "#000000" }}>
-                                <b>New registration? </b>Please read this brief
-                                carefully, or skip on ahead if you are
-                                confident!
+                        <div>
+                          <section className="s-section target-section">
+                            <div className="row">
+                              <div className="col-full">
+                                <p style={{ color: "#000000" }}>
+                                  <b>New registration? </b>Please read this brief
+                                  carefully, or skip on ahead if you are
+                                  confident!
                               </p>
-                              <div
-                                style={{
-                                  background: "#fff2cc",
-                                  padding: "10px 10px 10px 10px"
-                                }}
-                              >
-                                <Collapsible
-                                  trigger="‣ Click here to read registration process briefing"
-                                  triggerWhenOpen="▾ Click here to hide registration process briefing"
-                                  triggerStyle={{
-                                    color: "#000000",
-                                    cursor: "pointer"
+                                <div
+                                  style={{
+                                    background: "#fff2cc",
+                                    padding: "10px 10px 10px 10px"
                                   }}
                                 >
-                                  <section className="s-section" id="deadline">
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">DEADLINE</h4>
-                                        <div style={{ padding: "0 0 0 5px" }}>
+                                  <Collapsible
+                                    trigger="‣ Click here to read registration process briefing"
+                                    triggerWhenOpen="▾ Click here to hide registration process briefing"
+                                    triggerStyle={{
+                                      color: "#000000",
+                                      cursor: "pointer"
+                                    }}
+                                  >
+                                    <section className="s-section" id="deadline">
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">DEADLINE</h4>
+                                          <div style={{ padding: "0 0 0 5px" }}>
+                                            <p
+                                              className="content"
+                                              dangerouslySetInnerHTML={{
+                                                __html: this.translate(
+                                                  "deadline.desc"
+                                                )
+                                              }}
+                                            />
+
+                                            {this.translate("deadline.content")[0]
+                                              .key == "" ? (
+                                                <div />
+                                              ) : (
+                                                <ul>
+                                                  {this.translate(
+                                                    "deadline.content"
+                                                  ).map((content, index) => {
+                                                    return (
+                                                      <li key={index}>
+                                                        <p className="content">
+                                                          <b>{content.key}</b>{" "}
+                                                          {content.value}
+                                                        </p>
+                                                      </li>
+                                                    );
+                                                  })}
+                                                </ul>
+                                              )}
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+
+                                    <section
+                                      className="s-section target-section"
+                                      id="regFields"
+                                    >
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">
+                                            REGISTRATION FIELDS
+                                        </h4>
+                                          <div style={{ padding: "0 0 0 5px" }}>
+                                            <p className="content">
+                                              {this.translate("regFields.desc")}
+                                            </p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                    <section
+                                      className="s-section target-section"
+                                      id="teamParticular"
+                                    >
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">
+                                            TEAM PARTICULARS
+                                        </h4>
+                                          <div style={{ padding: "0 0 0 5px" }}>
+                                            <ul>
+                                              {this.translate(
+                                                "teamParticular"
+                                              ).map((content, index) => {
+                                                return (
+                                                  <li key={index}>
+                                                    <p
+                                                      className="content"
+                                                      dangerouslySetInnerHTML={{
+                                                        __html: content
+                                                      }}
+                                                    />
+                                                  </li>
+                                                );
+                                              })}
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                    <section
+                                      className="s-section target-section"
+                                      id="teamParticular"
+                                    >
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">
+                                            PERSONAL PARTICULARS
+                                        </h4>
+                                          <div style={{ padding: "0 0 0 5px" }}>
+                                            <ul>
+                                              {this.translate(
+                                                "personalParticular"
+                                              ).map((content, index) => {
+                                                return (
+                                                  <li key={index}>
+                                                    <p
+                                                      className="content"
+                                                      dangerouslySetInnerHTML={{
+                                                        __html: content
+                                                      }}
+                                                    />
+                                                  </li>
+                                                );
+                                              })}
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                    <section
+                                      className="s-section target-section"
+                                      id="projectParticular"
+                                    >
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">
+                                            PROJECT PARTICULARS
+                                        </h4>
+                                          <div style={{ padding: "0 0 0 5px" }}>
+                                            <ul>
+                                              {this.translate(
+                                                "projectParticular"
+                                              ).map((content, index) => {
+                                                return (
+                                                  <li key={index}>
+                                                    <p
+                                                      className="content"
+                                                      dangerouslySetInnerHTML={{
+                                                        __html: content
+                                                      }}
+                                                    />
+                                                  </li>
+                                                );
+                                              })}
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </section>
+                                    <section
+                                      className="s-section target-section"
+                                      id="dueDiligence"
+                                    >
+                                      <div className="row">
+                                        <div className="col-full">
+                                          <h4 className="item-title">
+                                            DUE DILIGENCE
+                                        </h4>
                                           <p
                                             className="content"
                                             dangerouslySetInnerHTML={{
                                               __html: this.translate(
-                                                "deadline.desc"
+                                                "dueDiligence.descHTML"
                                               )
                                             }}
                                           />
-
-                                          {this.translate("deadline.content")[0]
-                                            .key == "" ? (
-                                            <div />
-                                          ) : (
+                                          <div style={{ padding: "0 0 0 5px" }}>
                                             <ul>
                                               {this.translate(
-                                                "deadline.content"
+                                                "dueDiligence.content"
                                               ).map((content, index) => {
                                                 return (
                                                   <li key={index}>
@@ -643,176 +788,26 @@ export default class extends React.PureComponent {
                                                 );
                                               })}
                                             </ul>
-                                          )}
-
-                                   
-                                        </div>
-                                      </div>
-                                    </div>
-
-                                
-                              
-                                  </section>
-
-                                  <section
-                                    className="s-section target-section"
-                                    id="regFields"
-                                  >
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">
-                                          REGISTRATION FIELDS
-                                        </h4>
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <p className="content">
-                                            {this.translate("regFields.desc")}
+                                            <p className="content">
+                                              The Competitions Committee reserves
+                                              the right to accept or reject
+                                              competitors on a case-by-case basis.
                                           </p>
+                                          </div>
                                         </div>
                                       </div>
-                                    </div>
-                                  </section>
-                                  <section
-                                    className="s-section target-section"
-                                    id="teamParticular"
-                                  >
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">
-                                          TEAM PARTICULARS
-                                        </h4>
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <ul>
-                                            {this.translate(
-                                              "teamParticular"
-                                            ).map((content, index) => {
-                                              return (
-                                                <li key={index}>
-                                                  <p
-                                                    className="content"
-                                                    dangerouslySetInnerHTML={{
-                                                      __html: content
-                                                    }}
-                                                  />
-                                                </li>
-                                              );
-                                            })}
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </section>
-                                  <section
-                                    className="s-section target-section"
-                                    id="teamParticular"
-                                  >
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">
-                                          PERSONAL PARTICULARS
-                                        </h4>
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <ul>
-                                            {this.translate(
-                                              "personalParticular"
-                                            ).map((content, index) => {
-                                              return (
-                                                <li key={index}>
-                                                  <p
-                                                    className="content"
-                                                    dangerouslySetInnerHTML={{
-                                                      __html: content
-                                                    }}
-                                                  />
-                                                </li>
-                                              );
-                                            })}
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </section>
-                                  <section
-                                    className="s-section target-section"
-                                    id="projectParticular"
-                                  >
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">
-                                          PROJECT PARTICULARS
-                                        </h4>
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <ul>
-                                            {this.translate(
-                                              "projectParticular"
-                                            ).map((content, index) => {
-                                              return (
-                                                <li key={index}>
-                                                  <p
-                                                    className="content"
-                                                    dangerouslySetInnerHTML={{
-                                                      __html: content
-                                                    }}
-                                                  />
-                                                </li>
-                                              );
-                                            })}
-                                          </ul>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </section>
-                                  <section
-                                    className="s-section target-section"
-                                    id="dueDiligence"
-                                  >
-                                    <div className="row">
-                                      <div className="col-full">
-                                        <h4 className="item-title">
-                                          DUE DILIGENCE
-                                        </h4>
-                                        <p
-                                          className="content"
-                                          dangerouslySetInnerHTML={{
-                                            __html: this.translate(
-                                              "dueDiligence.descHTML"
-                                            )
-                                          }}
-                                        />
-                                        <div style={{ padding: "0 0 0 5px" }}>
-                                          <ul>
-                                            {this.translate(
-                                              "dueDiligence.content"
-                                            ).map((content, index) => {
-                                              return (
-                                                <li key={index}>
-                                                  <p className="content">
-                                                    <b>{content.key}</b>{" "}
-                                                    {content.value}
-                                                  </p>
-                                                </li>
-                                              );
-                                            })}
-                                          </ul>
-                                          <p className="content">
-                                            The Competitions Committee reserves
-                                            the right to accept or reject
-                                            competitors on a case-by-case basis.
-                                          </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </section>
-                                </Collapsible>
+                                    </section>
+                                  </Collapsible>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </section>
-                        <RegistrationFormComponent
-                          onShowConfirmation={this.onShowConfirmation}
-                          locale={locale}
-                        />
-                      </div>
-                    )}
+                          </section>
+                          <RegistrationFormComponent
+                            onShowConfirmation={this.onShowConfirmation}
+                            locale={locale}
+                          />
+                        </div>
+                      )}
                   </div>
                 </div>
               </section>
