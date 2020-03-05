@@ -12,9 +12,12 @@
         "title": "MENTORSHIP",
         "desc":"HSBC staff will provide professional mentorship to the students of Hong Kong in the areas of, but not limited to, digital banking, FinTech and communication skills. Mentors will give presentations, interact with students in smaller groups at the event, and general networking with professionals from HSBC.",
         "content":[
-          {"key":"Event","value":"Micro-Consulting Day"},
+          {"key":"Event","value":"Micro-Consulting Day"},     
           {"key":"Date","value":"24 April 2020, Friday"},
           {"key":"Time","value":"3:30 PM - 6:00 PM"},
+          {"key":"First draft","value":"13 April 2020 Monday"},
+          {"key":"Second draft","value":"20 April 2020 Monday"},
+          {"key":"Announce HSBC mentor day candidtates","value":"22 April 2020 Wednseday"},
           {"key":"Place","value":"19/F, Senate Room, Lau Ming Wai Academic Building, City University of Hong Kong, Kowloon Tong"}
         ],
         "btnText":"SIGN UP FOR MENTORSHIP",
