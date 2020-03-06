@@ -5,25 +5,23 @@
     "mainHeading": "",
     "subHeading": "Canadian BLOCKCHAIN OLYMPIAD Program",
     "section01": {
-        "title": "Training & Mentorship",
+        "title": "TRAINING",
         "content":[
-            "Students learn about how blockchains work as an enterprise solution.",
-            "Students forge teams and friendships from like-minded peers.",
-            "Students work with mentors from academia & industry."
+            "Working with the Canada Blockchain Society and the various universities and colleges of Canada, training sessions are provided for free to current and recent students via <a href=https://training.ibcol.org/>   training.ibcol.org</a>; on-campus instruction is cancelled until further notice."
         ]
     },
     "section02": {
-        "title": "Local & International Competition",
-        "content":[
-            "Students meet and compete with peers on best complete solution.",
-            "Students are judged by relevant experts and authorities."
-        ]
+        "title": "MENTORSHIP",
+        "desc":"Coming Soon",
+        "content":[{"key":"","value":""}],
+        "btnText":"",
+        "btnLink":""
     },
     "section03": {
-        "title": "Internship, Employment, Investment",
+        "title": "SUBMISSIONS",
         "content":[
-            "Students get a platform to showcase their talent and their projects.",
-            "Students may be offered work or money to further develop their project."
+          {"key":"Proof-of-Stake Day","value":"1 April 2020, 23:59 EST","desc":"Competitors prove that they have a stake in the competition by submitting a minimum viable whitepaper outline.","btnLink":"https://www.ibcol.org/hk/registration/","className":"btn btn--primary full-width box-btn-left","btnText":"REGISTER A PROJECT"},
+          {"key":"Proof-of-Work Day","value":"15 April 2020, 23:59 EST","desc":"Competitors prove that they have completed the work required to be competitive, i.e the last day to edit their paper.","btnLink":"https://training.ibcol.org/","className":"btn btn--primary full-width box-btn-right","btnText":"LEARN MORE ABOUT BLOCKCHAIN"}
         ]
     },
     "section04": {

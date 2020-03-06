@@ -15,6 +15,9 @@ import PageContainerComponent from "components/PageContainerComponent";
 import Head from "next/head";
 
 import classNames from "classnames";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
+import { isListType } from "graphql";
 
 // const pagePadding = {
 //   xSmall: style.dimension.normal.pagePadding.xSmall,
@@ -55,16 +58,14 @@ export default class extends React.Component {
 
   render() {
     const name = {
-      marginTop: "40px",
       marginBottom: "0px",
       color: "#3b78d8",
-      fontSize: "24px"
+      fontSize: "20px"
     };
 
     const position = {
-
       marginBottom: "40px",
-      fontSize: "18px"
+      fontSize: "14px"
     };
 
     const getXBCOLContactInfo = this.state.XBCOLContactInfo.map(function(
@@ -161,182 +162,34 @@ export default class extends React.Component {
               </div>
             </div>
           </div>
-         </section>
+        </section>
 
-
-
-
-
-         {/* <section className="s-section target-section last">
-         <div className="row">
-            <h3>HK-BCOL OC20</h3>
-            <p>Hong Kong Blockchain Olympiad 2020 Organising Committee</p>
+        <section className="s-section target-section last" style={{padding:'0px'}}>
+          <div className="row">
+            <h3>{this.translate("contactTitle")}</h3>
+            <p>{this.translate("contactDesc")}</p>
             <div className="block-1-2 block-tab-full">
-              <div className="col-block">
 
+              {this.translate("list").map((list, index) => (
 
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/1.png"
-                  ></img>
+                <div className="col-block" key={index}>
+                  <div className="row">
+                    <img
+                      style={{ width: "150px" }}
+                      src={list.img}
+                    ></img>
 
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Mr. Kavis Cho</p>
-                    <p style={position}>President</p>
+                    <div className="col-block" style={{ width: "200px" }}>
+                      <p style={name}>{list.name}</p>
+                      <p style={position}>{list.post}</p>
+                    </div>
                   </div>
                 </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/2.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Mr. Jacky Chan</p>
-                    <p style={position}>Secretary General</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/3.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joyce Wang</p>
-                    <p style={position}>Student Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/4.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joanne Lan</p>
-                    <p style={position}>Public Relations</p>
-                  </div>
-                </div>
-
-                <div className="row" style={{marginTop:"20px"}}>
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/5.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Mr. Kavis Cho</p>
-                    <p style={position}>President</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/6.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Mr. Jacky Chan</p>
-                    <p style={position}>Secretary General</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/7.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joyce Wang</p>
-                    <p style={position}>Student Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/8.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joanne Lan</p>
-                    <p style={position}>Public Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/9.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joyce Wang</p>
-                    <p style={position}>Student Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/10.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joanne Lan</p>
-                    <p style={position}>Public Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/11.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joyce Wang</p>
-                    <p style={position}>Student Relations</p>
-                  </div>
-                </div>
-
-                <div className="row">
-                  <img
-                    style={{ width: "150px" }}
-                    src="/static/images/hkcontact/12.png"
-                  ></img>
-
-                  
-                  <div className="col-block"   style={{ width: "200px" }}>
-                    <p style={name}>Ms. Joanne Lan</p>
-                    <p style={position}>Public Relations</p>
-                  </div>
-                </div>
-
-
-
-              </div>
+                
+              ))}
             </div>
           </div>
-        </section> */}
+        </section>
       </ThisPageContainerComponent>
     );
   }

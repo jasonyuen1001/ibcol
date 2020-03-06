@@ -1,37 +1,62 @@
 {
-  "pageTitle":"Contact Us",
-  "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
-  "ogImage":"static/images/ogimage.jpg",
-  "subhead":"Contact the organisers of the Indian Blockchain Olympiad",
-  "mailingAddressTitle":"Mailing Address",
-  "emailAddressTitle":"E-mail Address",
-  "mailingAddressHTML":"Organising Committee 2020<br/>Indian Blockchain Olympiad<br/>Email: <a class='inline-text-a-href' href='mailto:in@ibcol.org' target='_blank'>in@ibcol.org</a>",
-  "generalEnquiriesLabel":"General Enquiries",
-  "generalEnquiriesEmail":"info@ibcol.org",
-  "sponsorshipLabel":"Sponsorship",
-  "sponsorshipEmail":"sponsorship@ibcol.org",
-  "oc20Title":"IBCOL 2020 Organizing Committee",
-  "facebookIcon":"/static/sm/fb-blue.png",
-  "telegramIcon":"/static/sm/tg-blue.png",
-  "XBCOL":{
-      "title":"IN-BCOL",
-      "flag":"flag-icon-in",
-      "facebookUrl":"",
-      "telegramUrl":"",
-      "headTitle":"National Committee",
-      "headInfo":[
-        {"title":"President","name":"Mr. Neelansh Sethi","linkedInUrl":""},
-        {"title":"Secretary General","name":"Mr. Yogesh Agarwal","linkedInUrl":""}
-      ],
-      "fundingTitle":"Charity/Fund",
-      "deadlineTitle":"Deadline to Submit",
-      "finalDateTitle":"HK-BCOL Final"
+  "pageTitle": "Contact Us",
+  "seoDescription": "International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
+  "ogImage": "static/images/ogimage.jpg",
+  "subhead": "Contact the organisers of the Indian Blockchain Olympiad",
+  "mailingAddressTitle": "Mailing Address",
+  "emailAddressTitle": "E-mail Address",
+  "mailingAddressHTML": "Organising Committee 2020<br/>Indian Blockchain Olympiad<br/>Email: <a class='inline-text-a-href' href='mailto:in@ibcol.org' target='_blank'>in@ibcol.org</a>",
+  "generalEnquiriesLabel": "General Enquiries",
+  "generalEnquiriesEmail": "info@ibcol.org",
+  "sponsorshipLabel": "Sponsorship",
+  "sponsorshipEmail": "sponsorship@ibcol.org",
+  "oc20Title": "IBCOL 2020 Organizing Committee",
+  "facebookIcon": "/static/sm/fb-blue.png",
+  "telegramIcon": "/static/sm/tg-blue.png",
+  "XBCOL": {
+    "title": "IN-BCOL",
+    "flag": "flag-icon-in",
+    "facebookUrl": "",
+    "telegramUrl": "",
+    "headTitle": "National Committee",
+    "headInfo": [{
+        "title": "President",
+        "name": "Mr. Neelansh Sethi",
+        "linkedInUrl": ""
+      },
+      {
+        "title": "Secretary General",
+        "name": "Mr. Yogesh Agarwal",
+        "linkedInUrl": ""
+      }
+    ],
+    "fundingTitle": "Charity/Fund",
+    "deadlineTitle": "Deadline to Submit",
+    "finalDateTitle": "HK-BCOL Final"
   },
-  "schoolChapter":{
-    "title":"School Chapters",
-    "headTitle":"School Chapter Head(s)",
-    "schoolInfo":[
-      {"fName":"","sName":"","facebookUrl":"","telegramUrl":"","head1":{"name":"","linkedInUrl":""},"head2":{"name":"","linkedInUrl":""}}
-    ]
-  }
+  "schoolChapter": {
+    "title": "School Chapters",
+    "headTitle": "School Chapter Head(s)",
+    "schoolInfo": [{
+      "fName": "",
+      "sName": "",
+      "facebookUrl": "",
+      "telegramUrl": "",
+      "head1": {
+        "name": "",
+        "linkedInUrl": ""
+      },
+      "head2": {
+        "name": "",
+        "linkedInUrl": ""
+      }
+    }]
+  },
+  "contactTitle": "",
+  "contactDesc": "",
+  "list": [{
+    "name": "",
+    "post": "",
+    "img": ""
+  }]
 }

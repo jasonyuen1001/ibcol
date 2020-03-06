@@ -5,7 +5,7 @@
   "subhead":"Contact the organizers of the Canadian Blockchain Olympiad",
   "mailingAddressTitle":"Mailing Address",
   "emailAddressTitle":"E-mail Address",
-  "mailingAddressHTML":"IBCOL Organising Committee<br/>International Blockchain Olympiad<br/>333A, 3/F, Core Building 2,<br/>1W Science Park Avenue,<br/>Hong Kong",
+  "mailingAddressHTML":"Organising Committee 2020<br>Canadian Blockchain Olympiad<br><br>Email: ca@ibcol.org",
   "generalEnquiriesLabel":"General Enquiries",
   "generalEnquiriesEmail":"info@ibcol.org",
   "sponsorshipLabel":"Sponsorship",
@@ -34,5 +34,47 @@
       {"fName":"","sName":"","facebookUrl":"","telegramUrl":"","head1":{"name":"","linkedInUrl":""},"head2":{"name":"","linkedInUrl":""}},
       {"fName":"","sName":"","facebookUrl":"","telegramUrl":"","head1":{"name":"","linkedInUrl":""},"head2":{"name":"","linkedInUrl":""}}
     ]
-  }
+  },
+  "contactTitle": "CA-BCOL OC20",
+  "contactDesc": "Canada Blockchain Olympiad 2020 Organising Committee",
+  "list": [
+      {
+          "name": "Ms. Anh Le",
+          "post": "President",
+          "img": "/static/images/canadaContact/1.png"
+      },
+      {
+          "name": "Ms. Stephanie Zhang",
+          "post": "Secretary General",
+          "img": "/static/images/canadaContact/2.png"
+      },
+      {
+        "name": "Ms. Fabrícia Monteiro",
+        "post": "Public Relations",
+        "img": "/static/images/canadaContact/3.png"
+    },
+    {
+        "name": "Ms. Suhera Hussain",
+        "post": "Academic Liaison, UWaterloo",
+        "img": "/static/images/canadaContact/4.png"
+    },
+    {
+      "name": "Mr. Terry Ross",
+      "post": "Academic Liaison, University of Alberta",
+      "img": "/static/images/canadaContact/5.png"
+  },
+  {
+      "name": "Mr. Sean Woodhead",
+      "post": "Academic Liaison, York University",
+      "img": "/static/images/canadaContact/6.png"
+  },
+  {
+    "name": "Mr. Marc Lijou",
+    "post": "Academic Liaison, ICTC & Georgebrown College",
+    "img": "/static/images/canadaContact/7.png"
+}
+  ]
+
+
+
 }

@@ -20,5 +20,7 @@ module.exports = {
   "registration": Object.assign({}, require('./_global.json'), require('./registration.json')),
   "admin": Object.assign({}, require('./_global.json'), require('./admin.json')),
   "program": Object.assign({}, require('./_global.json'), require('./program.json')),
+  "rules": Object.assign({}, require('./_global.json'), require('./rules.json')),
+  // "contact1": Object.assign({}, require('./_global.json'), require('./contact1.json')),
   "supporters": Object.assign({}, require('./_global.json'), require('./supporters.json'))
 }
