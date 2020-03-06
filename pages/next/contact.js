@@ -167,7 +167,7 @@ export default class extends React.Component {
 
 
 
-         <section className="s-section target-section last">
+         {/* <section className="s-section target-section last">
          <div className="row">
             <h3>HK-BCOL OC20</h3>
             <p>Hong Kong Blockchain Olympiad 2020 Organising Committee</p>
@@ -336,7 +336,7 @@ export default class extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </ThisPageContainerComponent>
     );
   }
