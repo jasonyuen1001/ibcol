@@ -596,61 +596,61 @@
   "list": [{
       "name": "Mr. Kavis Cho",
       "post": "President",
-      "img": "/static/images/hkContact/1.png" 
+      "img": "/static/images/hkcontact/1.png" 
     },
     {
       "name": "Mr. Jacky Chan",
       "post": "Secretary General",
-      "img": "/static/images/hkContact/2.png"
+      "img": "/static/images/hkcontact/2.png"
     },
     {
       "name": "Ms. Joyce Wang",
       "post": "Student Relations",
-      "img": "/static/images/hkContact/3.png"
+      "img": "/static/images/hkcontact/3.png"
     },
     {
       "name": "Ms. Joanne Lan",
       "post": "Public Relations",
-      "img": "/static/images/hkContact/4.png"
+      "img": "/static/images/hkcontact/4.png"
     },
     {
       "name": "Ms. Doris Cheng",
       "post": "Academic Liaison, CityU",
-      "img": "/static/images/hkContact/5.png"
+      "img": "/static/images/hkcontact/5.png"
     },
     {
       "name": "Dr. Sherman Chow",
       "post": "Academic Liaison, CUHK",
-      "img": "/static/images/hkContact/6.png"
+      "img": "/static/images/hkcontact/6.png"
     },
     {
       "name": "Mr. Chon Yeung",
       "post": "Academic Liaison, HK IVE",
-      "img": "/static/images/hkContact/7.png"
+      "img": "/static/images/hkcontact/7.png"
     }, {
       "name": "Dr. Connie Yuen",
       "post": "Academic Liaison, HKSYU",
-      "img": "/static/images/hkContact/8.png"
+      "img": "/static/images/hkcontact/8.png"
     },
     {
       "name": "Ms. Joyce Ho",
       "post": "Academic Liaison, HKU",
-      "img": "/static/images/hkContact/9.png"
+      "img": "/static/images/hkcontact/9.png"
     },
     {
       "name": "Mr. Bernard Kwok",
       "post": "Academic Liaison, HKUST",
-      "img": "/static/images/hkContact/10.png"
+      "img": "/static/images/hkcontact/10.png"
     },
     {
       "name": "Ms. Shirley Siu",
       "post": "Academic Liaison, Lingnan",
-      "img": "/static/images/hkContact/11.png"
+      "img": "/static/images/hkcontact/11.png"
     },
     {
       "name": "Dr. Dennis Liu",
       "post": "Academic Liaison, PolyU",
-      "img": "/static/images/hkContact/12.png"
+      "img": "/static/images/hkcontact/12.png"
     }
   ]
 }
