@@ -56,7 +56,7 @@ export default class extends React.Component {
   state = {
     amCommitteesInfo: [
       { key: "br", value: "BR-BCOL (Brazil)" },
-      { key: "ca", value: "CA-BCOL (Canada)" },
+      { key: "ca", value: "CA-BCOL (Canada)", href: "/en-ca/home"},
       { key: "cl", value: "CL-BCOL (Chile)" },
       { key: "mx", value: "MX-BCOL (Mexico)" },
       { key: "us", value: "US-BCOL (United States)" }
@@ -489,6 +489,9 @@ export default class extends React.Component {
                 Join the world’s largest gathering of budding and reigning
                 experts in applied blockchain and cryptography across academia,
                 industry, government
+              </h3>
+              <h3 style={{ fontSize: "2.6rem" }}>
+              Due to the global coronavirus outbreak, the nature of IBCOL 2020 competition may change, such as an introduction of online components. However, IBCOL 2020 will continue as usual, stay tuned for the details.
               </h3>
               <h3 style={{ fontSize: "2.6rem" }}>WHAT IS YOUR BACKGROUND?</h3>
               <div className="home-content__button">
