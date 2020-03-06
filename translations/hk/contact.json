@@ -596,7 +596,7 @@
   "list": [{
       "name": "Mr. Kavis Cho",
       "post": "President",
-      "img": "/static/images/hkContact/1.png"
+      "img": "/static/images/hkContact/1.png" 
     },
     {
       "name": "Mr. Jacky Chan",
