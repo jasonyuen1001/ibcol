@@ -256,6 +256,8 @@ export default class extends React.Component {
                         )}
                     </div>
                 </section>
+
+
                 <section className="s-section target-section " id="submission">
                     <div className="row section-header">
                         <h1>{this.translate('section03.title')}</h1>
@@ -279,6 +281,42 @@ export default class extends React.Component {
                      </div>
                     </div>
                 </section>
+
+
+
+                <section className="s-section target-section">
+                    <div className="row section-header">
+                        <h1 style={{paddingTop:'80px'}}>{this.translate('sectionCOMPETITION.header')}</h1>
+                        <p>{this.translate('sectionCOMPETITION.headerDesc')}</p>
+                    </div>
+                    <div style={{paddingBottom:'80px'}} className="row">
+                        <div className="block-1-2 icon">
+                            <div className="col-block">
+                                <div className="countries">
+                                        <div dangerouslySetInnerHTML={{ __html: this.translate('sectionCOMPETITION.content.icon1') }} />
+                                        <div className="countriesName">
+                                            <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('sectionCOMPETITION.content.heading1')}</h5>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('sectionCOMPETITION.content.desc1') }}/>
+                                            <a className={this.translate('sectionCOMPETITION.content.className1')} href={this.translate('sectionCOMPETITION.content.btnLink1')}>{this.translate('sectionCOMPETITION.content.btnText1')} </a>
+                                        </div>
+                                </div>
+                            </div>
+                             <div className="col-block">
+                                <div className="countries">
+                                        <div dangerouslySetInnerHTML={{ __html: this.translate('sectionCOMPETITION.content.icon2') }} />
+                                        <div className="countriesName">
+                                            <h5 style={{ "margin-top": "1.2rem" }}>{this.translate('sectionCOMPETITION.content.heading2')}</h5>
+                                            <p dangerouslySetInnerHTML={{ __html: this.translate('sectionCOMPETITION.content.desc2') }}/>
+                                            <a  className={this.translate('sectionCOMPETITION.content.className2')} href={this.translate('sectionCOMPETITION.content.btnLink2')}>{this.translate('sectionCOMPETITION.content.btnText2')} </a>
+                                        </div>
+                                </div>
+                            </div>
+             
+                        </div>
+                    </div>
+                </section>
+
+
                 {/* <section className="s-section target-section last" id="competition">
                     <div className="row section-header">
                         <h1>{this.translate('section04.title')}</h1>
@@ -312,7 +350,7 @@ export default class extends React.Component {
                     </div>
                 </section> */}
             
-                <section className="s-section target-section last" id="calendar">
+                {/* <section className="s-section target-section last" id="calendar">
                     <div className="row section-header">
                         <div className="col-block">
                             <h4 className="item-title">{this.translate('section05.title')}</h4>
@@ -327,7 +365,7 @@ export default class extends React.Component {
                         </div>)}
                     </div>
                 </section> 
-                
+                 */}
                 {/* End of Training Section */}
             </ThisPageContainerComponent >
         )
