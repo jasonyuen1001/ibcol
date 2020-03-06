@@ -65,7 +65,7 @@ export default class extends React.Component {
 
     const position = {
       marginBottom: "40px",
-      fontSize: "14px"
+      fontSize: "12px"
     };
 
     const getXBCOLContactInfo = this.state.XBCOLContactInfo.map(function(
@@ -164,28 +164,26 @@ export default class extends React.Component {
           </div>
         </section>
 
-        <section className="s-section target-section last" style={{padding:'0px'}}>
+        <section
+          className="s-section target-section last"
+          style={{ padding: "0px" }}
+        >
           <div className="row">
             <h3>{this.translate("contactTitle")}</h3>
             <p>{this.translate("contactDesc")}</p>
             <div className="block-1-2 block-tab-full">
-
               {this.translate("list").map((list, index) => (
-
                 <div className="col-block" key={index}>
                   <div className="row">
-                    <img
-                      style={{ width: "150px" }}
-                      src={list.img}
-                    ></img>
-
-                    <div className="col-block" style={{ width: "200px" }}>
+                    <div className="col-block" style={{ width: "160px" }}>
+                      <img style={{ width: "250px" },{ padding: "6px" }} src={list.img}></img>
+                    </div>
+                    <div className="col-block" style={{ width: "160px" }}>
                       <p style={name}>{list.name}</p>
                       <p style={position}>{list.post}</p>
                     </div>
                   </div>
                 </div>
-                
               ))}
             </div>
           </div>
