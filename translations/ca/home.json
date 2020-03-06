@@ -6,7 +6,7 @@
   "subHeading":"Meet Canada’s top talents and professionals across all disciplines and industries on  May 3rd 2020",
   "register":"Registration",
   "howToJoin":"How to join",
-  "competitionRules":"Competition Process",
+    "competitionRules":"Competition Process",
   "scroll":"Scroll",
   "introSection":{
     "leftBlock":{
@@ -46,11 +46,27 @@
     }
   },
   "section01":{
+    "contentHTML":"The <b><u>C</b></u>ong <b><u>A</b></u>ong <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>CA-BCOL</b></u>) invites current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> to solve real-world problems with decentralized applications, built with blockchain or distributed ledger technology. Top scoring projects proceed to the <b><u>I</b></u>nternational <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IBCOL</b></u>) in July 2020.",
       "languageTitle":"Languages",
       "writtenLanguageLabel":"Acceptable Languages for written material:",
       "writtenLanguages":"Arabic (standard), Chinese (Simplified), Chinese (Traditional), English, French, German, Hungarian, Italian, Japanese, Korean, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian",
       "spokenLanguageLabel":"Acceptable Languages for spoken material:",
       "spokenLanguages":"Arabic (Egypt), Arabic (Gulf), Cantonese, English, French, German, Hungarian, Italian, Japanese, Korean, Mandarin, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian"
+  },
+  "section03": {
+    "title": "Timeline",
+    "mainImage":"/static/images/canadaContact/caTimeLine.png",
+    "btnText" :"LEARN ABOUT TRAINING PROGRAMME",
+    "btnLink" :"https://training.ibcol.org/"
+  },
+  "section05":{
+    "title":"Organisers",
+    "icon1":"/static/images/IBCOL-2020-Organiser-HSBC.png",
+    "icon2":"/static/images/canadaContact/caOrgBy.png",
+    "icon3":"/static/images/canadaContact/partWith.png",
+    "link1":"https://www.hsbc.com.hk",
+    "link2":"https://uwaterloo.ca/",
+    "link3":"https://www.ictc-ctic.ca/"
   },
   "section02":{
     "heading":"Awards",
