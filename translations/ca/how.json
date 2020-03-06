@@ -1,0 +1,69 @@
+{
+  "pageTitle":"How to join",
+  "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralized applications.",
+  "ogImage":"static/images/ogimage.jpg",
+  "subhead":"Registration for the 2019 International Blockchain Olympiad",
+  "eligibility":"Eligibility Criteria",
+  "eligibilityGeneral":"A student is defined as a person enrolled in good standing at a recognized academic institution, or if graduated from a recognized academic institution within the last 2 years.",
+  "eligibilityCategory":"Students can be of any age. There are no age limits.",
+  "eligibilityTeam":"Students may only be registered to one team; if a student is involved with a team other than their own, they would be considered an advisor to that other team, and a contestant to their primary team.",
+  "whenToJoinHeading":"When to join",
+  "plans":{
+    "fromLabel":"From...",
+    "toLabel":"Until...",
+    "feeLabel":"Registration Fee",
+    "financialAssistanceLabel":"Financial Assistance",
+    "viewMoreLabel":"swipe for more",
+    "secondaryLabel":"Secondary School Student Project",
+    "postSecondaryLabel":"Post-Secondary Student Project",
+    "additionalCategoryLabel":"For each Additional Category",
+    "specialNotice":"Except additional category fees, project registration fees for team registrations are waived for all registered teams until April 1st 2019",
+    "superEarlyBird":{
+      "name":"Super Early Bird",
+      "fromDate":"Today",
+      "toDate":"Saturday<br/>16 March 2019<br/>23:59 HKT",
+      "fee":"Fee is waived",
+      "financialAssistanceDetails":"Eligible for travel subsidies",
+      "feeSchedule":{
+        "secondary":"40 USD",
+        "postSecondary":"50 USD",
+        "additionalCategory":"16 USD"
+      }
+    },
+    "earlyBird":{
+      "name":"Early Bird",
+      "fromDate":"Sunday<br/>17 March 2019<br/>00:00 HKT",
+      "toDate":"Saturday<br/>13 April 2019<br/>23:59 HKT",
+      "fee":"Fee is waived",
+      "financialAssistanceDetails":"Ineligible for travel subsidies",
+      "feeSchedule":{
+        "secondary":"50 USD",
+        "postSecondary":"60 USD",
+        "additionalCategory":"20 USD"
+      }
+    },
+    "regular":{
+      "name":"Regular",
+      "fromDate":"Sunday<br/>14 April 2019<br/>00:00 HKT",
+      "toDate":"Sunday<br/>21 April 2019<br/>23:59 HKT",
+      "fee":"Fee is required",
+      "financialAssistanceDetails":"Ineligible for travel subsidies",
+      "feeSchedule":{
+        "secondary":"100 USD",
+        "postSecondary":"120 USD",
+        "additionalCategory":"40 USD"
+      }
+    }
+  },
+  "howToJoinHeading": "How to join",
+  "teamLabel": "Team",
+  "teamExplained": "Up to 6 students can register into one team",
+  "projectLabel": "Project",
+  "projectExplained": "A team can submit more than one project",
+  "categoryLabel": "Category",
+  "categoryExplained": "Each project is entered into a category",
+  "categoriesHeading": "Categories",
+  "feeScheduleHeading": "Fee Schedule",
+  "applyNowCTALabel": "Apply Now",
+  "faqHeading": "FAQ"
+}

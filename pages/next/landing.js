@@ -56,7 +56,7 @@ export default class extends React.Component {
   state = {
     amCommitteesInfo: [
       { key: "br", value: "BR-BCOL (Brazil)" },
-      { key: "ca", value: "CA-BCOL (Canada)", href: "/en-ca/home"},
+      { key: "ca", value: "CA-BCOL (Canada)", href: "/ca/home" },
       { key: "cl", value: "CL-BCOL (Chile)" },
       { key: "mx", value: "MX-BCOL (Mexico)" },
       { key: "us", value: "US-BCOL (United States)" }
@@ -716,13 +716,27 @@ export default class extends React.Component {
                         )}
                       ></span>
                       {/*href={`/en-${content.key}/home`}*/}
-                      <a
-                        style={{ padding: "0 0 0 10px" }}
-                        target="_blank"
-                        className="sm-title flag"
-                      >
-                        {content.value}
-                      </a>
+                      {content.key == "ca" ||
+                      content.key == "in" ||
+                      content.key == "pk" ||
+                      content.key == "bd" ? (
+                        <a
+                          style={{ padding: "0 0 0 10px" }}
+                          href={content.href}
+                          target="_blank"
+                          className="sm-title flag"
+                        >
+                          {content.value}
+                        </a>
+                      ) : (
+                        <a
+                          style={{ padding: "0 0 0 10px" }}
+                          target="_blank"
+                          className="sm-title flag"
+                        >
+                          {content.value}
+                        </a>
+                      )}
                     </div>
                   );
                 })}

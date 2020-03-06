@@ -1,0 +1,91 @@
+{
+  "pageTitle":"International Blockchain Olympiad",
+  "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralized applications.",
+  "ogImage":"static/images/ogimage.jpg",
+  "mainHeading":"Offer Decentralized Solutions to Real-World Challenges",
+  "subHeading":"Meet Canada’s top talents and professionals across all disciplines and industries on  May 3rd 2020",
+  "register":"Registration",
+  "howToJoin":"How to join",
+  "competitionRules":"Competition Process",
+  "scroll":"Scroll",
+  "introSection":{
+    "leftBlock":{
+      "title":"Not a typical hackathon",
+      "infoList":"<li>Insufficient time to design complete solutions</li><li>Either too tech-focused or unrealistic</li><li>No incentive to continue development</li>"
+    },
+    "rightBlock":{
+      "title":"Build for the real world",
+      "infoList":"<li>Sufficient time to design complete solutions</li><li>Multidisciplinary approach to applications</li><li>Matching with investors & incubators</li>"
+    }
+  },
+  "timelineSection":{
+    "heading":"Competition Process",
+    "block1":{
+      "title":"Registration",
+      "details":"Register <a href='https://ibcol.org/registration' target='_blank'>here</a> before June 9; <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-who-can-join-35f1cb25b51' target='_blank'>see: Eligibility</a>"
+    },
+    "block2":{
+      "title":"Whitepaper",
+      "details":"Rolling deadline until June 9; <a href='https://medium.com/international-blockchain-olympiad/tagged/writing-tips' target='_blank'>see: WP Tips</a>"
+    },
+    "block3":{
+      "title":"Interview",
+      "details":"All <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>interviews</a> to be finished before June 9"
+    },
+    "block4":{
+      "title":"Demo",
+      "details":"Finalists shall prepare <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>Proof-of-Concept</a>"
+    },
+    "block5":{
+      "title":"Pitch",
+      "details":"Finalists shall prepare <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-how-to-join-8f903af68d6c' target='_blank'>stage presentation</a>"
+    },
+    "block6":{
+      "title":"Continuation",
+      "details":"Competitors receive <a href='https://medium.com/international-blockchain-olympiad/ibcol-2019-why-join-cc4a63301490' target='_blank'>internships or investments</a>"
+    }
+  },
+  "section01":{
+      "languageTitle":"Languages",
+      "writtenLanguageLabel":"Acceptable Languages for written material:",
+      "writtenLanguages":"Arabic (standard), Chinese (Simplified), Chinese (Traditional), English, French, German, Hungarian, Italian, Japanese, Korean, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian",
+      "spokenLanguageLabel":"Acceptable Languages for spoken material:",
+      "spokenLanguages":"Arabic (Egypt), Arabic (Gulf), Cantonese, English, French, German, Hungarian, Italian, Japanese, Korean, Mandarin, Persian, Polish, Portuguese, Russian, Spanish, Ukrainian"
+  },
+  "section02":{
+    "heading":"Awards",
+    "awards":{
+      "gold":{
+        "quantity":5,
+        "title":"Gold Medals",
+        "description":"1st place winner of a category with 4096 USD prize"
+      },
+      "silver":{
+        "quantity":5,
+        "title":"Silver Medals",
+        "description":"2nd place winner of a category with 2048 USD prize"
+      },
+      "bronze":{
+        "quantity":5,
+        "title":"Bronze Medals",
+        "description":"3rd place winner of a category with 1024 USD prize"
+      },
+      "nominee":{
+        "quantity":15,
+        "title":"Nominator Awards",
+        "description":"Recognition of team coach for nominating a winning team"
+      },
+      "finalist":{
+        "quantity":10,
+        "title":"Finalist Awards",
+        "description":"Recognition of teams for being top 5 in a category"
+      },
+      "merit":{
+        "quantity":50,
+        "title":"Merit Awards",
+        "description":"Recognition of teams for designing a complete solution"
+      },
+      "note":"The best prize for students is not financial, but rather experience, guidance, and a chance to make a real impact in the real world."
+    }
+  }
+}
