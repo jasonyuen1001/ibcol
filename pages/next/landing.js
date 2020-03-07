@@ -493,13 +493,13 @@ export default class extends React.Component {
               <h3 style={{ fontSize: "2.6rem" }}>
               Due to the global coronavirus outbreak, the nature of IBCOL 2020 competition may change, such as an introduction of online components. However, IBCOL 2020 will continue as usual, stay tuned for the details.
               </h3>
-              <h3 style={{ fontSize: "2.6rem" }}>WHAT IS YOUR BACKGROUND?</h3>
+              {/* <h3 style={{ fontSize: "2.6rem" }}>WHAT IS YOUR BACKGROUND?</h3> */}
               <div className="home-content__button">
                 <a href="#sponsors" className="btn btn--primary btn--large">
-                  I'M A COMPANY
+                WHAT WE DO
                 </a>
                 <a href="#committees" className="btn btn--large">
-                  I'M A STUDENT
+                HOW TO JOIN
                 </a>
               </div>
             </div>

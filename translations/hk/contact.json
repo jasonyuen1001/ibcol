@@ -596,7 +596,7 @@
   "list": [{
       "name": "Mr. Kavis Cho",
       "post": "President",
-      "img": "/static/images/hkcontact/1.png" 
+      "img": "/static/images/hkcontact/1.png"
     },
     {
       "name": "Mr. Jacky Chan",
@@ -651,6 +651,21 @@
       "name": "Dr. Dennis Liu",
       "post": "Academic Liaison, PolyU",
       "img": "/static/images/hkcontact/12.png"
+    }
+  ],
+  "organisers": "ORGANISERS",
+  "partners": "PARTNERS",
+  "sponsorsOrg": [
+    {
+    "org": "Hong Kong City University",
+    "orgLink": "https://www.cityu.edu.hk/zh-hk"
+  }
+],
+  "sponsorsPart": [
+    {
+      "part": "Hong Kong Blockchain Society",
+      "partLink": "https://www.hkbcs.org/"
+
     }
   ]
 }

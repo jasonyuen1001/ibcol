@@ -58,14 +58,17 @@ export default class extends React.Component {
 
   render() {
     const name = {
+      marginTop: "20px",
+      width: "400px",
       marginBottom: "0px",
       color: "#3b78d8",
-      fontSize: "20px"
+      fontSize: "24px"
     };
 
     const position = {
+      width: "400px",
       marginBottom: "40px",
-      fontSize: "12px"
+      fontSize: "18px"
     };
 
     const getXBCOLContactInfo = this.state.XBCOLContactInfo.map(function(
@@ -165,6 +168,52 @@ export default class extends React.Component {
         </section>
 
         <section
+          className="s-section target-section"
+          style={{ padding: "0px" }}
+        >
+          <div className="row">
+            <h3 style={{ marginBottom: "0px" }}>
+              {this.translate("organisers")}
+            </h3>
+            <div className="block-1-2 block-tab-full">
+              <div style={{ padding: "0px" }} className="col-block">
+                <div className="item-process__text">
+                  {this.translate("sponsorsOrg").map((s, index) => (
+                    <a
+                      style={
+                        ({ width: "400px" },
+                        { paddingTop: "1px" },
+                        { paddingBottom: "30px" })
+                      }
+                      href={s.orgLink}
+                    >
+                      {s.org}
+                    </a>
+                  ))}
+                  <h3 style={{ marginBottom: "0px" }}>
+                    {this.translate("partners")}
+                  </h3>
+                  {this.translate("sponsorsPart").map((s, index) => (
+                    <a
+                      style={
+                        ({ width: "600px" },
+                        { paddingTop: "1px" },
+                        { paddingBottom: "0px" })
+                      }
+                      href={s.partLink}
+                    >
+                      {s.part}
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        
+
+        <section
           className="s-section target-section last"
           style={{ padding: "0px" }}
         >
@@ -176,7 +225,10 @@ export default class extends React.Component {
                 <div className="col-block" key={index}>
                   <div className="row">
                     <div className="col-block" style={{ width: "160px" }}>
-                      <img style={{ width: "250px" },{ padding: "6px" }} src={list.img}></img>
+                      <img
+                        style={({ width: "250px" }, { padding: "6px" })}
+                        src={list.img}
+                      ></img>
                     </div>
                     <div className="col-block" style={{ width: "160px" }}>
                       <p style={name}>{list.name}</p>

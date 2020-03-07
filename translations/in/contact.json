@@ -58,5 +58,20 @@
     "name": "",
     "post": "",
     "img": ""
-  }]
+  }],
+  "organisers": "",
+  "partners": "",
+  "sponsorsOrg": [
+    {
+    "org": "",
+    "orgLink": ""
+  }
+],
+  "sponsorsPart": [
+    {
+      "part": "",
+      "partLink": ""
+
+    }
+  ]
 }

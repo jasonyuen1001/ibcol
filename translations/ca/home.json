@@ -64,9 +64,9 @@
     "icon1":"/static/images/IBCOL-2020-Organiser-HSBC.png",
     "icon2":"/static/images/canadaContact/caOrgBy.png",
     "icon3":"/static/images/canadaContact/partWith.png",
-    "link1":"https://www.hsbc.com.hk",
-    "link2":"https://uwaterloo.ca/",
-    "link3":"https://www.ictc-ctic.ca/"
+    "link1":"https://www.hsbc.ca/",
+    "link2":"/ca/contact/",
+    "link3":"/ca/contact/"
   },
   "section02":{
     "heading":"Awards",
