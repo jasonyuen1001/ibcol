@@ -51,6 +51,7 @@ function shoot() {
 let americas = [];
 let asiaPacific = [];
 let europeMiddleEastAfrica = [];
+let countriesArr = [];
 
 export default class extends React.Component {
   state = {
@@ -75,11 +76,7 @@ export default class extends React.Component {
       { key: "my", value: "MY-BCOL (Malaysia)", href: "/en-my/home" },
       { key: "nz", value: "NZ-BCOL (New Zealand)", href: "/en-nz/home" },
       { key: "ph", value: "PH-BCOL (Philippines)", href: "/en-ph/home" },
-      {
-        key: "pk",
-        value: "PK-BCOL (Pakistan)",
-        href: "https://www.rnssol.com/PAK-BCOL"
-      },
+      { key: "pk", value: "PK-BCOL (Pakistan)", href: "https://www.rnssol.com/PAK-BCOL" },
       { key: "sg", value: "SG-BCOL (Singapore)", href: "/en-sg/home" },
       { key: "th", value: "TH-BCOL (Thailand)", href: "/en-th/home" },
       { key: "tw", value: "TW-BCOL (Taiwan)", href: "/en-tw/home" },
@@ -100,6 +97,45 @@ export default class extends React.Component {
       { key: "ru", value: "RU-BCOL (Russia)" },
       { key: "sk", value: "SK-BCOL (Slovakia)" },
       { key: "ua", value: "UA-BCOL (Ukraine)" }
+    ],
+    countriesList: [
+      { key: "au", value: "AU-BCOL (Australia)", href: "/en-au/home" },
+      { key: "bd", value: "BD-BCOL (Bangladesh)", href: "https://bcolbd.org/" },
+      { key: "br", value: "BR-BCOL (Brazil)" },
+      { key: "ca", value: "CA-BCOL (Canada)", href: "/ca/home" },
+      { key: "ch", value: "CH-BCOL (Switzerland)" },
+      { key: "cl", value: "CL-BCOL (Chile)" },
+      { key: "cn", value: "CN-BCOL (China)", href: "/en-cn/home" },
+      { key: "cz", value: "CZ-BCOL (Czechia)" },
+      { key: "de", value: "DE-BCOL (Germany)" },
+      { key: "ee", value: "EE-BCOL (Estonia)" },
+      { key: "et", value: "ET-BCOL (Ethiopia)" },
+      { key: "fr", value: "FR-BCOL (France)" },
+      { key: "gb", value: "GB-BCOL (United Kingdom)" },
+      { key: "hk", value: "HK-BCOL (Hong Kong)", href: "/hk/home" },
+      { key: "hu", value: "HU-BCOL (Hungary)" },
+      { key: "id", value: "ID-BCOL (Indonesia)", href: "/en-id/home" },
+      { key: "ie", value: "IE-BCOL (Ireland)" },
+      { key: "in", value: "IN-BCOL (India)", href: "/in/home" },
+      { key: "jp", value: "JP-BCOL (Japan)", href: "/en-jp/home" },
+      { key: "kh", value: "KH-BCOL (Cambodia)", href: "/en-kh/home" },
+      { key: "kr", value: "KR-BCOL (South Korea)", href: "/en-kr/home" },
+      { key: "mn", value: "MN-BCOL (Mongolia)", href: "/en-mn/home" },
+      { key: "mx", value: "MX-BCOL (Mexico)" },
+      { key: "my", value: "MY-BCOL (Malaysia)", href: "/en-my/home" },
+      { key: "nl", value: "NL-BCOL (Netherlands)" },
+      { key: "nz", value: "NZ-BCOL (New Zealand)", href: "/en-nz/home" },
+      { key: "ph", value: "PH-BCOL (Philippines)", href: "/en-ph/home" },
+      { key: "pk", value: "PK-BCOL (Pakistan)", href: "https://www.rnssol.com/PAK-BCOL" },
+      { key: "pl", value: "PL-BCOL (Poland)" },
+      { key: "ru", value: "RU-BCOL (Russia)" },
+      { key: "sg", value: "SG-BCOL (Singapore)", href: "/en-sg/home" },
+      { key: "sk", value: "SK-BCOL (Slovakia)" },
+      { key: "th", value: "TH-BCOL (Thailand)", href: "/en-th/home" },
+      { key: "tw", value: "TW-BCOL (Taiwan)", href: "/en-tw/home" },
+      { key: "ua", value: "UA-BCOL (Ukraine)" },
+      { key: "us", value: "US-BCOL (United States)" },
+      { key: "vn", value: "VN-BCOL (Vietnam)", href: "/en-vn/home" }
     ]
   };
   static async getInitialProps({ req, res, query }) {
@@ -420,29 +456,39 @@ export default class extends React.Component {
   };
 
   render() {
-    {
-      this.state.amCommitteesInfo.map((content, index) => {
-        return americas.push(
-          <option value={content.key} key={index}>
-            {content.value}
-          </option>
-        );
-      });
-    }
+    // {
+    //   this.state.amCommitteesInfo.map((content, index) => {
+    //     return americas.push(
+    //       <option value={content.key} key={index}>
+    //         {content.value}
+    //       </option>
+    //     );
+    //   });
+    // }
+
+    // {
+    //   this.state.asiaCommitteesInfo.map((content, index) => {
+    //     return asiaPacific.push(
+    //       <option value={content.key} key={index}>
+    //         {content.value}
+    //       </option>
+    //     );
+    //   });
+    // }
+
+    // {
+    //   this.state.euCommitteesInfo.map((content, index) => {
+    //     return europeMiddleEastAfrica.push(
+    //       <option value={content.key} key={index}>
+    //         {content.value}
+    //       </option>
+    //     );
+    //   });
+    // }
 
     {
-      this.state.asiaCommitteesInfo.map((content, index) => {
-        return asiaPacific.push(
-          <option value={content.key} key={index}>
-            {content.value}
-          </option>
-        );
-      });
-    }
-
-    {
-      this.state.euCommitteesInfo.map((content, index) => {
-        return europeMiddleEastAfrica.push(
+      this.state.countriesList.map((content, index) => {
+        return countriesArr.push(
           <option value={content.key} key={index}>
             {content.value}
           </option>
@@ -491,15 +537,18 @@ export default class extends React.Component {
                 industry, government
               </h3>
               <h3 style={{ fontSize: "2.6rem" }}>
-              Due to the global coronavirus outbreak, the nature of IBCOL 2020 competition may change, such as an introduction of online components. However, IBCOL 2020 will continue as usual, stay tuned for the details.
+                Due to the global coronavirus outbreak, the nature of IBCOL 2020
+                competition may change, such as an introduction of online
+                components. However, IBCOL 2020 will continue as usual, stay
+                tuned for the details.
               </h3>
               {/* <h3 style={{ fontSize: "2.6rem" }}>WHAT IS YOUR BACKGROUND?</h3> */}
               <div className="home-content__button">
                 <a href="#sponsors" className="btn btn--primary btn--large">
-                WHAT WE DO
+                  WHAT WE DO
                 </a>
                 <a href="#committees" className="btn btn--large">
-                HOW TO JOIN
+                  HOW TO JOIN
                 </a>
               </div>
             </div>
@@ -541,15 +590,18 @@ export default class extends React.Component {
             <h1>About IBCOL</h1>
           </div>
           <div className="row">
-
-
-            
             <p>
               The <b>I</b>nternational <b>B</b>lock<b>C</b>hain <b>OL</b>ympiad
-              (<b>IBCOL</b>) invites current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> to solve
-              real-world problems with decentralized applications, built with
-              blockchain or distributed ledger technology. This year is the
-              third edition of IBCOL, built on the momentum generated from{" "}
+              (<b>IBCOL</b>) invites current and recent students
+              <font size="2">
+                {" "}
+                (graduated within 3 years inclusive as of the 1st of September
+                2019)
+              </font>{" "}
+              to solve real-world problems with decentralized applications,
+              built with blockchain or distributed ledger technology. This year
+              is the third edition of IBCOL, built on the momentum generated
+              from{" "}
               <a href="/en-hk/ibcol/2018" target="_blank">
                 IBCOL 2018
               </a>{" "}
@@ -895,14 +947,16 @@ export default class extends React.Component {
               <div className="col-block" style={{ width: "260px" }}>
                 <select id="country">
                   <option>Select your country/ territory</option>
-                  {this.state.amCommitteesInfo.map((content, index) => (
+                  {/* {this.state.amCommitteesInfo.map((content, index) => (
                     <option value={content.key} key={content.key}>{content.value}</option>
                   ))}
                   {this.state.asiaCommitteesInfo.map((content, index) => (
                     <option value={content.key} key={content.key}>{content.value}</option>
-                  ))}
-                 {this.state.euCommitteesInfo.map((content, index) => (
-                    <option value={content.key} key={content.key}>{content.value}</option>
+                  ))} */}
+                  {this.state.countriesList.map((content, index) => (
+                    <option value={content.key} key={content.key}>
+                      {content.value}
+                    </option>
                   ))}
                 </select>
               </div>
