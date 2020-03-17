@@ -6,7 +6,7 @@
     "subHeading": "Hong Kong BLOCKCHAIN OLYMPIAD Program",
     "section01": {
         "title": "TRAINING",
-        "content": "<p>Working with the Hong Kong Blockchain Society and the various universities and colleges of Hong Kong, training sessions are provided for free to current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> via <a class='inline-text-a-href' target='_blank' href='https://training.ibcol.org'>training.ibcol.org</a>; on-campus instruction is cancelled until further notice.</p>"
+        "content": "<p>Working with the Hong Kong Blockchain Society and the various universities and colleges of Hong Kong, training sessions are provided for free to current and recent students<font size='2'> (graduated within 3 years inclusive as of the 1st of September 2019)</font> via <a class='inline-text-a-href' target='_blank' href='http://training.ibcol.org'>training.ibcol.org</a>; on-campus instruction is cancelled until further notice.</p>"
     },
     "section02": {
         "title": "MENTORSHIP",
@@ -18,7 +18,7 @@
           {"key":"First draft","value":"13 April 2020 Monday"},
           {"key":"Second draft","value":"20 April 2020 Monday"},
           {"key":"Announce HSBC mentor day candidtates","value":"22 April 2020 Wednseday"},
-          {"key":"Place","value":"19/F, Senate Room, Lau Ming Wai Academic Building, City University of Hong Kong, Kowloon Tong"}
+          {"key":"Place","value":"Zoom"}
         ],
         "btnText":"SIGN UP FOR MENTORSHIP",
         "btnLink":"https://docs.google.com/forms/d/e/1FAIpQLSflk2iHB0nLhb6KRy1MCjKVbVODrgUD-esJmfFKUebkjr8YGA/viewform"
