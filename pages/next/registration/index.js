@@ -399,7 +399,7 @@ export default class extends React.PureComponent {
               <h3 className="subhead">{this.translate("subhead")}</h3>
               <h5 className="content">
                 Looking for <b>blockchain training</b> registration? Go to{" "}
-                <a href="https://training.ibcol.org" target="_blank">
+                <a href="http://training.ibcol.org" target="_blank">
                   training.ibcol.org
                 </a>
               </h5>
