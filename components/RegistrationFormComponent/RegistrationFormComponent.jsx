@@ -83,7 +83,8 @@ const filepondServer = {
           headers: {
             'content-type': file.type,
             'Access-Control-Allow-Origin':'*',
-            'Access-Control-Allow-Methods': 'OPTIONS, GET, DELETE, POST'
+            'Access-Control-Allow-Methods': 'OPTIONS, GET, DELETE, POST',
+            'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
           }
         }, {
           cancelToken: new CancelToken(function executor(c) {
