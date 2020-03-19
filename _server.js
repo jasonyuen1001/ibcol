@@ -5,6 +5,7 @@ const app = next({ dev: process.env.NODE_ENV !== 'production' })
 const handler = routes.getRequestHandler(app)
 const parseArgs = require('minimist')
 const url = require('url');
+var cors = require('cors');
 // const { join } = require('path');
 
 const routeHelpers = require('./helpers/route');
@@ -178,6 +179,7 @@ app.prepare().then(() => {
   server
     // .use(toWWW)
     .use(logURL)
+    .use(cors())
     .use(addSlash)
     .use(router)
     .use(handler)
