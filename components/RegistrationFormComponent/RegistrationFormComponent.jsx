@@ -80,9 +80,10 @@ const filepondServer = {
 
       axios.put(`${response.data.signedUrl}`, file, 
         {
-          headers: { 
+          headers: {
             'content-type': file.type,
-            
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'OPTIONS, GET, DELETE, POST'
           }
         }, {
           cancelToken: new CancelToken(function executor(c) {
