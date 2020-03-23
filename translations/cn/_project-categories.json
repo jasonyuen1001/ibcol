@@ -1,0 +1,34 @@
+{
+  "projectCategories":{
+    "FINTECH":{
+      "name":"Fintech",
+      "description":"Financial Technology broadly encapsulates activities in the traditional finance sector, as well as in insurance, trading, and risk management.",
+      "color":"blue",
+      "icon":"show_chart"
+    },
+    "GOVTECH":{
+      "name":"Govtech",
+      "description":"Government Technology describes key platform and infrastructure solutions required for administrative responsibilities of a sovereign state or territory.",
+      "color":"yellow",
+      "icon":"account_balance"
+    },
+    "MEDTECH":{
+      "name":"Medtech",
+      "description":"Medical Technology is a collection of applications that solve health related issues and improve the quality of lives, for humans or otherwise.",
+      "color":"black",
+      "icon":"local_hospital"
+    },
+    "IOT_O2O":{
+      "name":"IoT / O2O",
+      "description":"Internet of Things / Online-to-Offline / vice versa concerns bridging of digital and physical worlds, i.e. interpreting real-life situations and phenomena into machine-useable data.",
+      "color":"green",
+      "icon":"local_shipping"
+    },
+    "ARTS_MEDIA":{
+      "name":"Arts / Media",
+      "description":"Art and media technology encompassing human activities in public and commercial communications, entertainment, and adjacent industries.",
+      "color":"red",
+      "icon":"color_lens"
+    }
+  }
+}

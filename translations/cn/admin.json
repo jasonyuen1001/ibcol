@@ -1,0 +1,23 @@
+{
+  "pageTitle":"Applications Management - Login",
+  "seoDescription":"International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
+  "ogImage":"static/images/ogimage.jpg",
+  "subhead": "Applications Management",
+
+  "adminLogin": "Applications Management - Login",
+  "loginEmail": "Email",
+  "loginAction": "Login",
+  
+  "loginAwaitingTitle": "Awaiting Verification",
+  "loginAwaitingEmail": "We sent an email to <b>{email}</b>",
+  "loginAwaitingMessage": "Verify that the provided seed code matches the following text:",
+  "loginManualVerification": "Manual Verification",
+  "loginManualVerificationCode": "Verification Code",
+  "verifyAction": "Verify Login",
+  "loginVerifyingTitle": "Verifying Login",
+  "loginVerifyingMessage": "Verifying the following seed code against <b>{verificationCode}</b>:",
+  "loginVerifyingErrorMessage": "Login verification failed. Please try to verify again on the same browser login was initiated.",
+  
+  "managingApplicationTitle": "Managing Registration",
+  "noApplicationToManage": "There is no registration to manage."
+}

@@ -65,6 +65,7 @@
     "browser-cookies": "^1.2.0",
     "classnames": "^2.2.5",
     "cookie": "^0.3.1",
+    "cors": "^2.8.5",
     "country-list": "^1.1.1",
     "crypto-js": "^3.1.9-1",
     "express": "^4.16.4",

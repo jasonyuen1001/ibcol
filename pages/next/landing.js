@@ -65,7 +65,7 @@ export default class extends React.Component {
     asiaCommitteesInfo: [
       { key: "au", value: "AU-BCOL (Australia)", href: "/en-au/home" },
       { key: "bd", value: "BD-BCOL (Bangladesh)", href: "https://bcolbd.org/" },
-      { key: "cn", value: "CN-BCOL (China)", href: "/en-cn/home" },
+      { key: "cn", value: "CN-BCOL (China)", href: "/cn/home" },
       { key: "hk", value: "HK-BCOL (Hong Kong)", href: "/hk/home" },
       { key: "id", value: "ID-BCOL (Indonesia)", href: "/en-id/home" },
       { key: "in", value: "IN-BCOL (India)", href: "/in/home" },
@@ -105,7 +105,7 @@ export default class extends React.Component {
       { key: "ca", value: "CA-BCOL (Canada)", href: "/ca/home" },
       { key: "ch", value: "CH-BCOL (Switzerland)" },
       { key: "cl", value: "CL-BCOL (Chile)" },
-      { key: "cn", value: "CN-BCOL (China)", href: "/en-cn/home" },
+      { key: "cn", value: "CN-BCOL (China)", href: "/cn/home" },
       { key: "cz", value: "CZ-BCOL (Czechia)" },
       { key: "de", value: "DE-BCOL (Germany)" },
       { key: "ee", value: "EE-BCOL (Estonia)" },
@@ -807,6 +807,7 @@ export default class extends React.Component {
                       {/*href={`/en-${content.key}/home`}*/}
                       {content.key == "hk" ||
                       content.key == "in" ||
+                      content.key == "cn" ||
                       content.key == "pk" ||
                       content.key == "bd" ? (
                         <a

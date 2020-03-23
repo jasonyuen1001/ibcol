@@ -1,0 +1,671 @@
+{
+  "pageTitle": "Contact Us",
+  "seoDescription": "International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
+  "ogImage": "static/images/ogimage.jpg",
+  "subhead": "Contact the organisers of the Hong Kong Blockchain Olympiad",
+  "mailingAddressTitle": "Mailing Address",
+  "emailAddressTitle": "E-mail Address",
+  "mailingAddressHTML": "IBCOL Organising Committee<br/>International Blockchain Olympiad<br/>333A, 3/F, Core Building 2,<br />1W Science Park Avenue,<br />Hong Kong<br/>Email: <a href='mailto:hk@ibcol.org?subject=IBCOL'>info@ibcol.org</a>",
+  "generalEnquiriesLabel": "General Enquiries",
+  "generalEnquiriesEmail": "info@ibcol.org",
+  "sponsorshipLabel": "Sponsorship",
+  "sponsorshipEmail": "sponsorship@ibcol.org",
+  "oc20Title": "IBCOL 2020 Organizing Committee",
+  "facebookIcon": "/static/sm/fb-blue.png",
+  "telegramIcon": "/static/sm/tg-blue.png",
+  "XBCOL": {
+    "title": "HK-BCOL",
+    "flag": "flag-icon-hk",
+    "facebookUrl": "",
+    "telegramUrl": "",
+    "headTitle": "National Committee",
+    "headInfo": [{
+        "title": "President",
+        "name": "Mr. Kavis Cho",
+        "linkedInUrl": "https://www.linkedin.com/in/kavischo"
+      },
+      {
+        "title": "Secretary General",
+        "name": "Mr. Jacky Chan",
+        "linkedInUrl": "https://www.linkedin.com/in/jackychan321"
+      }
+    ],
+    "fundingTitle": "Charity/Fund",
+    "deadlineTitle": "Deadline to Submit",
+    "finalDateTitle": "HK-BCOL Final"
+  },
+  "schoolChapter": {
+    "title": "School Chapters",
+    "headTitle": "School Chapter Head(s)",
+    "schoolInfo": [{
+        "fName": "Hong Kong Polytechnic University",
+        "sName": "PolyU",
+        "facebookUrl": "",
+        "telegramUrl": "",
+        "head1": {
+          "name": "Joyce Wang",
+          "linkedInUrl": ""
+        },
+        "head2": {
+          "name": "",
+          "linkedInUrl": ""
+        }
+      },
+      {
+        "fName": "The University of Hong Kong",
+        "sName": "KongU",
+        "facebookUrl": "",
+        "telegramUrl": "",
+        "head1": {
+          "name": "Joyce Ho",
+          "linkedInUrl": "https://www.linkedin.com/in/joyce-loksee-ho-23526099/"
+        },
+        "head2": {
+          "name": "",
+          "linkedInUrl": ""
+        }
+      }
+    ]
+  },
+  "trainingScheduleTitle": "Training schedule",
+  "joinUsTitle": "Join Us!",
+  "officialCommunitiesTitle": "Official Communities",
+  "officialCommunitiesInfo": [{
+      "flag": "flag-icon-ar",
+      "country": "Argentina",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ar",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-am",
+      "country": "Armenia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_am",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-au",
+      "country": "Australia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_au",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_au"
+    },
+    {
+      "flag": "flag-icon-at",
+      "country": "Austria",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_at",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-az",
+      "country": "Azerbaijan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_az",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-by",
+      "country": "Belarus (Byelorussia)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_by",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-be",
+      "country": "Belgium",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_be",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-bt",
+      "country": "Bhutan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_bt",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ba",
+      "country": "Bosnia and Herzegovina",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ba",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-br",
+      "country": "Brazil",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_br",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_br"
+    },
+    {
+      "flag": "flag-icon-bg",
+      "country": "Bulgaria",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_bg",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ca",
+      "country": "Canada",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ca",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_ca"
+    },
+    {
+      "flag": "flag-icon-cl",
+      "country": "Chile",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_cl",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-cn",
+      "country": "China, People’s Republic of",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_cn",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_cn"
+    },
+    {
+      "flag": "flag-icon-hr",
+      "country": "Croatia (Hrvatska)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_hr",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-cu",
+      "country": "Cuba",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_cu",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-cz",
+      "country": "Czechia (Czech Republic)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_cz",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_cz"
+    },
+    {
+      "flag": "flag-icon-ee",
+      "country": "Estonia (Eesti)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ee",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_ee"
+    },
+    {
+      "flag": "flag-icon-fi",
+      "country": "Finland",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_fi",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-fr",
+      "country": "France",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_fr",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-de",
+      "country": "Germany (Deutschland)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_de",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_de"
+    },
+    {
+      "flag": "flag-icon-hk",
+      "country": "Hong Kong",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_hk",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_hk"
+    },
+    {
+      "flag": "flag-icon-hu",
+      "country": "Hungary",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_hu",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_hu"
+    },
+    {
+      "flag": "flag-icon-in",
+      "country": "India",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_in",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_in"
+    },
+    {
+      "flag": "flag-icon-id",
+      "country": "Indonesia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_id",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ir",
+      "country": "Iran",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ir",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ie",
+      "country": "Ireland",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ie",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-il",
+      "country": "Israel",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_il",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_il"
+    },
+    {
+      "flag": "flag-icon-it",
+      "country": "Italy",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_it",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-jp",
+      "country": "Japan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_jp",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-kz",
+      "country": "Kazakhstan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_kz",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-kg",
+      "country": "Kyrgyzstan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_kg",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-la",
+      "country": "Laos",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_la",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-lv",
+      "country": "Latvia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_lv",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-lt",
+      "country": "Lithuania",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_lt",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-mo",
+      "country": "Macau (Macao)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_mo",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-my",
+      "country": "Malaysia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_my",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_my"
+    },
+    {
+      "flag": "flag-icon-mx",
+      "country": "Mexico",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_mx",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-mn",
+      "country": "Mongolia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_mn",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-nl",
+      "country": "Netherlands",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_nl",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-nz",
+      "country": "New Zealand",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_nz",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-no",
+      "country": "Norway",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_no",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-pk",
+      "country": "Pakistan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_pk",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_pk"
+    },
+    {
+      "flag": "flag-icon-ph",
+      "country": "Philippines",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ph",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-pl",
+      "country": "Poland",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_pl",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-pt",
+      "country": "Portugal",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_pt",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ro",
+      "country": "Romania",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ro",
+      "telegram": "",
+      "telegramUrl": ""
+    },
+    {
+      "flag": "flag-icon-ru",
+      "country": "Russia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ru",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_ru"
+    },
+    {
+      "flag": "flag-icon-rs",
+      "country": "Serbia (Република Србија, Republika Srbija)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_rs",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_rs"
+    },
+    {
+      "flag": "flag-icon-sg",
+      "country": "Singapore",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_sg",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_sg"
+    },
+    {
+      "flag": "flag-icon-sk",
+      "country": "Slovakia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_sk",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_sk"
+    },
+    {
+      "flag": "flag-icon-si",
+      "country": "Slovenia",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_si",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_si"
+    },
+    {
+      "flag": "flag-icon-kr",
+      "country": "South Korea",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_kr",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_kr"
+    },
+    {
+      "flag": "flag-icon-es",
+      "country": "Spain (España)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_es",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_es"
+    },
+    {
+      "flag": "flag-icon-se",
+      "country": "Sweden",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_se",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_se"
+    },
+    {
+      "flag": "flag-icon-ch",
+      "country": "Switzerland",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ch",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_ch"
+    },
+    {
+      "flag": "flag-icon-tw",
+      "country": "Taiwan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_tw",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_tw"
+    },
+    {
+      "flag": "flag-icon-tj",
+      "country": "Tajikistan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_tj",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_tj"
+    },
+    {
+      "flag": "flag-icon-th",
+      "country": "Thailand",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_th",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_th"
+    },
+    {
+      "flag": "flag-icon-tr",
+      "country": "Turkey",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_tr",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_tr"
+    },
+    {
+      "flag": "flag-icon-ua",
+      "country": "Ukraine (Україна, Ukraina)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_ua",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_ua"
+    },
+    {
+      "flag": "flag-icon-gb",
+      "country": "United Kingdom (UK)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_uk",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_uk"
+    },
+    {
+      "flag": "flag-icon-us",
+      "country": "United States of America (USA)",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_us",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_us"
+    },
+    {
+      "flag": "flag-icon-uz",
+      "country": "Uzbekistan",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_uz",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_uz"
+    },
+    {
+      "flag": "flag-icon-vn",
+      "country": "Vietnam",
+      "facebook": "Facebook",
+      "facebookUrl": "https://bit.ly/ibcol_vn",
+      "telegram": "Telegram",
+      "telegramUrl": "https://t.me/ibcol_vn"
+    }
+  ],
+  "contactTitle": "HK-BCOL OC20",
+  "contactDesc": "Hong Kong Blockchain Olympiad 2020 Organising Committee",
+  "list": [{
+      "name": "Mr. Kavis Cho",
+      "post": "President",
+      "img": "/static/images/hkcontact/1.png"
+    },
+    {
+      "name": "Mr. Jacky Chan",
+      "post": "Secretary General",
+      "img": "/static/images/hkcontact/2.png"
+    },
+    {
+      "name": "Ms. Joyce Wang",
+      "post": "Student Relations",
+      "img": "/static/images/hkcontact/3.png"
+    },
+    {
+      "name": "Ms. Joanne Lan",
+      "post": "Public Relations",
+      "img": "/static/images/hkcontact/4.png"
+    },
+    {
+      "name": "Ms. Doris Cheng",
+      "post": "Academic Liaison, CityU",
+      "img": "/static/images/hkcontact/5.png"
+    },
+    {
+      "name": "Dr. Sherman Chow",
+      "post": "Academic Liaison, CUHK",
+      "img": "/static/images/hkcontact/6.png"
+    },
+    {
+      "name": "Mr. Chon Yeung",
+      "post": "Academic Liaison, HK IVE",
+      "img": "/static/images/hkcontact/7.png"
+    }, {
+      "name": "Dr. Connie Yuen",
+      "post": "Academic Liaison, HKSYU",
+      "img": "/static/images/hkcontact/8.png"
+    },
+    {
+      "name": "Ms. Joyce Ho",
+      "post": "Academic Liaison, HKU",
+      "img": "/static/images/hkcontact/9.png"
+    },
+    {
+      "name": "Mr. Bernard Kwok",
+      "post": "Academic Liaison, HKUST",
+      "img": "/static/images/hkcontact/10.png"
+    },
+    {
+      "name": "Ms. Shirley Siu",
+      "post": "Academic Liaison, Lingnan",
+      "img": "/static/images/hkcontact/11.png"
+    },
+    {
+      "name": "Dr. Dennis Liu",
+      "post": "Academic Liaison, PolyU",
+      "img": "/static/images/hkcontact/12.png"
+    }
+  ],
+  "organisers": "ORGANISERS",
+  "partners": "PARTNERS",
+  "sponsorsOrg": [
+    {
+    "org": "Hong Kong City University",
+    "orgLink": "https://www.cityu.edu.hk/zh-hk"
+  }
+],
+  "sponsorsPart": [
+    {
+      "part": "Hong Kong Blockchain Society",
+      "partLink": "https://www.hkbcs.org/"
+
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "pageTitle": "About",
+  "seoDescription": "",
+  "ogImage": "static/images/ogimage.jpg",
+  "subHeading": "About IBCOL",
+  "visionSection": {
+    "title": "About IBCOL",
+    "content": "International Blockchain Olympiad (IBCOL) is an applied multidisciplinary design challenge revolving around blockchain and decentralised ledger technology. In the spirit of the International Science Olympiads, we are organising the most disciplined blockchain competition in the world, where high school and post-secondary students apply their academic and practical experiences to build impactful and lasting decentralised applications."
+  },
+  "storySection": {
+    "title": "Story",
+    "content":""
+  },
+  "historySection": {
+    "title": "History",
+    "historyEvent": [
+      {"name":"International Blockchain Olympiad 2019", "url":"2019"},
+      {"name":"International Blockchain Olympiad 2018", "url":"2018"}
+    ]
+  }
+}

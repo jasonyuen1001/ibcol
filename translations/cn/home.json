@@ -1,0 +1,77 @@
+{
+    "pageTitle": "International Blockchain Olympiad",
+    "seoDescription": "International Blockchain Olympiad is a multidisciplinary design and building competition. IBCOL 2019 invites students from around the world to solve real-world challenges through decentralised applications.",
+    "ogImage": "static/images/ogimage.jpg",
+    "mainHeading": "提供分散式解决方案面对现实挑战",
+    "subHeading": "区块链是核心技术自主创新重要突破口",
+    "leftBtn": "PROGRAMME SCHEDULE",
+    "rightBtn": "RULE & ELIGIBILITY",
+    "section01": {
+        "title": "About the Blockchain Olympiad",
+        "contentHTML":"The <b><u>C</b></u>hina  <b><u>B</b></u>lock<b><u>c</b></u>hain <b><u>OL</b></u>ympiad (<b><u>CN-BCOL</b></u>) invites current and recent students to solve real-world problems with decentralized applications, built with blockchain or distributed ledger technology. Top scoring projects proceed to the <b><u>I</b></u>nternational <b><u>B</b></u>lock<b><u>C</b></u>hain <b><u>OL</b></u>ympiad (<b><u>IBCOL</b></u>) in July 2020.",
+        "icon1":"<!-- Business Case Competition --> <i class='material-icons blue'>work</i> <i class='material-icons black'>work</i> <i class='material-icons red'>work</i> <br> <i class='material-icons yellow'>business_center</i> <i class='material-icons green'>business_center</i>",
+        "heading1":"Business Case Competition",
+        "desc1":"Contestants define their own problem scopes and develop plans to solve it",
+        "icon2":"<!-- Academic Conference --> <i class='material-icons blue'>event_seat</i> <i class='material-icons black'>event_seat</i> <i class='material-icons red'>event_seat</i> <br> <i class='material-icons yellow'>airplay</i> <i class='material-icons green'>airplay</i>",
+        "heading2":"Academic Conference",
+        "desc2":"Contestants are expected to submit a whitepaper proposing their solution",
+        "icon3":"<!-- Technical Hackathon (optional) --> <i class='material-icons blue'>laptop</i> <i class='material-icons black'>developer_mode</i> <i class='material-icons red'>laptop_chromebook</i> <br> <i class='material-icons yellow'>laptop_windows</i> <i class='material-icons green'>laptop_mac</i>",
+        "heading3":"Technical Hackathon (optional)",
+        "desc3":"Contestants may build something to impress investors and employers"
+      },
+    "section02": {
+        "title": "Why now",
+        "icon1":"<!-- Countless Use Cases --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+        "heading1":"Countless Use Cases",
+        "desc1":"Blockchain will generate over $24 trillion HKD by 2030 across industry verticals",
+        "icon2":"<!-- Huge Demand for Talent --> <i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+        "heading2":"Huge Demand for Talent",
+        "desc2":"There is a lack of qualified blockchain professionals around the world",
+        "icon3":" <!-- Renewed Interest in Blockchain --> <i class='material-icons blue'>show_chart</i> <i class='material-icons black'>account_balance</i> <i class='material-icons red'>local_hospital</i> <br> <i class='material-icons yellow'>local_shipping</i> <i class='material-icons green'>color_lens</i>",
+        "heading3":"Renewed Interest in Blockchain",
+        "desc3":"国家主席习近平把区块链作为核心技术自主创新重要突破口 加快推动区块链技术和产业创新发展"
+      },
+      "section03": {
+        "title": "Timeline",
+        "mainImage":"/static/images/HK-BCOL_2020_Process.png",
+        "btnText" :"LEARN ABOUT TRAINING PROGRAMME",
+        "btnLink" :"https://training.ibcol.org/"
+      },
+      "section04": {
+        "title": "Eligibility",
+        "icon1":"<!-- Multidisciplinary Teams --> <i class='material-icons blue'>face</i> <i class='material-icons yellow'>face</i> <i class='material-icons black'>face</i> <br> <i class='material-icons green'>face</i> <i class='material-icons red'>face</i> <i class='material-icons purple'>face</i>",
+        "heading1":"Multidisciplinary Teams",
+        "desc1":"Current and recent students of any discipline may compete",
+        "icon2":" <!-- Small or Large Teams --> <i class='material-icons blue'>show_chart</i> <i class='material-icons black'>account_balance</i> <i class='material-icons red'>local_hospital</i> <br> <i class='material-icons yellow'>local_shipping</i> <i class='material-icons green'>color_lens</i> ",
+        "heading2":"Small or Large Teams",
+        "desc2":"1 to 6 current or recent students can register as one team",
+        "icon3":"<!-- Multiple Projects --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+        "heading3":"Multiple Projects",
+        "desc3":" Any team can submit more than one project",
+        "btnText":"REGISTER FOR THE COMPETITION",
+        "btnLink":""
+      },
+      "section05":{
+        "title":"Organisers",
+        "icon1":"/static/images/cn/cnSupportBy0.png", 
+        "icon2":"/static/images/cn/cnSupportBy1.png",
+        "icon3":"/static/images/cn/cnSupportBy2.png",
+        "link1":"https://cvg.ca/",
+        "link2":"",
+        "link3":"https://tolinkinc.com/"
+      },
+      "section06":{
+        "title":"How to get started",
+        "icon1":"<!-- Get Trained --> <i class='material-icons blue'>local_offer</i> <i class='material-icons yellow'>local_offer</i> <i class='material-icons black'>local_offer</i><br> <i class='material-icons green'>local_offer</i> <i class='material-icons red'>local_offer</i> <i class='material-icons purple'>local_offer</i> ",
+        "heading1":"GET TRAINED",
+        "desc1HTML":"Join our training sessions for current and recent students: <a class='inline-text-a-href' href=''>sign up for free</a>",
+        "icon2":" <!-- Get Mentored --> <i class='material-icons blue'>local_offer</i> <i class='material-icons yellow'>loyalty</i> <i class='material-icons black'>local_offer</i><br> <i class='material-icons green'>local_offer</i> <i class='material-icons red'>local_offer</i> <i class='material-icons purple'>loyalty</i>  ",
+        "heading2":"GET MENTORED",
+        "desc2HTML":"Meet our mentors on Telegram and Facebook, or <a class='inline-text-a-href' href=''>sign up for mentor event</a>",
+        "icon3":"<!-- Multiple Projects --> <i class='material-icons blue'>developer_mode</i> <i class='material-icons yellow'>widgets</i> <i class='material-icons black'>devices</i> <br> <i class='material-icons green'>storage</i> <i class='material-icons red'>dock</i> <i class='material-icons purple'>laptop_mac</i>",
+        "heading3":"GET MATCHED",
+        "desc3HTML":" Meet others at training and mentor events, or on <a class='inline-text-a-href' href='https://ibcol-cn.slack.com/'>Slack</a> <a class='inline-text-a-href' href='http://t.me/ibcol_cn'>Telegram</a> or <a class='inline-text-a-href' href='http://fb.com/ibcol.org'>Facebook</a>",
+        "btnText":"REGISTER FOR THE COMPETITION",
+        "btnLink":""
+      }
+}
