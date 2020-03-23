@@ -170,14 +170,21 @@ const toWWW = (req, res, next) => {
 
 
 //────────────────────────────────────────────────────────────────────────────────
-
+const corsOptions = {
+  origin: [
+    'https://ibcol.org',
+    'http://localhost:3000',
+  ],
+  methods: 'GET,HEAD,PUT,PATCH,POST,OPTIONS',
+  allowedHeaders: ['Content-Type', 'Authorization'],
+};
 
 
 app.prepare().then(() => {
   server
     // .use(toWWW)
     .use(logURL)
-    .use(cors())
+    .use(cors(corsOptions))
     .use(addSlash)
     .use(router)
     .use(handler)
