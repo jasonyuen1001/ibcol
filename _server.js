@@ -5,7 +5,7 @@ const app = next({ dev: process.env.NODE_ENV !== 'production' })
 const handler = routes.getRequestHandler(app)
 const parseArgs = require('minimist')
 const url = require('url');
-var cors = require('cors');
+// var cors = require('cors');
 // const { join } = require('path');
 
 const routeHelpers = require('./helpers/route');
@@ -170,21 +170,10 @@ const toWWW = (req, res, next) => {
 
 
 //────────────────────────────────────────────────────────────────────────────────
-const corsOptions = {
-  origin: [
-    'https://ibcol.org',
-    'http://localhost:3000',
-  ],
-  methods: 'GET,HEAD,PUT,PATCH,POST,OPTIONS',
-  allowedHeaders: ['Content-Type', 'Authorization'],
-};
-
-
 app.prepare().then(() => {
   server
     // .use(toWWW)
     .use(logURL)
-    .use(cors(corsOptions))
     .use(addSlash)
     .use(router)
     .use(handler)
