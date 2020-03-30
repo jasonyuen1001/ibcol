@@ -45,7 +45,6 @@ const getFilenameFromFileId = (fileId) => {
 }
 
 const filepondServer = {
-  cors = 'https://cors-anywhere.herokuapp.com/',
   url: process.env.FILEPOND_API_URL,
   process: function(fieldName, file, metadata, load, error, progress, abort) {
     console.log(fieldName, file);
