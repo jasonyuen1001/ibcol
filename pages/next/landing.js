@@ -12,13 +12,15 @@ import classNames from "classnames";
 import { padding } from "polished";
 import { func } from "prop-types";
 
+
+
 const $ = jQuery;
 
-const elements = ["one", "two", "three"];
-const items = [];
-for (const [index, value] of elements.entries()) {
-  items.push(<option key={index}>{value}</option>);
-}
+// const elements = ["one", "two", "three"];
+// const items = [];
+// for (const [index, value] of elements.entries()) {
+//   items.push(<option key={index}>{value}</option>);
+// }
 
 // const getLocaleObject = (requestedLocale) => {
 //     const requestedLocaleObject = _.find(translations, {
@@ -48,9 +50,9 @@ function shoot() {
   window.open("https://ibcol.org/" + result + "/registration/", "_blank");
 }
 
-let americas = [];
-let asiaPacific = [];
-let europeMiddleEastAfrica = [];
+// let americas = [];
+// let asiaPacific = [];
+// let europeMiddleEastAfrica = [];
 let countriesArr = [];
 
 export default class extends React.Component {
