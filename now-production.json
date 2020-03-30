@@ -62,18 +62,15 @@
       "src": "/file([/]*)",
       "dest": "/node-routes/filepondRoute.js",
       "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "PUT, GET, POST, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        "Access-Control-Allow-Origin": "*"
+   
       }
     },
     {
       "src": "/file/(.*)",
       "dest": "/node-routes/filepondRoute.js",
       "headers": {
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "PUT, GET, POST, DELETE, OPTIONS",
-        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
+        "Access-Control-Allow-Origin": "*"
       }
     },
 
