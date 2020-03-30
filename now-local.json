@@ -27,18 +27,21 @@
     { "src": "next.config.js", "use": "@now/next" }
   ],
   "routes": [
-    
-    { 
-      "src": "/(((?!\\?|#|\\.|_next).)*((?!\\?|/|#|\\.).))", 
+    {
+      "src": "/(((?!\\?|#|\\.|_next).)*((?!\\?|/|#|\\.).))",
       "status": 302,
-      
+
       "headers": { "Location": "/$1/" }
     },
 
-    { "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+", "headers": { "cache-control": "immutable,max-age=31536000" } },
+    {
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "headers": { "cache-control": "immutable,max-age=31536000" }
+    },
 
     {
-      "src": "/_next/(.*)", "dest": "/_next/$1"
+      "src": "/_next/(.*)",
+      "dest": "/_next/$1"
     },
 
     {
@@ -50,7 +53,7 @@
       "src": "/",
       "dest": "/node-routes/defaultRoute.js"
     },
-    
+
     {
       "src": "/file([/]*)",
       "dest": "/node-routes/filepondRoute.js",
@@ -65,64 +68,52 @@
         "Access-Control-Allow-Origin": "*"
       }
     },
-    
 
-    
-    { 
-      "src": "/(?<locale>[^/]*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/",
       "dest": "/next/home?locale=$locale"
     },
-    
-    
 
-    { 
-      "src": "/(?<locale>[^/]*)/(?<page>(how|ambassadors|sponsors|contact|registration|admin|ibcol))/", 
+    {
+      "src": "/(?<locale>[^/]*)/(?<page>(how|ambassadors|sponsors|contact|registration|admin|ibcol))/",
       "dest": "/next/$page?locale=$locale",
       "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     },
-    { 
-      "src": "/(?<locale>[^/]*)/(?<page>[^/]*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/(?<page>[^/]*)/",
       "dest": "/next/home?locale=$locale&catch-all=true",
       "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     },
-    
 
-
-
-    { 
-      "src": "/(?<locale>[^/]*)/registration/login/", 
+    {
+      "src": "/(?<locale>[^/]*)/registration/login/",
       "dest": "/next/registration/login?locale=$locale"
     },
-    
 
-    { 
-      "src": "/(?<locale>[^/]*)/registration/verify/(.*)/(.*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/registration/verify/(.*)/(.*)/",
       "dest": "/next/registration/verify?locale=$locale&verificationCode=$2&email=$3"
     },
-    
 
-
-    { 
-      "src": "/(?<locale>[^/]*)/admin/verify/(.*)/(.*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/admin/verify/(.*)/(.*)/",
       "dest": "/next/admin/verify?locale=$locale&verificationCode=$2&email=$3"
     },
-    
 
-    { 
-      "src": "/(?<locale>[^/]*)/admin/dashboard/", 
+    {
+      "src": "/(?<locale>[^/]*)/admin/dashboard/",
       "dest": "/next/admin/dashboard?locale=$locale"
     },
 
-    { 
-      "src": "/(?<locale>[^/]*)/ibcol/2018/", 
+    {
+      "src": "/(?<locale>[^/]*)/ibcol/2018/",
       "dest": "/next/ibcol/2018?locale=$locale",
       "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     },
-    { 
-      "src": "/(?<locale>[^/]*)/ibcol/2019/", 
+    {
+      "src": "/(?<locale>[^/]*)/ibcol/2019/",
       "dest": "/next/ibcol/2019?locale=$locale",
       "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     }
-    
   ]
 }

@@ -1,9 +1,7 @@
 {
   "version": 2,
   "name": "ibcol-production",
-  "alias": [
-    "www.ibcol.org"
-  ],
+  "alias": ["www.ibcol.org"],
   "env": {
     "ENV": "production",
     "NODE_ENV": "production",
@@ -34,17 +32,20 @@
     { "src": "next.config.js", "use": "@now/next" }
   ],
   "routes": [
-
-    { 
-      "src": "/(((?!\\?|#|\\.|_next).)*((?!\\?|/|#|\\.).))", 
+    {
+      "src": "/(((?!\\?|#|\\.|_next).)*((?!\\?|/|#|\\.).))",
       "status": 301,
       "headers": { "Location": "/$1/" }
     },
 
-    { "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+", "headers": { "cache-control": "immutable,max-age=31536000" } },
+    {
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "headers": { "cache-control": "immutable,max-age=31536000" }
+    },
 
     {
-      "src": "/_next/(.*)", "dest": "/_next/$1"
+      "src": "/_next/(.*)",
+      "dest": "/_next/$1"
     },
 
     {
@@ -56,26 +57,28 @@
       "src": "/",
       "dest": "/node-routes/defaultRoute.js"
     },
-    
+
     {
       "src": "/file([/]*)",
       "dest": "/node-routes/filepondRoute.js",
       "headers": {
-        "Access-Control-Allow-Origin": "*"
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "PUT, GET, POST, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
       }
     },
     {
       "src": "/file/(.*)",
       "dest": "/node-routes/filepondRoute.js",
       "headers": {
-        "Access-Control-Allow-Origin": "*"
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "PUT, GET, POST, DELETE, OPTIONS",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
       }
     },
-    
 
-    
-    { 
-      "src": "/(?<locale>[^/]*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/",
       "dest": "/next/landing?locale=$locale"
     },
     {
@@ -85,39 +88,31 @@
         "cache-control": "s-maxage=31536000, max-age=0"
       }
     },
-    { 
-      "src": "/(?<locale>[^/]*)/(?<page>[^/]*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/(?<page>[^/]*)/",
       "dest": "/next/landing?locale=$locale&catch-all=true",
       "headers": { "cache-control": "s-maxage=31536000, max-age=0" }
     },
-    
 
-
-
-    { 
-      "src": "/(?<locale>[^/]*)/registration/login/", 
+    {
+      "src": "/(?<locale>[^/]*)/registration/login/",
       "dest": "/next/registration/login?locale=$locale"
     },
-    
 
-    { 
-      "src": "/(?<locale>[^/]*)/registration/verify/(.*)/(.*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/registration/verify/(.*)/(.*)/",
       "dest": "/next/registration/verify?locale=$locale&verificationCode=$2&email=$3"
     },
-    
 
-
-    { 
-      "src": "/(?<locale>[^/]*)/admin/verify/(.*)/(.*)/", 
+    {
+      "src": "/(?<locale>[^/]*)/admin/verify/(.*)/(.*)/",
       "dest": "/next/admin/verify?locale=$locale&verificationCode=$2&email=$3"
     },
-    
 
-    { 
-      "src": "/(?<locale>[^/]*)/admin/dashboard/", 
+    {
+      "src": "/(?<locale>[^/]*)/admin/dashboard/",
       "dest": "/next/admin/dashboard?locale=$locale"
-    }
-    ,
+    },
     {
       "src": "/(?<locale>[^/]*)/ibcol/2018/",
       "dest": "/next/ibcol/2018?locale=$locale",
